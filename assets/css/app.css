@@ -546,3 +546,4 @@ mark.hl-note::after { content: "✎"; font-size: 0.7em; vertical-align: super; c
 @media print {
   .cbt-top, .cbt-nav, .cbt-partbar, .divider { display: none; }
 }
+.u-mark { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }

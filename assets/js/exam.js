@@ -654,7 +654,7 @@ class ExamView {
         }
         return `<button type="button" class="${cls}" data-hl-skip data-q="${n}" aria-label="第 ${n} 空"><span class="bn">${n}</span><span class="bw">${esc(q && a ? q.options[a] || '' : '')}</span>${extra}</button>`;
       },
-      underline: (t) => esc(t),
+      underline: (t) => `<u class="u-mark">${esc(t)}</u>`,
     });
     passage.addEventListener('click', (e) => {
       const b = e.target.closest('.blank');
@@ -676,7 +676,7 @@ class ExamView {
   renderReading(p, review) {
     const g = p.group;
     const passage = h('div', { class: 'passage', dataset: { hl: `p:${g.id}` } });
-    passage.innerHTML = this.passageHtml(g.passage, { blank: () => '', underline: (t) => esc(t) });
+    passage.innerHTML = this.passageHtml(g.passage, { blank: () => '', underline: (t) => `<u class="u-mark">${esc(t)}</u>` });
     this.left.append(review ? this.summaryBox(p) || '' : '', h('h2', { class: 'passage-title' }, g.title), passage);
     const list = h('div', { class: 'qlist' });
     for (const q of g.questions) {
@@ -717,14 +717,14 @@ class ExamView {
     if (sub === 'ordering') {
       left.innerHTML = `<p class="muted hl-ignore">以下段落顺序已被打乱，请在右侧排列 41–45 对应段落。</p>` + Object.entries(g.options).map(([k, t]) => `<div class="para-card" data-letter="${k}"><span class="para-letter" data-hl-skip>[${k}]</span> ${esc(t)}</div>`).join('');
     } else if (sub === 'matching') {
-      let html = g.passage?.length ? this.passageHtml(g.passage, { blank: (n) => slotHtml(n), underline: (t) => esc(t) }) : '';
+      let html = g.passage?.length ? this.passageHtml(g.passage, { blank: (n) => slotHtml(n), underline: (t) => `<u class="u-mark">${esc(t)}</u>` }) : '';
       for (const q of g.questions) {
         const [name, ...rest] = (q.stem || '').split('\n');
         html += `<div class="match-item" data-q="${q.n}"><div class="match-head">${slotHtml(q.n)}<b>${esc(name)}</b></div>${rest.length ? rest.map((r) => `<p>${esc(r)}</p>`).join('') : ''}</div>`;
       }
       left.innerHTML = html;
     } else {
-      left.innerHTML = this.passageHtml(g.passage || [], { blank: (n) => slotHtml(n, sub === 'heading'), underline: (t) => esc(t), blockSlot: true });
+      left.innerHTML = this.passageHtml(g.passage || [], { blank: (n) => slotHtml(n, sub === 'heading'), underline: (t) => `<u class="u-mark">${esc(t)}</u>`, blockSlot: true });
     }
     this.left.append(review ? this.summaryBox(p) || '' : '', h('h2', { class: 'passage-title' }, `Part B · ${SUBTYPE_CN[sub] || ''}`), left);
 
