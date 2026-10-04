@@ -20,8 +20,13 @@
    "title": "2025年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 莎士比亚“排练室”教学法",
+    "Text 2 科研碳排放是必要代价",
+    "Text 3 流媒体盗版之害",
+    "Text 4 数字信息保存难题"
+   ]
   },
   {
    "id": "2024",
@@ -29,8 +34,13 @@
    "title": "2024年全国硕士研究生招生考试 英语（一）",
    "partB": "matching",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 钉子与廉价技术",
+    "Text 2 向狩猎采集者学育儿",
+    "Text 3 AI绘画与艺术家维权",
+    "Text 4 湿地保护与环保署监管"
+   ]
   },
   {
    "id": "2023",
@@ -38,8 +48,13 @@
    "title": "2023年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 德州气候变化教学之争",
+    "Text 2 新英格兰短租监管",
+    "Text 3 出版商与书店之争",
+    "Text 4 学术引用操纵"
+   ]
   },
   {
    "id": "2022",
@@ -47,8 +62,13 @@
    "title": "2022年全国硕士研究生招生考试 英语（一）",
    "partB": "matching",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 塑料文物保护难题",
+    "Text 2 Z世代与学位价值",
+    "Text 3 艺术与科学的合作",
+    "Text 4 新西兰解雇保护悖论"
+   ]
   },
   {
    "id": "2021",
@@ -56,8 +76,13 @@
    "title": "2021年全国硕士研究生招生考试 英语（一）",
    "partB": "gap_fill",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 英国铁路票价上涨",
+    "Text 2 印尼扶贫与森林保护",
+    "Text 3 维多利亚人为何不笑",
+    "Text 4 网络中立与监管之争"
+   ]
   },
   {
    "id": "2020",
@@ -65,8 +90,13 @@
    "title": "2020年全国硕士研究生招生考试 英语（一）",
    "partB": "heading",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 设立“文化小镇”奖",
+    "Text 2 科学出版业的暴利",
+    "Text 3 性别配额政策之弊",
+    "Text 4 法国征收数字服务税"
+   ]
   },
   {
    "id": "2019",
@@ -74,8 +104,13 @@
    "title": "2019年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 企业应摒弃短期主义",
+    "Text 2 成绩宽恕与分数膨胀",
+    "Text 3 人工智能的伦理问题",
+    "Text 4 网购销售税裁决"
+   ]
   },
   {
    "id": "2018",
@@ -83,8 +118,13 @@
    "title": "2018年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 自动化冲击中产阶级",
+    "Text 2 年轻人的新闻辨识力",
+    "Text 3 医疗数据与科技垄断",
+    "Text 4 美国邮政的财务困境"
+   ]
   },
   {
    "id": "2017",
@@ -92,8 +132,13 @@
    "title": "2017年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 机场安检排长队",
+    "Text 2 夏威夷望远镜之争",
+    "Text 3 GDP与国民福祉",
+    "Text 4 前州长腐败案改判"
+   ]
   },
   {
    "id": "2016",
@@ -101,8 +146,13 @@
    "title": "2016年全国硕士研究生招生考试 英语（一）",
    "partB": "heading",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 法国禁用过瘦模特",
+    "Text 2 英国乡村保护与规划",
+    "Text 3 企业社会责任的光环",
+    "Text 4 纽约时报纸质版去留"
+   ]
   },
   {
    "id": "2015",
@@ -110,8 +160,13 @@
    "title": "2015年全国硕士研究生招生考试 英语（一）",
    "partB": "gap_fill",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 欧洲君主制的前途",
+    "Text 2 搜查手机与数字隐私",
+    "Text 3 《科学》加强统计审查",
+    "Text 4 窃听丑闻与诚信缺失"
+   ]
   },
   {
    "id": "2014",
@@ -119,8 +174,13 @@
    "title": "2014年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 英国失业救济改革",
+    "Text 2 美国法律行业的弊病",
+    "Text 3 新兴科学奖项之争",
+    "Text 4 评AAAS人文教育报告"
+   ]
   },
   {
    "id": "2013",
@@ -128,8 +188,13 @@
    "title": "2013年全国硕士研究生招生考试 英语（一）",
    "partB": "gap_fill",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 快时尚产业批判",
+    "Text 2 “请勿追踪”之争",
+    "Text 3 人类未来前景光明",
+    "Text 4 亚利桑那移民法裁决"
+   ]
   },
   {
    "id": "2012",
@@ -137,8 +202,13 @@
    "title": "2012年全国硕士研究生招生考试 英语（一）",
    "partB": "gap_fill",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 同伴压力与社会疗法",
+    "Text 2 核电公司背弃承诺",
+    "Text 3 科学发现的可信度",
+    "Text 4 公共部门工会的兴盛"
+   ]
   },
   {
    "id": "2011",
@@ -146,8 +216,13 @@
    "title": "2011年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 新总监与古典音乐危机",
+    "Text 2 高管裸辞求晋升",
+    "Text 3 营销中的新型媒体",
+    "Text 4 名人母亲与育儿幸福"
+   ]
   },
   {
    "id": "2010",
@@ -155,8 +230,13 @@
    "title": "2010年全国硕士研究生招生考试 英语（一）",
    "partB": "ordering",
    "questions": 52,
-   "explained": 0,
-   "topics": []
+   "explained": 52,
+   "topics": [
+    "Text 1 报纸艺术评论的衰落",
+    "Text 2 商业方法专利面临限制",
+    "Text 3 影响者理论遭质疑",
+    "Text 4 会计准则的独立性"
+   ]
   }
  ]
 }

@@ -28,11 +28,11 @@
        "n": 1,
        "options": {
         "A": "pauses",
-        "B": "peaks",
-        "C": "returns",
+        "B": "returns",
+        "C": "peaks",
         "D": "fades"
        },
-       "answer": "B",
+       "answer": "C",
        "score": 0.5
       },
       {
@@ -40,98 +40,98 @@
        "options": {
         "A": "alternatively",
         "B": "formally",
-        "C": "generally",
-        "D": "accidentally"
+        "C": "accidentally",
+        "D": "generally"
        },
-       "answer": "C",
+       "answer": "D",
        "score": 0.5
       },
       {
        "n": 3,
        "options": {
-        "A": "until",
+        "A": "while",
         "B": "since",
         "C": "once",
-        "D": "while"
-       },
-       "answer": "D",
-       "score": 0.5
-      },
-      {
-       "n": 4,
-       "options": {
-        "A": "accumulation",
-        "B": "detection",
-        "C": "consumption",
-        "D": "separation"
+        "D": "until"
        },
        "answer": "A",
        "score": 0.5
       },
       {
+       "n": 4,
+       "options": {
+        "A": "detection",
+        "B": "accumulation",
+        "C": "consumption",
+        "D": "separation"
+       },
+       "answer": "B",
+       "score": 0.5
+      },
+      {
        "n": 5,
        "options": {
-        "A": "requirement",
+        "A": "possibility",
         "B": "decision",
         "C": "goal",
-        "D": "possibility"
+        "D": "requirement"
        },
-       "answer": "D",
+       "answer": "A",
        "score": 0.5
       },
       {
        "n": 6,
        "options": {
-        "A": "utilize",
+        "A": "delay",
         "B": "ensure",
         "C": "seek",
-        "D": "delay"
+        "D": "utilize"
        },
-       "answer": "D",
+       "answer": "A",
        "score": 0.5
       },
       {
        "n": 7,
        "options": {
         "A": "modified",
-        "B": "included",
-        "C": "supported",
+        "B": "supported",
+        "C": "included",
         "D": "predicted"
        },
-       "answer": "B",
+       "answer": "C",
        "score": 0.5
       },
       {
        "n": 8,
        "options": {
-        "A": "compared",
-        "B": "devoted",
+        "A": "devoted",
+        "B": "compared",
         "C": "converted",
         "D": "applied"
        },
-       "answer": "A",
+       "answer": "B",
        "score": 0.5
       },
       {
        "n": 9,
        "options": {
-        "A": "against",
+        "A": "with",
         "B": "above",
         "C": "by",
-        "D": "with"
+        "D": "against"
        },
-       "answer": "D",
+       "answer": "A",
        "score": 0.5
       },
       {
        "n": 10,
        "options": {
         "A": "lived",
-        "B": "scored",
-        "C": "managed",
+        "B": "managed",
+        "C": "scored",
         "D": "played"
        },
-       "answer": "B",
+       "answer": "C",
        "score": 0.5
       },
       {
@@ -139,32 +139,32 @@
        "options": {
         "A": "ran out",
         "B": "set off",
-        "C": "went by",
-        "D": "drew in"
+        "C": "drew in",
+        "D": "went by"
        },
-       "answer": "C",
+       "answer": "D",
        "score": 0.5
       },
       {
        "n": 12,
        "options": {
-        "A": "attributable",
-        "B": "superior",
+        "A": "superior",
+        "B": "attributable",
         "C": "parallel",
         "D": "resistant"
        },
-       "answer": "A",
+       "answer": "B",
        "score": 0.5
       },
       {
        "n": 13,
        "options": {
         "A": "restored",
-        "B": "involved",
-        "C": "isolated",
+        "B": "isolated",
+        "C": "involved",
         "D": "controlled"
        },
-       "answer": "B",
+       "answer": "C",
        "score": 0.5
       },
       {
@@ -172,10 +172,10 @@
        "options": {
         "A": "alter",
         "B": "spread",
-        "C": "explain",
-        "D": "remove"
+        "C": "remove",
+        "D": "explain"
        },
-       "answer": "C",
+       "answer": "D",
        "score": 0.5
       },
       {
@@ -183,21 +183,21 @@
        "options": {
         "A": "compensations",
         "B": "symptoms",
-        "C": "treatments",
-        "D": "demands"
+        "C": "demands",
+        "D": "treatments"
        },
-       "answer": "C",
+       "answer": "D",
        "score": 0.5
       },
       {
        "n": 16,
        "options": {
-        "A": "Meanwhile",
-        "B": "Likewise",
+        "A": "Likewise",
+        "B": "Meanwhile",
         "C": "Therefore",
         "D": "Instead"
        },
-       "answer": "A",
+       "answer": "B",
        "score": 0.5
       },
       {
@@ -205,43 +205,43 @@
        "options": {
         "A": "change",
         "B": "watch",
-        "C": "take",
-        "D": "count"
+        "C": "count",
+        "D": "take"
        },
-       "answer": "C",
+       "answer": "D",
        "score": 0.5
       },
       {
        "n": 18,
        "options": {
-        "A": "coordination",
+        "A": "wellbeing",
         "B": "process",
         "C": "formation",
-        "D": "wellbeing"
+        "D": "coordination"
        },
-       "answer": "D",
+       "answer": "A",
        "score": 0.5
       },
       {
        "n": 19,
        "options": {
-        "A": "space",
+        "A": "level",
         "B": "love",
         "C": "knowledge",
-        "D": "level"
+        "D": "space"
        },
-       "answer": "D",
+       "answer": "A",
        "score": 0.5
       },
       {
        "n": 20,
        "options": {
         "A": "design",
-        "B": "diet",
-        "C": "routine",
+        "B": "routine",
+        "C": "diet",
         "D": "prescription"
        },
-       "answer": "B",
+       "answer": "C",
        "score": 0.5
       }
      ]
@@ -307,24 +307,24 @@
        "n": 24,
        "stem": "If unable to calm down passengers, the railways may have to face",
        "options": {
-        "A": "a change of ownership.",
-        "B": "a reduction of revenue.",
-        "C": "the loss of investment.",
-        "D": "the collapse of operations."
+        "A": "the loss of investment.",
+        "B": "the collapse of operations.",
+        "C": "a reduction of revenue.",
+        "D": "a change of ownership."
        },
-       "answer": "A",
+       "answer": "D",
        "score": 2
       },
       {
        "n": 25,
        "stem": "Which of the following would be the best title for the text?",
        "options": {
-        "A": "Ever-rising Fares Aren’t Sustainable",
-        "B": "Who Are to Blame for the Strikes?",
-        "C": "Constant Complaining Doesn’t Work",
-        "D": "Can Nationalisation Bring Hope?"
+        "A": "Who Are to Blame for the Strikes?",
+        "B": "Constant Complaining Doesn’t Work",
+        "C": "Can Nationalisation Bring Hope?",
+        "D": "Ever-rising Fares Aren’t Sustainable"
        },
-       "answer": "A",
+       "answer": "D",
        "score": 2
       }
      ]
@@ -347,24 +347,24 @@
        "n": 26,
        "stem": "According to the first two paragraphs, CCT programs aim to",
        "options": {
-        "A": "improve local education systems.",
-        "B": "lower deforestation rates.",
-        "C": "help poor families get better off.",
-        "D": "facilitate healthcare reform."
+        "A": "facilitate healthcare reform.",
+        "B": "help poor families get better off.",
+        "C": "improve local education systems.",
+        "D": "lower deforestation rates."
        },
-       "answer": "C",
+       "answer": "B",
        "score": 2
       },
       {
        "n": 27,
        "stem": "The study based on an area in Mexico is cited to show that",
        "options": {
-        "A": "economic growth tends to cause environmental degradation.",
-        "B": "cattle rearing has been a major means of livelihood for the poor.",
-        "C": "CCT programs have helped preserve traditional lifestyles.",
-        "D": "antipoverty efforts require the participation of local farmers."
+        "A": "cattle rearing has been a major means of livelihood for the poor.",
+        "B": "CCT programs have helped preserve traditional lifestyles.",
+        "C": "antipoverty efforts require the participation of local farmers.",
+        "D": "economic growth tends to cause environmental degradation."
        },
-       "answer": "A",
+       "answer": "D",
        "score": 2
       },
       {
@@ -373,10 +373,10 @@
        "options": {
         "A": "its acceptance level of CCTs.",
         "B": "its annual rate of poverty alleviation.",
-        "C": "the role of its forests in climate change.",
-        "D": "the relation of CCTs to its forest loss."
+        "C": "the relation of CCTs to its forest loss.",
+        "D": "the role of its forests in climate change."
        },
-       "answer": "D",
+       "answer": "C",
        "score": 2
       },
       {
@@ -385,22 +385,22 @@
        "options": {
         "A": "it will benefit other Asian countries.",
         "B": "it will reduce regional inequality.",
-        "C": "it can boost grain production.",
-        "D": "it can protect the environment."
+        "C": "it can protect the environment.",
+        "D": "it can boost grain production."
        },
-       "answer": "D",
+       "answer": "C",
        "score": 2
       },
       {
        "n": 30,
        "stem": "What is the text centered on?",
        "options": {
-        "A": "The debates over a program.",
-        "B": "The effects of a program.",
-        "C": "The transferability of a study.",
-        "D": "The process of a study."
+        "A": "The effects of a program.",
+        "B": "The debates over a program.",
+        "C": "The process of a study.",
+        "D": "The transferability of a study."
        },
-       "answer": "B",
+       "answer": "A",
        "score": 2
       }
      ]
@@ -421,12 +421,12 @@
        "n": 31,
        "stem": "According to Paragraph 1, the author’s posts on Twitter",
        "options": {
-        "A": "illustrated the development of Victorian photography.",
-        "B": "changed people’s impression of the Victorians.",
-        "C": "highlighted social media’s role in Victorian studies.",
-        "D": "re-evaluated the Victorians’ notion of public image."
+        "A": "changed people’s impression of the Victorians.",
+        "B": "highlighted social media’s role in Victorian studies.",
+        "C": "re-evaluated the Victorians’ notion of public image.",
+        "D": "illustrated the development of Victorian photography."
        },
-       "answer": "B",
+       "answer": "A",
        "score": 2
       },
       {
@@ -434,47 +434,47 @@
        "stem": "What does the author say about the Victorian portraits he has collected?",
        "options": {
         "A": "They are in popular use among historians.",
-        "B": "They show effects of different exposure times.",
-        "C": "They are rare among photographs of that age.",
-        "D": "They mirror 19th-century social conventions."
+        "B": "They are rare among photographs of that age.",
+        "C": "They mirror 19th-century social conventions.",
+        "D": "They show effects of different exposure times."
        },
-       "answer": "C",
+       "answer": "B",
        "score": 2
       },
       {
        "n": 33,
        "stem": "What might have kept the Victorians from smiling for pictures in the 1890s?",
        "options": {
-        "A": "Their unhealthy dental condition.",
-        "B": "Their inherent social sensitiveness.",
-        "C": "Their tension before the camera.",
-        "D": "Their distrust of new inventions."
+        "A": "Their inherent social sensitiveness.",
+        "B": "Their tension before the camera.",
+        "C": "Their distrust of new inventions.",
+        "D": "Their unhealthy dental condition."
        },
-       "answer": "A",
+       "answer": "D",
        "score": 2
       },
       {
        "n": 34,
        "stem": "Mark Twain is quoted to show that the disapproval of smiles in pictures was",
        "options": {
-        "A": "a thought-provoking idea.",
-        "B": "a deep-rooted belief.",
-        "C": "a misguided attitude.",
-        "D": "a controversial view."
+        "A": "a deep-rooted belief.",
+        "B": "a misguided attitude.",
+        "C": "a controversial view.",
+        "D": "a thought-provoking idea."
        },
-       "answer": "B",
+       "answer": "A",
        "score": 2
       },
       {
        "n": 35,
        "stem": "Which of the following questions does the text answer?",
        "options": {
-        "A": "When did the Victorians start to view photography differently?",
-        "B": "What made photography develop slowly in the Victorian period?",
-        "C": "Why did most Victorians look stern in photographs?",
+        "A": "Why did most Victorians look stern in photographs?",
+        "B": "When did the Victorians start to view photography differently?",
+        "C": "What made photography develop slowly in the Victorian period?",
         "D": "How did smiling in photographs become a post-Victorian norm?"
        },
-       "answer": "C",
+       "answer": "A",
        "score": 2
       }
      ]
@@ -495,12 +495,12 @@
        "n": 36,
        "stem": "There has long been concern that broadband providers would",
        "options": {
-        "A": "show partiality in treating clients.",
-        "B": "bring web-based firms under control.",
-        "C": "slow down the traffic on their network.",
+        "A": "bring web-based firms under control.",
+        "B": "slow down the traffic on their network.",
+        "C": "show partiality in treating clients.",
         "D": "intensify competition with their rivals."
        },
-       "answer": "A",
+       "answer": "C",
        "score": 2
       },
       {
@@ -508,47 +508,47 @@
        "stem": "Faced with the demand for net neutrality rules, the FCC",
        "options": {
         "A": "sticks to an out-of-date order.",
-        "B": "has allowed the states to intervene.",
+        "B": "takes an anti-regulatory stance.",
         "C": "has issued a special resolution.",
-        "D": "takes an anti-regulatory stance."
+        "D": "has allowed the states to intervene."
        },
-       "answer": "D",
+       "answer": "B",
        "score": 2
       },
       {
        "n": 38,
        "stem": "What can be learned about AT&T from Paragraph 3?",
        "options": {
-        "A": "It is in pursuit of quality service.",
-        "B": "It is under the FCC’s investigation.",
-        "C": "It protects against unfair competition.",
-        "D": "It engages in anti-competitive practices."
+        "A": "It protects against unfair competition.",
+        "B": "It engages in anti-competitive practices.",
+        "C": "It is under the FCC’s investigation.",
+        "D": "It is in pursuit of quality service."
        },
-       "answer": "D",
+       "answer": "B",
        "score": 2
       },
       {
        "n": 39,
        "stem": "Judge Patricia Millett argues that the appeals court’s decision",
        "options": {
-        "A": "conveys an ambiguous message.",
-        "B": "is out of touch with reality.",
+        "A": "focuses on trivialities.",
+        "B": "conveys an ambiguous message.",
         "C": "is at odds with its earlier rulings.",
-        "D": "focuses on trivialities."
+        "D": "is out of touch with reality."
        },
-       "answer": "B",
+       "answer": "D",
        "score": 2
       },
       {
        "n": 40,
        "stem": "What does the author argue in the last paragraph?",
        "options": {
-        "A": "Broadband providers’ rights should be protected.",
+        "A": "Congress needs to take action to ensure net neutrality.",
         "B": "The FCC should be put under strict supervision.",
-        "C": "Congress needs to take action to ensure net neutrality.",
-        "D": "Rules need to be set to diversify online services."
+        "C": "Rules need to be set to diversify online services.",
+        "D": "Broadband providers’ rights should be protected."
        },
-       "answer": "C",
+       "answer": "A",
        "score": 2
       }
      ]
@@ -569,37 +569,37 @@
      "title": "Part B",
      "options": {
       "A": "AI replaces the boring parts of your job. If you’re doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.",
-      "B": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-      "C": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.",
-      "D": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-      "E": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-      "F": "You want to predict if something needs attention now and point to where it’s useful for employees to go to.",
-      "G": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
+      "B": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
+      "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
+      "D": "You want to predict if something needs attention now and point to where it’s useful for employees to go to.",
+      "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
+      "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.",
+      "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
      },
      "questions": [
       {
        "n": 41,
-       "answer": "E",
-       "score": 2
-      },
-      {
-       "n": 42,
-       "answer": "B",
-       "score": 2
-      },
-      {
-       "n": 43,
        "answer": "G",
        "score": 2
       },
       {
+       "n": 42,
+       "answer": "C",
+       "score": 2
+      },
+      {
+       "n": 43,
+       "answer": "E",
+       "score": 2
+      },
+      {
        "n": 44,
-       "answer": "D",
+       "answer": "B",
        "score": 2
       },
       {
        "n": 45,
-       "answer": "F",
+       "answer": "D",
        "score": 2
       }
      ],
