@@ -61,7 +61,9 @@ python3 -m http.server 8000      # 或 npm start
 
 > 直接双击 `index.html` 打开时，浏览器会阻止页面读取 `data/` 下的 JSON，请务必通过任意静态服务器访问。
 
-也可以直接部署到 GitHub Pages（Settings → Pages → 选择分支根目录）或任何静态托管服务。
+在线版：<https://xu-jack11.github.io/Kaoyan_English/>
+
+推送到 `main` 分支时，`.github/workflows/pages.yml` 会先校验数据，再自动发布到 GitHub Pages（仓库 Settings → Pages 的 Source 需设为 **GitHub Actions**）。也可以部署到任何其他静态托管服务。
 
 ## 目录结构
 
