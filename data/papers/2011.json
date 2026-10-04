@@ -11,7 +11,7 @@
    "cn": "完形填空",
    "score": 10,
    "minutes": 20,
-   "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1.",
+   "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)",
    "groups": [
     {
      "id": "cloze",
@@ -254,7 +254,7 @@
    "cn": "阅读理解 A 节",
    "score": 40,
    "minutes": 70,
-   "directions": "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1.",
+   "directions": "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)",
    "groups": [
     {
      "id": "text1",
@@ -479,7 +479,7 @@
      "id": "text4",
      "title": "Text 4",
      "passage": [
-      "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story, “I love My Children, I Hate My Life, ” is arousing much chatter – nothing gets people talking like the suggestion that child rearing is anything less than a completely fulfilling, life-enriching experience. Rather than concluding that children make parents either happy or miserable, Senior suggests we need to redefine happiness: instead of thinking of it as something that can be measured by moment-to-moment joy, we should consider being happy as a past-tense condition. Even though the day-to-day experience of raising kids can be soul-crushingly hard, Senior writes that “the very things that in the moment dampen our moods can later be sources of intense gratification and delight.”",
+      "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story, “I love My Children, I Hate My Life,” is arousing much chatter – nothing gets people talking like the suggestion that child rearing is anything less than a completely fulfilling, life-enriching experience. Rather than concluding that children make parents either happy or miserable, Senior suggests we need to redefine happiness: instead of thinking of it as something that can be measured by moment-to-moment joy, we should consider being happy as a past-tense condition. Even though the day-to-day experience of raising kids can be soul-crushingly hard, Senior writes that “the very things that in the moment dampen our moods can later be sources of intense gratification and delight.”",
       "The magazine cover showing an attractive mother holding a cute baby is hardly the only Madonna-and-child image on newsstands this week. There are also stories about newly adoptive – and newly single – mom Sandra Bullock, as well as the usual “Jennifer Aniston is pregnant” news. Practically every week features at least one celebrity mom, or mom-to-be, smiling on the newsstands.",
       "In a society that so persistently celebrates procreation, is it any wonder that admitting you regret having children is equivalent to admitting you support kitten-killing? It doesn’t seem quite fair, then, to compare the regrets of parents to the regrets of the childless. Unhappy parents rarely are provoked to wonder if they shouldn’t have had kids, but unhappy childless folks are bothered with the message that children are the single most important thing in the world: obviously their misery must be a direct result of the gaping baby-size holes in their lives.",
       "Of course, the image of parenthood that celebrity magazines like Us Weekly and People present is hugely unrealistic, especially when the parents are single mothers like Bullock. According to several studies concluding that parents are less happy than childless couples, single parents are the least happy of all. No shock there, considering how much work it is to raise a kid without a partner to lean on; yet to hear Sandra and Britney tell it, raising a kid on their “own” (read: with round-the-clock help) is a piece of cake.",
@@ -557,7 +557,7 @@
    "cn": "阅读理解 B 节（新题型）",
    "score": 10,
    "minutes": 20,
-   "directions": "The following paragraphs are given in a wrong order. For questions 41-45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A-G and filling them into the numbered boxes. Paragraphs E and G have been correctly placed. Mark your answers on ANSWER SHEET 1.",
+   "directions": "The following paragraphs are given in a wrong order. For questions 41-45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A-G and filling them into the numbered boxes. Paragraphs E and G have been correctly placed. Mark your answers on ANSWER SHEET 1. (10 points)",
    "groups": [
     {
      "id": "partB",
@@ -632,7 +632,7 @@
    "cn": "英译汉",
    "score": 10,
    "minutes": 25,
-   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on ANSWER SHEET 2.",
+   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on ANSWER SHEET 2. (10 points)",
    "groups": [
     {
      "id": "partC",
@@ -641,7 +641,7 @@
       "With its theme that “Mind is the master weaver,” creating our inner character and outer circumstances, the book As a Man Thinketh by James Allen is an in-depth exploration of the central idea of self-help writing.",
       "<u>Allen’s contribution was to take an assumption we all share – that because we are not robots we therefore control our thoughts – and reveal its erroneous nature.</u> Because most of us believe that mind is separate from matter, we think that thoughts can be hidden and made powerless; this allows us to think one way and act another. However, Allen believed that the unconscious mind generates as much action as the conscious mind, and <u>while we may be able to sustain the illusion of control through the conscious mind alone, in reality we are continually faced with a question: “Why cannot I make myself do this or achieve that?”</u>",
       "Since desire and will are damaged by the presence of thoughts that do not accord with desire, Allen concluded: “We do not attract what we want, but what we are.” Achievement happens because you as a person embody the external achievement; you don’t “get” success but become it. There is no gap between mind and matter.",
-      "Part of the fame of Allen’s book is its contention that “Circumstances do not make a person, they reveal him.” <u>This seems a justification for neglect of those in need, and a rationalization of exploitation, of the superiority of those at the top and the inferiority of those at the bottom .</u>",
+      "Part of the fame of Allen’s book is its contention that “Circumstances do not make a person, they reveal him.” <u>This seems a justification for neglect of those in need, and a rationalization of exploitation, of the superiority of those at the top and the inferiority of those at the bottom.</u>",
       "This, however, would be a knee-jerk reaction to a subtle argument. Each set of circumstances, however bad, offers a unique opportunity for growth. If circumstances always determined the life and prospects of people, then humanity would never have progressed. In fact, <u>circumstances seem to be designed to bring out the best in us, and if we feel that we have been “wronged” then we are unlikely to begin a conscious effort to escape from our situation.</u> Nevertheless, as any biographer knows, a person’s early life and its conditions are often the greatest gift to an individual.",
       "The sobering aspect of Allen’s book is that we have no one else to blame for our present condition except ourselves. <u>The upside is the possibilities contained in knowing that everything is up to us; where before we were experts in the array of limitations, now we become authorities of what is possible.</u>"
      ],
@@ -690,7 +690,7 @@
      "questions": [
       {
        "n": 51,
-       "prompt": "Write a letter to a friend of yours to\n1) recommend one of your favorite movies and\n2) give reasons for your recommendation.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address.",
+       "prompt": "Write a letter to a friend of yours to\n1) recommend one of your favorite movies and\n2) give reasons for your recommendation.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
        "score": 10
       }
      ]
@@ -712,7 +712,7 @@
      "questions": [
       {
        "n": 52,
-       "prompt": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and\n3) give your comments.\nYou should write neatly on ANSWER SHEET 2.\n旅程之“余”",
+       "prompt": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and\n3) give your comments.\nYou should write neatly on ANSWER SHEET 2. (20 points)\n## 旅程之“余”",
        "score": 20,
        "images": [
         "data/img/2011-q52.jpg"

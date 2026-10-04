@@ -17,9 +17,9 @@
      "id": "cloze",
      "title": "Use of English",
      "passage": [
-      "In Cambodia, the choice of a spouse is a complex one for the young male. It may involve not only his parents and his friends, {{1}} those of the young woman, but also a matchmaker. A young man can {{2}} a likely spouse on his own and then ask his parents to {{3}} the marriage negotiations, or the young man’s parents may make the choice of a spouse, giving the child little to say in the selection. {{4}} , a girl may veto the spouse her parents have chosen. {{5}} a spouse has been selected, each family investigates the other to make sure its child is marrying {{6}} a good family.",
-      "The traditional wedding is a long and colorful affair. Formerly it lasted three days, {{7}} by the 1980s it more commonly lasted a day and a half. Buddhist priests offer a short sermon and {{8}} prayers of blessing. Parts of the ceremony involve ritual hair cutting, {{9}} cotton threads soaked in holy water around the bride’s and groom’s wrists, and {{10}} a candle around a circle of happily married and respected couples to bless the {{11}} . Newlyweds traditionally move in with the wife’s parents and may {{12}} with them up to a year, {{13}} they can build a new house nearby.",
-      "Divorce is legal and easy to {{14}} , but not common. Divorced persons are {{15}} with some disapproval. Each spouse retains {{16}} property he or she G {{17}} into the marriage, and jointly-acquired property is {{18}} equally. Divorced persons may remarry, but a gender prejudice {{19}} up: The divorced male doesn’t have a waiting period before he can remarry {{20}} the woman must wait ten months."
+      "In Cambodia, the choice of a spouse is a complex one for the young male. It may involve not only his parents and his friends, {{1}} those of the young woman, but also a matchmaker. A young man can {{2}} a likely spouse on his own and then ask his parents to {{3}} the marriage negotiations, or the young man’s parents may make the choice of a spouse, giving the child little to say in the selection. {{4}}, a girl may veto the spouse her parents have chosen. {{5}} a spouse has been selected, each family investigates the other to make sure its child is marrying {{6}} a good family.",
+      "The traditional wedding is a long and colorful affair. Formerly it lasted three days, {{7}} by the 1980s it more commonly lasted a day and a half. Buddhist priests offer a short sermon and {{8}} prayers of blessing. Parts of the ceremony involve ritual hair cutting, {{9}} cotton threads soaked in holy water around the bride’s and groom’s wrists, and {{10}} a candle around a circle of happily married and respected couples to bless the {{11}}. Newlyweds traditionally move in with the wife’s parents and may {{12}} with them up to a year, {{13}} they can build a new house nearby.",
+      "Divorce is legal and easy to {{14}}, but not common. Divorced persons are {{15}} with some disapproval. Each spouse retains {{16}} property he or she {{17}} into the marriage, and jointly-acquired property is {{18}} equally. Divorced persons may remarry, but a gender prejudice {{19}} up: The divorced male doesn’t have a waiting period before he can remarry {{20}} the woman must wait ten months."
      ],
      "questions": [
       {
@@ -334,7 +334,7 @@
      "id": "text2",
      "title": "Text 2",
      "passage": [
-      "For the first time in history more people live in towns than in the country. In Britain this has had a curious result.While polls show Britons rate “the countryside” alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support.",
+      "For the first time in history more people live in towns than in the country. In Britain this has had a curious result. While polls show Britons rate “the countryside” alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support.",
       "A century ago Octavia Hill launched the National Trust not to rescue stylish houses but to save “the beauty of natural places for everyone forever.” It was specifically to provide city dwellers with spaces for leisure where they could experience “a refreshing air.” Hill’s pressure later led to the creation of national parks and green belts. They don’t make countryside any more, and every year concrete consumes more of it. It needs constant guardianship.",
       "At the next election none of the big parties seem likely to endorse this sentiment. The Conservatives’ planning reform explicitly gives rural development priority over conservation, even authorising “off-plan” building where local people might object. The concept of sustainable development has been defined as profitable. Labour likewise wants to discontinue local planning where councils oppose development. The Liberal Democrats are silent. Only Ukip, sensing its chance, has sided with those pleading for a more considered approach to using green land. Its Campaign to Protect Rural England struck terror into many local Conservative parties.",
       "The sensible place to build new houses, factories and offices is where people are, in cities and towns where infrastructure is in place. The London agents Stirling Ackroyd recently identified enough sites for half a million houses in the London area alone, with no intrusion on green belt. What is true of London is even truer of the provinces.",
@@ -408,7 +408,7 @@
      "id": "text3",
      "title": "Text 3",
      "passage": [
-      "“ There is one and only one social responsibility of business,” wrote Milton Friedman, a Nobel prize-winning economist, “That is, to use its resources and engage in activities designed to increase its profits.” But even if you accept Friedman’s premise and regard corporate social responsibility (CSR) policies as a waste of shareholders’ money, things may not be absolutely clear-cut. New research suggests that CSR may create monetary value for companies – at least when they are prosecuted for corruption.",
+      "“There is one and only one social responsibility of business,” wrote Milton Friedman, a Nobel prize-winning economist, “That is, to use its resources and engage in activities designed to increase its profits.” But even if you accept Friedman’s premise and regard corporate social responsibility (CSR) policies as a waste of shareholders’ money, things may not be absolutely clear-cut. New research suggests that CSR may create monetary value for companies – at least when they are prosecuted for corruption.",
       "The largest firms in America and Britain together spend more than $15 billion a year on CSR, according to an estimate by EPG, a consulting firm. This could add value to their businesses in three ways. First, consumers may take CSR spending as a “signal” that a company’s products are of high quality. Second, customers may be willing to buy a company’s products as an indirect way to donate to the good causes it helps. And third, through a more diffuse “halo effect,” whereby its good deeds earn it greater consideration from consumers and others.",
       "Previous studies on CSR have had trouble differentiating these effects because consumers can be affected by all three. A recent study attempts to separate them by looking at bribery prosecutions under America’s Foreign Corrupt Practices Act (FCPA). It argues that since prosecutors do not consume a company’s products as part of their investigations, they could be influenced only by the halo effect.",
       "The study found that, among prosecuted firms, those with the most comprehensive CSR programmes tended to get more lenient penalties. Their analysis ruled out the possibility that it was firms’ political influence, rather than their CSR stand, that accounted for the leniency: Companies that contributed more to political campaigns did not receive lower fines.",
@@ -442,7 +442,7 @@
       },
       {
        "n": 33,
-       "stem": "The expression “more lenient” (Para.4) is closest in meaning to",
+       "stem": "The expression “more lenient” (Para. 4) is closest in meaning to",
        "options": {
         "A": "less controversial.",
         "B": "more effective.",
@@ -483,7 +483,7 @@
      "title": "Text 4",
      "passage": [
       "There will eventually come a day when The New York Times ceases to publish stories on newsprint. Exactly when that day will be is a matter of debate. “Sometime in the future,” the paper’s publisher said back in 2010.",
-      "Nostalgia for ink on paper and the rustle of pages aside, there’s plenty of incentive to ditch print. The infrastructure required to make a physical newspaper– printing presses, delivery trucks – isn’t just expensive; it’s excessive at a time when online-only competitors don’t have the same set of financial constraints. Readers are migrating away from print anyway. And though print ad sales still dwarf their online and mobile counterparts, revenue from print is still declining.",
+      "Nostalgia for ink on paper and the rustle of pages aside, there’s plenty of incentive to ditch print. The infrastructure required to make a physical newspaper – printing presses, delivery trucks – isn’t just expensive; it’s excessive at a time when online-only competitors don’t have the same set of financial constraints. Readers are migrating away from print anyway. And though print ad sales still dwarf their online and mobile counterparts, revenue from print is still declining.",
       "Overhead may be high and circulation lower, but rushing to eliminate its print edition would be a mistake, says BuzzFeed CEO Jonah Peretti.",
       "Peretti says the Times shouldn’t waste time getting out of the print business, but only if they go about doing it the right way. “Figuring out a way to accelerate that transition would make sense for them,” he said, “but if you discontinue it, you’re going to have your most loyal customers really upset with you.”",
       "Sometimes that’s worth making a change anyway. Peretti gives the example of Netflix discontinuing its DVD-mailing service to focus on streaming. “It was seen as a blunder,” he said. The move turned out to be foresighted. And if Peretti were in charge at the Times? “I wouldn’t pick a year to end print,” he said. “I would raise prices and make it into more of a legacy product.”",
@@ -605,7 +605,7 @@
      ],
      "passage": [
       "No matter how formal or informal the work environment, the way you present yourself has an impact. This is especially true in first impressions. According to research from Princeton University, people assess your competence, trustworthiness, and likeability in just a tenth of a second, solely based on the way you look.",
-      "The difference between today’s workplace and the “dress for success” era is that the range of options is so much broader. Norms have evolved and fragmented. In some settings, red sneakers or dress T-shirts can convey status; in others not so much. Plus, whatever image we present is magnified by social-media services like Linkedln. Chances are, your headshots are seen much more often now than a decade or two ago. Millennials, it seems, face the paradox of being the least formal generation yet the most conscious of style and personal branding. It can be confusing.",
+      "The difference between today’s workplace and the “dress for success” era is that the range of options is so much broader. Norms have evolved and fragmented. In some settings, red sneakers or dress T-shirts can convey status; in others not so much. Plus, whatever image we present is magnified by social-media services like LinkedIn. Chances are, your headshots are seen much more often now than a decade or two ago. Millennials, it seems, face the paradox of being the least formal generation yet the most conscious of style and personal branding. It can be confusing.",
       "So how do we navigate this? How do we know when to invest in an upgrade? And what’s the best way to pull off one that enhances our goals? Here are some tips:",
       "{{41}}",
       "As an executive coach, I’ve seen image upgrades be particularly helpful during transitions – when looking for a new job, stepping into a new or more public role, or changing work environments. If you’re in a period of change or just feeling stuck and in a rut, now may be a good time. If you’re not sure, ask for honest feedback from trusted friends, colleagues and professionals. Look for cues about how others perceive you. Maybe there’s no need for an upgrade and that’s OK.",
@@ -637,7 +637,7 @@
      "passage": [
       "Mental health is our birthright. (46) <u>We don’t have to learn how to be mentally healthy; it is built into us in the same way that our bodies know how to heal a cut or mend a broken bone.</u> Mental health can’t be learned, only reawakened. It is like the immune system of the body, which under stress or through lack of nutrition or exercise can be weakened, but which never leaves us. When we don’t understand the value of mental health and we don’t know how to gain access to it, mental health will remain hidden from us. (47) <u>Our mental health doesn’t really go anywhere; like the sun behind a cloud, it can be temporarily hidden from view, but it is fully capable of being restored in an instant.</u>",
       "Mental health is the seed that contains self-esteem – confidence in ourselves and an ability to trust in our common sense. It allows us to have perspective on our lives – the ability to not take ourselves too seriously, to laugh at ourselves, to see the bigger picture, and to see that things will work out. It’s a form of innate or unlearned optimism. (48) <u>Mental health allows us to view others with sympathy if they are having troubles, with kindness if they are in pain, and with unconditional love no matter who they are.</u> Mental health is the source of creativity for solving problems, resolving conflict, making our surroundings more beautiful, managing our home life, or coming up with a creative business idea or invention to make our lives easier. It gives us patience for ourselves and toward others as well as patience while driving, catching a fish, working on our car, or raising a child. It allows us to see the beauty that surrounds us each moment in nature, in culture, in the flow of our daily lives.",
-      "(49) <u>Although mental health is the cure-all for living our lives, it is perfectly ordinary as you will see that it has been there to direct you through all your difficult decisions.</u> It has been available even in the most mundane of life situations to show you right from wrong, good from bad, friend from foe. Mental health has commonly been called conscience, instinct, wisdom, common sense, or the inner voice. We think of it simply as a healthy and helpful flow of intelligent thought. (50) <u>As you will come to see, knowing that mental health is always available and knowing to trust it allow us to slow down to the moment and live life happily .</u>"
+      "(49) <u>Although mental health is the cure-all for living our lives, it is perfectly ordinary as you will see that it has been there to direct you through all your difficult decisions.</u> It has been available even in the most mundane of life situations to show you right from wrong, good from bad, friend from foe. Mental health has commonly been called conscience, instinct, wisdom, common sense, or the inner voice. We think of it simply as a healthy and helpful flow of intelligent thought. (50) <u>As you will come to see, knowing that mental health is always available and knowing to trust it allow us to slow down to the moment and live life happily.</u>"
      ],
      "questions": [
       {
@@ -662,7 +662,7 @@
       },
       {
        "n": 50,
-       "text": "As you will come to see, knowing that mental health is always available and knowing to trust it allow us to slow down to the moment and live life happily .",
+       "text": "As you will come to see, knowing that mental health is always available and knowing to trust it allow us to slow down to the moment and live life happily.",
        "score": 2
       }
      ]
@@ -684,7 +684,7 @@
      "questions": [
       {
        "n": 51,
-       "prompt": "Suppose you are a librarian in your university. Write a notice of about 100\nwords, providing the newly-enrolled international students with relevant information\nabout the library.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the notice. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+       "prompt": "Suppose you are a librarian in your university. Write a notice of about 100 words, providing the newly-enrolled international students with relevant information about the library.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the notice. Use “Li Ming” instead.\nDo not write the address. (10 points)",
        "score": 10
       }
      ]
@@ -706,7 +706,7 @@
      "questions": [
       {
        "n": 52,
-       "prompt": "Write an essay of 160-200 words based on the following pictures. In your\nessay, you should\nl) describe the pictures briefly,\n2) interpret the meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)",
+       "prompt": "Write an essay of 160-200 words based on the following pictures. In your essay, you should\n1) describe the pictures briefly,\n2) interpret the meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\n## 与其只提要求，不如做个榜样",
        "score": 20,
        "images": [
         "data/img/2016-q52.jpg"
