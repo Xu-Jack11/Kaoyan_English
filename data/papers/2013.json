@@ -11,7 +11,7 @@
    "cn": "完形填空",
    "score": 10,
    "minutes": 20,
-   "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.",
+   "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
    "groups": [
     {
      "id": "cloze",
@@ -254,7 +254,7 @@
    "cn": "阅读理解 A 节",
    "score": 40,
    "minutes": 70,
-   "directions": "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET.",
+   "directions": "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET. (40 points)",
    "groups": [
     {
      "id": "text1",
@@ -340,7 +340,7 @@
       "On May 31st Microsoft set off the row. It said that Internet Explorer 10, the version due to appear with Windows 8, would have DNT as a default.",
       "Advertisers are horrified. Human nature being what it is, most people stick with default settings. Few switch DNT on now, but if tracking is off it will stay off. Bob Liodice, the chief executive of the Association of National Advertisers, says consumers will be worse off if the industry cannot collect information about their preferences. People will not get fewer ads, he says. “They’ll get less meaningful, less targeted ads.”",
       "It is not yet clear how advertisers will respond. Getting a DNT signal does not oblige anyone to stop tracking, although some companies have promised to do so. Unable to tell whether someone really objects to behavioural ads or whether they are sticking with Microsoft’s default, some may ignore a DNT signal and press on anyway.",
-      "Also unclear is why Microsoft has gone it alone. After all, it has an ad business too, which it says will comply with DNT requests, though it is still working out how. If it is trying to upset Google, which relies almost wholly on advertising, it has chosen an indirect method: there is no guarantee that DNT by default will become the norm. DNT does not seem an obviously huge selling point for windows 8 – though the firm has compared some of its other products favourably with Google’s on that count before. Brendon Lynch, Microsoft’s chief privacy officer, blogged: “We believe consumers should have more control.” Could it really be that simple?"
+      "Also unclear is why Microsoft has gone it alone. After all, it has an ad business too, which it says will comply with DNT requests, though it is still working out how. If it is trying to upset Google, which relies almost wholly on advertising, it has chosen an indirect method: there is no guarantee that DNT by default will become the norm. DNT does not seem an obviously huge selling point for Windows 8 – though the firm has compared some of its other products favourably with Google’s on that count before. Brendon Lynch, Microsoft’s chief privacy officer, blogged: “We believe consumers should have more control.” Could it really be that simple?"
      ],
      "questions": [
       {
@@ -564,7 +564,7 @@
    "cn": "阅读理解 B 节（新题型）",
    "score": 10,
    "minutes": 20,
-   "directions": "In the following text, some sentences have been removed. For Questions 41-45 , choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on ANSWER SHEET.",
+   "directions": "In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on the ANSWER SHEET. (10 points)",
    "groups": [
     {
      "id": "partB",
@@ -625,20 +625,20 @@
    "cn": "英译汉",
    "score": 10,
    "minutes": 25,
-   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on the ANSWER SHEET.",
+   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on the ANSWER SHEET. (10 points)",
    "groups": [
     {
      "id": "partC",
      "title": "Part C",
      "passage": [
-      "It is speculated that gardens arise from a basic human need in the individuals who made them: the need for creative expression. There is no doubt that gardens evidence an irrepressible urge to create, express, fashion, and beautify and that self-expression is a basic human urge; <u>yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression .</u>",
-      "One of these urges has to do with creating a state of peace in the midst of turbulence, a “still point of the turning world,” to borrow a phrase from T. S. Eliot. <u>A sacred place of peace, however crude it may be, is a distinctly human need, as opposed to shelter, which is a distinctly animal need.</u> This distinction is so much so that where the latter is lacking, as it is for these unlikely gardeners, the former becomes all the more urgent. Composure is a state of mind made possible by the structuring of one’s relation to one’s environment. <u>The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environmen t where it either didn’t exist or was not discernible as such.</u> In so doing they give composure to a segment of the inarticulate environment in which they take their stand.",
-      "Another urge or need that these gardens appear to respond to, or to arise from, is so intrinsic that we are barely ever conscious of its abiding claims on us. When we are deprived of green, of plants, of trees, <u>most of us give in to a demoralization of spirit which we usually blame on some psychological conditions, until one day we find ourselves in a garden and feel the oppression vanish as if by magic.</u> In most of the homeless gardens of New York City the actual cultivation of plants is unfeasible, yet even so the compositions often seem to represent attempts to call forth the spirit of plant and animal life, if only symbolically, through a clumplike arrangement of materials, an introduction of colors, small pools of water, and a frequent presence of petals or leaves as well as of stuffed animals. On display here are various fantasy elements whose reference, at some basic level, seems to be the natural world. <u>It is this implicit or explicit reference to nature that fully justifies the use of the word garden , though in a “liberated” sense, to describe these synthetic constructions.</u> In them we can see biophilia – a yearning for contact with nonhuman life – assuming uncanny representational forms."
+      "It is speculated that gardens arise from a basic human need in the individuals who made them: the need for creative expression. There is no doubt that gardens evidence an irrepressible urge to create, express, fashion, and beautify and that self-expression is a basic human urge; <u>yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression.</u>",
+      "One of these urges has to do with creating a state of peace in the midst of turbulence, a “still point of the turning world,” to borrow a phrase from T. S. Eliot. <u>A sacred place of peace, however crude it may be, is a distinctly human need, as opposed to shelter, which is a distinctly animal need.</u> This distinction is so much so that where the latter is lacking, as it is for these unlikely gardeners, the former becomes all the more urgent. Composure is a state of mind made possible by the structuring of one’s relation to one’s environment. <u>The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environment where it either didn’t exist or was not discernible as such.</u> In so doing they give composure to a segment of the inarticulate environment in which they take their stand.",
+      "Another urge or need that these gardens appear to respond to, or to arise from, is so intrinsic that we are barely ever conscious of its abiding claims on us. When we are deprived of green, of plants, of trees, <u>most of us give in to a demoralization of spirit which we usually blame on some psychological conditions, until one day we find ourselves in a garden and feel the oppression vanish as if by magic.</u> In most of the homeless gardens of New York City the actual cultivation of plants is unfeasible, yet even so the compositions often seem to represent attempts to call forth the spirit of plant and animal life, if only symbolically, through a clumplike arrangement of materials, an introduction of colors, small pools of water, and a frequent presence of petals or leaves as well as of stuffed animals. On display here are various fantasy elements whose reference, at some basic level, seems to be the natural world. <u>It is this implicit or explicit reference to nature that fully justifies the use of the word garden, though in a “liberated” sense, to describe these synthetic constructions.</u> In them we can see biophilia – a yearning for contact with nonhuman life – assuming uncanny representational forms."
      ],
      "questions": [
       {
        "n": 46,
-       "text": "yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression .",
+       "text": "yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression.",
        "score": 2
       },
       {
@@ -648,7 +648,7 @@
       },
       {
        "n": 48,
-       "text": "The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environmen t where it either didn’t exist or was not discernible as such.",
+       "text": "The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environment where it either didn’t exist or was not discernible as such.",
        "score": 2
       },
       {
@@ -658,7 +658,7 @@
       },
       {
        "n": 50,
-       "text": "It is this implicit or explicit reference to nature that fully justifies the use of the word garden , though in a “liberated” sense, to describe these synthetic constructions.",
+       "text": "It is this implicit or explicit reference to nature that fully justifies the use of the word garden, though in a “liberated” sense, to describe these synthetic constructions.",
        "score": 2
       }
      ]
@@ -680,7 +680,7 @@
      "questions": [
       {
        "n": 51,
-       "prompt": "Write an e-mail of about 100 words to a foreign teacher in your college, inviting him/her to be a judge for the upcoming English speech contest.\nYou should include the details you think necessary.\nYou should write neatly on ANSWER SHEET.\nDo not sign your own name at the end of the e-mail. Use “Li Ming” instead.\nDo not write the address.",
+       "prompt": "Write an e-mail of about 100 words to a foreign teacher in your college, inviting him/her to be a judge for the upcoming English speech contest. You should include the details you think necessary.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the e-mail. Use “Li Ming” instead.\nDo not write the address. (10 points)",
        "score": 10
       }
      ]
@@ -702,7 +702,7 @@
      "questions": [
       {
        "n": 52,
-       "prompt": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) interpret its intended meaning, and\n3) give your comments.\nYou should write neatly on ANSWER SHEET.",
+       "prompt": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) interpret its intended meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\n## 选择",
        "score": 20,
        "images": [
         "data/img/2013-q52.jpg"

@@ -18,7 +18,7 @@
      "title": "Use of English",
      "passage": [
       "Could a hug a day keep the doctor away? The answer may be a resounding “yes!” {{1}} helping you feel close and {{2}} to people you care about, it turns out that hugs can bring a {{3}} of health benefits to your body and mind. Believe it or not, a warm embrace might even help you {{4}} getting sick this winter.",
-      "In a recent study {{5}} over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs {{6}} the participants’ susceptibility to developing the common cold after being {{7}} to the virus. People who perceived greater social support were less likely to come {{8}} with a cold, and the researchers {{9}} that the stress-reducing effects of hugging {{10}} about 32 percent of that beneficial effect. {{11}} among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe {{12}} .",
+      "In a recent study {{5}} over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs {{6}} the participants’ susceptibility to developing the common cold after being {{7}} to the virus. People who perceived greater social support were less likely to come {{8}} with a cold, and the researchers {{9}} that the stress-reducing effects of hugging {{10}} about 32 percent of that beneficial effect. {{11}} among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe {{12}}.",
       "“Hugging protects people who are under stress from the {{13}} risk for colds that’s usually {{14}} with stress,” notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging “is a marker of intimacy and helps {{15}} the feeling that others are there to help {{16}} difficulty.”",
       "Some experts {{17}} the stress-reducing, health-related benefits of hugging to the release of oxytocin, often called “the bonding hormone” {{18}} it promotes attachment in relationships, including that between mothers and their newborn babies. Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream. But some of it {{19}} in the brain, where it {{20}} mood, behavior and physiology."
      ],
@@ -273,7 +273,7 @@
        "n": 21,
        "stem": "The crash of EgyptAir Flight 804 is mentioned to",
        "options": {
-        "A": "explain American’s tolerance of current security checks.",
+        "A": "explain Americans’ tolerance of current security checks.",
         "B": "stress the urgency to strengthen security worldwide.",
         "C": "highlight the necessity of upgrading major U.S. airports.",
         "D": "emphasize the importance of privacy protection."
@@ -335,7 +335,7 @@
      "id": "text2",
      "title": "Text 2",
      "passage": [
-      "“ The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani, Hawaii’s last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter Telescope (TMT), a giant observatory that promises to revolutionize humanity’s view of the cosmos.",
+      "“The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani, Hawaii’s last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter Telescope (TMT), a giant observatory that promises to revolutionize humanity’s view of the cosmos.",
       "At issue is the TMT’s planned location on Mauna Kea, a dormant volcano worshiped by some Hawaiians as the piko, that connects the Hawaiian Islands to the heavens. But Mauna Kea is also home to some of the world’s most powerful telescopes. Rested in the Pacific Ocean, Mauna Kea’s peak rises above the bulk of our planet’s dense atmosphere, where conditions allow telescopes to obtain images of unsurpassed clarity.",
       "Opposition to telescopes on Mauna Kea is nothing new. A small but vocal group of Hawaiians and environmentalists have long viewed their presence as disrespect for sacred land and a painful reminder of the occupation of what was once a sovereign nation.",
       "Some blame for the current controversy belongs to astronomers. In their eagerness to build bigger telescopes, they forgot that science is not the only way of understanding the world. They did not always prioritize the protection of Mauna Kea’s fragile ecosystems or its holiness to the island’s inhabitants. Hawaiian culture is not a relic of the past; it is a living culture undergoing a renaissance today.",
@@ -484,7 +484,7 @@
      "id": "text4",
      "title": "Text 4",
      "passage": [
-      "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct , which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.",
+      "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. <u>But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.</u>",
       "The high court’s decision said the judge in Mr. McDonnell’s trial failed to tell a jury that it must look only at his “official acts,” or the former governor’s decisions on “specific” and “unsettled” issues related to his duties.",
       "Merely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found.",
       "The court did suggest that accepting favors in return for opening doors is “distasteful” and “nasty.” But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an “official act”.",
@@ -496,7 +496,7 @@
      "questions": [
       {
        "n": 36,
-       "stem": "The underlined sentence (Para.1) most probably shows that the court",
+       "stem": "The underlined sentence (Para. 1) most probably shows that the court",
        "options": {
         "A": "avoided defining the extent of McDonnell’s duties.",
         "B": "made no compromise in convicting McDonnell.",
@@ -565,19 +565,19 @@
    "cn": "阅读理解 B 节（新题型）",
    "score": 10,
    "minutes": 20,
-   "directions": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET. (10 points)",
+   "directions": "The following paragraphs are given in a wrong order. For questions 41-45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A-G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET. (10 points)",
    "groups": [
     {
      "id": "partB",
      "title": "Part B",
      "options": {
-      "A": "The first published sketch, “A Dinner at Poplar Walk” brought tears to\nDickens’s eyes when he discovered it in the pages of The Monthly Magazine.\nFrom then on his sketches, which appeared under the pen name “Boz” in The\nEvening Chronicle, earned him a modest reputation.",
-      "B": "The runaway success of The Pickwick Papers, as it is generally known today,\nsecured Dickens’s fame. There were Pickwick coats and Pickwick cigars, and\nthe plump, spectacled hero, Samuel Pickwick, became a national figure.",
-      "C": "Soon after Sketches by Boz appeared, a publishing firm approached Dickens to\nwrite a story in monthly installments, as a backdrop for a series of woodcuts\nby the then-famous artist Robert Seymour, who had originated the idea for the\nstory. With characteristic confidence, Dickens successfully insisted that\nSeymour’s pictures illustrate his own story instead. After the first installment,\nDickens wrote to the artist and asked him to correct a drawing Dickens felt\nwas not faithful enough to his prose. Seymour made the change, went into his\nbackyard, and expressed his displeasure by committing suicide. Dickens and\nhis publishers simply pressed on with a new artist. The comic novel, The\nPosthumous Papers of the Pickwick Club, appeared serially in 1836 and 1837\nand was first published in book form in 1837.",
-      "D": "Charles Dickens is probably the best-known and, to many people, the greatest\nEnglish novelist of the 19th century. A moralist, satirist, and social reformer,\nDickens crafted complex plots and striking characters that capture the panorama\nof English society.",
-      "E": "Soon after his father’s release from prison, Dickens got a better job as errand\nboy in law offices. He taught himself shorthand to get an even better job later as\na court stenographer and as a reporter in Parliament. At the same time, Dickens,\nwho had a reporter’s eye for transcribing the life around him, especially anything\ncomic or odd, submitted short sketches to obscure magazines.",
-      "F": "Dickens was born in Portsmouth, on England’s southern coast. His father was\na clerk in the British Navy pay office – a respectable position, but with little\nsocial status. His paternal grandparents, a steward and a housekeeper,\npossessed even less status, having been servants, and Dickens later concealed\ntheir background.Dickens’s mother supposedly came from a more respectable\nfamily. Yet two years before Dickens’s birth, his mother’s father was caught\nstealing and fled to Europe, never to return. The family’s increasing poverty\nforced Dickens out of school at age 12 to work in Warren’s Blacking Warehouse,\na shoe-polish factory, where the other working boys mocked him as “the young\ngentleman.” His father was then imprisoned for debt. The humiliations of his\nfather’s imprisonment and his labor in the blacking factory formed Dickens’s\ngreatest wound and became his deepest secret. He could not confide them even\nto his wife, although they provide the unacknowledged foundation of his fiction.",
-      "G": "After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he\ntraces an orphan’s progress from the workhouse to the criminal slums of\nLondon. Nicholas Nickleby, his next novel, combines the darkness of Oliver\nTwis t with th e sunlig ht of Pickwick. Th e popu lar ity of th ese novels\nconsolidated Dickens’ as a nationally and internationally celebrated man of\nletters."
+      "A": "The first published sketch, “A Dinner at Poplar Walk” brought tears to Dickens’s eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name “Boz” in The Evening Chronicle, earned him a modest reputation.",
+      "B": "The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens’s fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure.",
+      "C": "Soon after Sketches by Boz appeared, a publishing firm approached Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour’s pictures illustrate his own story instead. After the first installment, Dickens wrote to the artist and asked him to correct a drawing Dickens felt was not faithful enough to his prose. Seymour made the change, went into his backyard, and expressed his displeasure by committing suicide. Dickens and his publishers simply pressed on with a new artist. The comic novel, The Posthumous Papers of the Pickwick Club, appeared serially in 1836 and 1837 and was first published in book form in 1837.",
+      "D": "Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society.",
+      "E": "Soon after his father’s release from prison, Dickens got a better job as errand boy in law offices. He taught himself shorthand to get an even better job later as a court stenographer and as a reporter in Parliament. At the same time, Dickens, who had a reporter’s eye for transcribing the life around him, especially anything comic or odd, submitted short sketches to obscure magazines.",
+      "F": "Dickens was born in Portsmouth, on England’s southern coast. His father was a clerk in the British Navy pay office – a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper, possessed even less status, having been servants, and Dickens later concealed their background. Dickens’s mother supposedly came from a more respectable family. Yet two years before Dickens’s birth, his mother’s father was caught stealing and fled to Europe, never to return. The family’s increasing poverty forced Dickens out of school at age 12 to work in Warren’s Blacking Warehouse, a shoe-polish factory, where the other working boys mocked him as “the young gentleman.” His father was then imprisoned for debt. The humiliations of his father’s imprisonment and his labor in the blacking factory formed Dickens’s greatest wound and became his deepest secret. He could not confide them even to his wife, although they provide the unacknowledged foundation of his fiction.",
+      "G": "After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan’s progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens as a nationally and internationally celebrated man of letters."
      },
      "questions": [
       {
@@ -646,12 +646,12 @@
      "id": "partC",
      "title": "Part C",
      "passage": [
-      "The growth of the use of English as the world’s primary language for international communication has obviously been continuing for several decades. (46) <u>But even as the number of English speakers expands further there are signs that the global predominance of the language may fade within the foreseeable future.</u>",
-      "Complex international, economic, technological and cultural changes could start to diminish the leading position of English as the language of the world market, and UK interests which enjoy advantage from the breadth of English usage would consequently face new pressures. Those realistic possibilities are highlighted in the study presented by David Graddol. (47) <u>His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generations of the United Kingdom do not need additional language capabilities.</u>",
-      "David Graddol concludes that monoglot English graduates face a bleak economic future as qualified multilingual youngsters from other countries are proving to have a competitive advantage over their British counterparts in global companies and organisations. Alongside that, (48) <u>many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages .</u>",
+      "The growth of the use of English as the world’s primary language for international communication has obviously been continuing for several decades. <u>But even as the number of English speakers expands further there are signs that the global predominance of the language may fade within the foreseeable future.</u>",
+      "Complex international, economic, technological and cultural changes could start to diminish the leading position of English as the language of the world market, and UK interests which enjoy advantage from the breadth of English usage would consequently face new pressures. Those realistic possibilities are highlighted in the study presented by David Graddol. <u>His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generations of the United Kingdom do not need additional language capabilities.</u>",
+      "David Graddol concludes that monoglot English graduates face a bleak economic future as qualified multilingual youngsters from other countries are proving to have a competitive advantage over their British counterparts in global companies and organisations. Alongside that, <u>many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages.</u>",
       "If left to themselves, such trends will diminish the relative strength of the English language in international education markets as the demand for educational resources in languages, such as Spanish, Arabic or Mandarin grows and international business process outsourcing in other languages such as Japanese, French and German, spreads.",
-      "(49) <u>The changes identified by David Graddol all present clear and major challenges to the UK’s providers of English language teaching to people of other countries and to broader education business sectors.</u> The English language teaching sector directly earns nearly ￡1.3 billion for the UK in invisible exports and our other education related exports earn up to ￡10 billion a year more. As the international education market expands, the recent slowdown in the numbers of international students studying in the main English-speaking countries is likely to continue, especially if there are no effective strategic policies to prevent such slippage.",
-      "The anticipation of possible shifts in demand provided by this study is significant: (50) <u>It gives a basis to all organisations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment.</u> That is a necessary and practical approach. In this as in much else, those who wish to influence the future must prepare for it."
+      "<u>The changes identified by David Graddol all present clear and major challenges to the UK’s providers of English language teaching to people of other countries and to broader education business sectors.</u> The English language teaching sector directly earns nearly £1.3 billion for the UK in invisible exports and our other education related exports earn up to £10 billion a year more. As the international education market expands, the recent slowdown in the numbers of international students studying in the main English-speaking countries is likely to continue, especially if there are no effective strategic policies to prevent such slippage.",
+      "The anticipation of possible shifts in demand provided by this study is significant: <u>It gives a basis to all organisations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment.</u> That is a necessary and practical approach. In this as in much else, those who wish to influence the future must prepare for it."
      ],
      "questions": [
       {
@@ -666,7 +666,7 @@
       },
       {
        "n": 48,
-       "text": "many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages .",
+       "text": "many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages.",
        "score": 2
       },
       {
@@ -698,7 +698,7 @@
      "questions": [
       {
        "n": 51,
-       "prompt": "You are to write an email to James Cook, a newly-arrived Australian professor,\nrecommending some tourist attractions in your city. Please give reasons for your\nrecommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the email. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+       "prompt": "You are to write an email to James Cook, a newly-arrived Australian professor, recommending some tourist attractions in your city. Please give reasons for your recommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the email. Use “Li Ming” instead.\nDo not write the address. (10 points)",
        "score": 10
       }
      ]
@@ -720,7 +720,7 @@
      "questions": [
       {
        "n": 52,
-       "prompt": "Write an essay of 160-200 words based on the following pictures. In your\nessay, you should\n1） describe the pictures briefly,\n2） interpret the meaning, and\n3）give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)",
+       "prompt": "Write an essay of 160-200 words based on the following pictures. In your essay, you should\n1) describe the pictures briefly,\n2) interpret the meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)",
        "score": 20,
        "images": [
         "data/img/2017-q52.jpg"

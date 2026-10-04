@@ -17,10 +17,10 @@
      "id": "cloze",
      "title": "Use of English",
      "passage": [
-      "Though not biologically related, friends are as “related” as fourth cousins, sharing about 1% of genes. That is {{1}} a study, published from the University of California and Yale University in the Proceedings of the National Academy of Sciences, has {{2}} .",
-      "The study is a genome-wide analysis conducted {{3}} 1,932 unique subjects which {{4}} pairs of unrelated friends and unrelated strangers. The same people were used in both {{5}} .",
-      "While 1% may seem {{6}} , it is not so to a geneticist. As James Fowler, professor of medical genetics at UC San Diego, says, “Most people do not even {{7}} their fourth cousins but somehow manage to select as friends the people who {{8}} our kin.”",
-      "The study {{9}} found that the genes for smell were something shared in friends but not genes for immunity. Why this similarity exists in smell genes is difficult to explain, for now. {{10}} , as the team suggests, it draws us to similar environments but there is more {{11}} it. There could be many mechanisms working together that {{12}} us in choosing genetically similar friends {{13}} “functional kinship” of being friends with {{14}} !",
+      "Though not biologically related, friends are as “related” as fourth cousins, sharing about 1% of genes. That is {{1}} a study, published from the University of California and Yale University in the Proceedings of the National Academy of Sciences, has {{2}}.",
+      "The study is a genome-wide analysis conducted {{3}} 1,932 unique subjects which {{4}} pairs of unrelated friends and unrelated strangers. The same people were used in both {{5}}.",
+      "While 1% may seem {{6}}, it is not so to a geneticist. As James Fowler, professor of medical genetics at UC San Diego, says, “Most people do not even {{7}} their fourth cousins but somehow manage to select as friends the people who {{8}} our kin.”",
+      "The study {{9}} found that the genes for smell were something shared in friends but not genes for immunity. Why this similarity exists in smell genes is difficult to explain, for now. {{10}}, as the team suggests, it draws us to similar environments but there is more {{11}} it. There could be many mechanisms working together that {{12}} us in choosing genetically similar friends {{13}} “functional kinship” of being friends with {{14}}!",
       "One of the remarkable findings of the study was that the similar genes seem to be evolving {{15}} than other genes. Studying this could help {{16}} why human evolution picked pace in the last 30,000 years, with social environment being a major {{17}} factor.",
       "The findings do not simply explain people’s {{18}} to befriend those of similar {{19}} backgrounds, say the researchers. Though all the subjects were drawn from a population of European extraction, care was taken to {{20}} that all subjects, friends and strangers, were taken from the same population."
      ],
@@ -267,12 +267,13 @@
       "It is this apparent transcendence of politics that explains monarchs’ continuing popularity as heads of state. And so, the Middle East excepted, Europe is the most monarch-infested region in the world, with 10 kingdoms (not counting Vatican city and Andorra). But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure.",
       "Even so, kings and queens undoubtedly have a downside. Symbolic of national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities. At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states.",
       "The most successful monarchies strive to abandon or hide their old aristocratic ways. Princes and princesses have day-jobs and ride bicycles, not horses (or helicopters). Even so, these are wealthy families who party with the international 1%, and media intrusiveness makes it increasingly difficult to maintain the right image.",
-      "While Europe’s monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example. It is only the Queen who has preserved the monarchy’s reputation with her rather ordinary (if well-heeled) granny style. The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world. He has failed to understand that monarchies have largely survived because they provide a service –as non-controversial and non-political heads of state. Charles ought to know that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies."
+      "While Europe’s monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example.",
+      "It is only the Queen who has preserved the monarchy’s reputation with her rather ordinary (if well-heeled) granny style. The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world. He has failed to understand that monarchies have largely survived because they provide a service – as non-controversial and non-political heads of state. Charles ought to know that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies."
      ],
      "questions": [
       {
        "n": 21,
-       "stem": "According to the first two paragraphs, King Juan Carl of Spain",
+       "stem": "According to the first two paragraphs, King Juan Carlos of Spain",
        "options": {
         "A": "eased his relationship with his rivals.",
         "B": "used to enjoy high public support.",
@@ -412,7 +413,7 @@
      "title": "Text 3",
      "passage": [
       "The journal Science is adding an extra round of statistical checks to its peer-review process, editor-in-chief Marcia McNutt announced today. The policy follows similar efforts from other journals, after widespread concern that basic mistakes in data analysis are contributing to the irreproducibility of many published research findings.",
-      "“ Readers must have confidence in the conclusions published in our journal,” writes McNutt in an editorial. Working with the American Statistical Association, the journal has appointed seven experts to a statistics board of reviewing editors (SBoRE). Manuscripts will be flagged up for additional scrutiny by the journal’s internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers. The SBoRE panel will then find external statisticians to review these manuscripts.",
+      "“Readers must have confidence in the conclusions published in our journal,” writes McNutt in an editorial. Working with the American Statistical Association, the journal has appointed seven experts to a statistics board of reviewing editors (SBoRE). Manuscripts will be flagged up for additional scrutiny by the journal’s internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers. The SBoRE panel will then find external statisticians to review these manuscripts.",
       "Asked whether any particular papers had impelled the change, McNutt said: “The creation of the ‘statistics board’ was motivated by concerns broadly with the application of statistics and data analysis in scientific research and is part of Science’s overall drive to increase reproducibility in the research we publish.”",
       "Giovanni Parmigiani, a biostatistician at the Harvard School of Public Health, a member of the SBoRE group, says he expects the board to “play primarily an advisory role.” He agreed to join because he “found the foresight behind the establishment of the SBoRE to be novel, unique and likely to have a lasting impact. This impact will not only be through the publications in Science itself, but hopefully through a larger group of publishing places that may want to model their approach after Science.”",
       "John Ioannidis, a physician who studies research methodology, says that the policy is “a most welcome step forward” and “long overdue”. “Most journals are weak in statistical review, and this damages the quality of what they publish. I think that, for the majority of scientific papers nowadays, statistical review is more essential than expert review,” he says, but he noted that biomedical journals such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet pay strong attention to statistical review.",
@@ -570,13 +571,13 @@
      "id": "partB",
      "title": "Part B",
      "options": {
-      "A": "Are we studying that text and trying to respond in a way that fulfils the\nrequirement of a given course? Reading it simply for pleasure? Skimming it\nfor information? Ways of reading on a train or in bed are likely to differ\nconsiderably from reading in a seminar room.",
-      "B": "Factors such as the place and period in which we are reading, our gender,\nethnicity, age and social class will encourage us towards certain interpretations\nbut at the same time obscure or even close off others.",
-      "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using\nclues presented in the context. On the assumption that they will become\nrelevant later, you make a mental note of discourse entities as well as possible\nlinks between them.",
-      "D": "In effect, you try to reconstruct the likely meanings or effects that any given\nsentence, image or reference might have had: These might be the ones the\nauthor intended.",
-      "E": "You make further inferences, for instance, about how the text may be\nsignificant to you, or about its validity – inferences that form the basis of a\npersonal response for which the author will inevitably be far less responsible.",
-      "F": "In plays, novels and narrative poems, characters speak as constructs created by\nthe author, not necessarily as mouthpieces for the author’s own thoughts.",
-      "G": "Rather, we ascribe meanings to texts on the basis of interaction between what\nwe might call textual and contextual material: between kinds of organization\nor patterning we perceive in a text’s formal structures (so especially its\nlanguage structures) and various kinds of background, social knowledge,\nbelief and attitude that we bring to the text."
+      "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+      "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+      "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+      "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+      "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+      "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+      "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
      },
      "questions": [
       {
@@ -609,8 +610,9 @@
       "How does your reading proceed? Clearly you try to comprehend, in the sense of identifying meanings for individual words and working out relationships between them, drawing on your implicit knowledge of English grammar. {{41}} You begin to infer a context for the text, for instance by making decisions about what kind of speech event is involved: Who is making the utterance, to whom, when and where.",
       "The ways of reading indicated here are without doubt kinds of comprehension. But they show comprehension to consist not just of passive assimilation but of active engagement in inference and problem-solving. You infer information you feel the writer has invited you to grasp by presenting you with specific evidence and clues. {{42}}",
       "Conceived in this way, comprehension will not follow exactly the same track for each reader. What is in question is not the retrieval of an absolute, fixed or “true” meaning that can be read off and checked for accuracy, or some timeless relation of the text to the world. {{43}}",
-      "Such background material inevitably reflects who we are. {{44}} This doesn’t, however, make interpretation merely relative or even pointless. Precisely because readers from different historical periods, places and social experiences produce different but overlapping readings of the same words on the page– including for texts that engage with fundamental human concerns – debates about texts can play an important role in social discussion of beliefs and values.",
-      "How we read a given text also depends to some extent on our particular interest in reading it. {{45}} Such dimensions of reading suggest – as others introduced later in the book will also do – that we bring an implicit（often unacknowledged）agenda to any act of reading. It doesn’t then necessarily follow that one kind of reading is fuller, more advanced or more worthwhile than another. Ideally, different kinds of reading inform each other, and act as useful reference points for and counterbalances to one another. Together, they make up the reading component of your overall literacy, or relationship to your surrounding textual environment."
+      "Such background material inevitably reflects who we are. {{44}}",
+      "This doesn’t, however, make interpretation merely relative or even pointless. Precisely because readers from different historical periods, places and social experiences produce different but overlapping readings of the same words on the page – including for texts that engage with fundamental human concerns – debates about texts can play an important role in social discussion of beliefs and values.",
+      "How we read a given text also depends to some extent on our particular interest in reading it. {{45}} Such dimensions of reading suggest – as others introduced later in the book will also do – that we bring an implicit (often unacknowledged) agenda to any act of reading. It doesn’t then necessarily follow that one kind of reading is fuller, more advanced or more worthwhile than another. Ideally, different kinds of reading inform each other, and act as useful reference points for and counterbalances to one another. Together, they make up the reading component of your overall literacy, or relationship to your surrounding textual environment."
      ]
     }
    ],
@@ -623,13 +625,13 @@
    "cn": "英译汉",
    "score": 10,
    "minutes": 25,
-   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET. (10 points)",
+   "directions": "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on the ANSWER SHEET. (10 points)",
    "groups": [
     {
      "id": "partC",
      "title": "Part C",
      "passage": [
-      "Within the span of a hundred years, in the seventeenth and early eighteenth centuries, a tide of emigration – one of the great folk wanderings of history – swept from Europe to America. (46) <u>This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent .</u>",
+      "Within the span of a hundred years, in the seventeenth and early eighteenth centuries, a tide of emigration – one of the great folk wanderings of history – swept from Europe to America. (46) <u>This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent.</u>",
       "(47) <u>The United States is the product of two principal forces – the immigration of European peoples with their varied ideas, customs, and national characteristics and the impact of a new country which modified these traits.</u> Of necessity, colonial America was a projection of Europe. Across the Atlantic came successive groups of Englishmen, Frenchmen, Germans, Scots, Irishmen, Dutchmen, Swedes, and many others who attempted to transplant their habits and traditions to the new world. (48) <u>But the force of geographic conditions peculiar to America, the interplay of the varied national groups upon one another, and the sheer difficulty of maintaining old-world ways in a raw, new continent caused significant changes.</u> These changes were gradual and at first scarcely visible. But the result was a new social pattern which, although it resembled European society in many ways, had a character that was distinctly American.",
       "(49) <u>The first shiploads of immigrants bound for the territory which is now the United States crossed the Atlantic more than a hundred years after the 15th-and-16th-century explorations of North America.</u> In the meantime, thriving Spanish colonies had been established in Mexico, the West Indies, and South America. These travelers to North America came in small, unmercifully overcrowded craft. During their six- to twelve-week voyage, they survived on barely enough food allotted to them. Many of the ships were lost in storms, many passengers died of disease, and infants rarely survived the journey. Sometimes storms blew the vessels far off their course, and often calm brought unbearably long delay.",
       "To the anxious travelers the sight of the American shore brought almost inexpressible relief. Said one recorder of events, “The air at twelve leagues’ distance smelt as sweet as a new-blown garden.” The colonists’ first glimpse of the new land was a sight of dense woods. (50) <u>The virgin forest with its richness and variety of trees was a real treasure-house which extended from Maine all the way down to Georgia.</u> Here was abundant fuel and lumber. Here was the raw material of houses and furniture, ships and potash, dyes and naval stores."
@@ -637,7 +639,7 @@
      "questions": [
       {
        "n": 46,
-       "text": "This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent .",
+       "text": "This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent.",
        "score": 2
       },
       {
@@ -679,7 +681,7 @@
      "questions": [
       {
        "n": 51,
-       "prompt": "You are going to host a club reading session. Write an email of about 100\nwords recommending a book to the club members.\nYou should state reasons for your recommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the letter, use “Li Ming ” instead.\nDo not write the address. (10 points)",
+       "prompt": "You are going to host a club reading session. Write an email of about 100 words recommending a book to the club members.\nYou should state reasons for your recommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
        "score": 10
       }
      ]
@@ -701,7 +703,7 @@
      "questions": [
       {
        "n": 52,
-       "prompt": "Write an essay of 160-200 words based on the following picture. In your essay,\nyou should\n1）describe the picture briefly,\n2）interpret its intended meaning, and\n3）give your comments.\nYou should write neatly on ANSWER SHEET. (20 points)\n手机时代的聚会",
+       "prompt": "Write an essay of 160-200 words based on the following picture. In your essay, you should\n1) describe the picture briefly,\n2) interpret its intended meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\n## 手机时代的聚会",
        "score": 20,
        "images": [
         "data/img/2015-q52.jpg"

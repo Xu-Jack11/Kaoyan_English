@@ -1,0 +1,93 @@
+{
+ "year": 2024,
+ "topics": [
+  "Text 1 钉子与廉价技术",
+  "Text 2 向狩猎采集者学育儿",
+  "Text 3 AI绘画与艺术家维权",
+  "Text 4 湿地保护与环保署监管"
+ ],
+ "summaries": {
+  "cloze": "**主题**：自动门的发展、优势与工作原理。\n**结构**：①自动门无需触碰即可开关，对改善残障人士通行、为商业建筑提供便利至关重要；②自滑动门1954年发明、1960年商业化，起初只是新奇之物，如今益处不断扩大，在繁忙场所和紧急情况下有助于疏导人流；③除方便进出外，侧滑式开门还能减少占地、让小型建筑充分利用空间；各类自动门依靠不同信号开启，方法虽异，原理相同；④自动门系统分析周围的光、声、重量或移动作为开门信号，传感器类型要与环境相匹配，如繁忙街道宜用压力感应垫而非动作感应。\n**解题提示**：本文为说明文，第1、9、14、18题考查逻辑关系，第10、12、13题考查固定搭配，第17、19、20题需结合“传感器与环境相匹配”的语境作答。",
+  "text1": "**主题**：从钉子的价格史看廉价技术如何改变世界。\n**结构**：第1–2段：罗马人撤离苏格兰时深埋近百万枚钉子，很可能是不想让当地人得到这批铁料；第3段：17世纪初弗吉尼亚人搬家时有时会烧掉房子回收钉子，可见这项看似简单的技术多么稀缺昂贵；第4段：Sichel 指出1700年代末至1900年代中期钉子价格下降90%，主要归功于制造商提高了生产效率；第5段：钉子本身变化不大，因此适合做长期价格研究；第6–7段：作者观点——改变世界的是廉价技术而非精巧技术，并以印刷术与纸张、太阳能板为例。",
+  "text2": "**主题**：借鉴狩猎采集社会的“共同养育”（alloparenting），让家庭更幸福。\n**结构**：第1–2段：研究者认为，非洲狩猎采集者由多名成人共同照看孩子、大孩子带小孩子的育儿方式，可减少孩子和父母的焦虑；第3段：Swanepoel 认为可将其融入西方生活，如德国让养老院与托儿所结对、鼓励不同年级孩子交朋友；第4段：西方核心家庭和“密集母职叙事”背离了进化史，可能有害；第5段：对比之下，狩猎采集社会中父母以外的成人承担近一半育儿工作；第6段：增加照料者可减轻压力和母亲抑郁，而英国托儿所规定一名照料者看护四名两三岁幼儿，反差鲜明；第7段：西方“指导式教学”可能诱发多动症，英国应探讨让哥哥姐姐帮忙育儿。",
+  "text3": "**主题**：AI 绘画工具未经许可使用艺术家作品，艺术家开始反击。\n**结构**：第1–2段：波兰数字艺术家 Rutkowski 的风格成为 AI 绘画工具 Stable Diffusion 最常用的提示词之一；第3段：这类开源程序未经许可抓取网络图片，引发伦理与版权问题；第4–5段：他的名字被用作提示词约9.3万次，远超米开朗基罗、毕加索等大师，他上网搜索时发现大量署他名字却非他所作的图片，担心自己的作品会被 AI 艺术淹没；第6–7段：其他艺术家也开始反击，Ortiz 指出艺术家面临收入损失以及数据保护和隐私问题；第8段：艺术界正组建联盟，建议用公共领域图片训练 AI 模型，并让 AI 公司与博物馆和艺术家合作。",
+  "text4": "**主题**：最高法院裁决削弱环保署监管权，切萨皮克湾湿地保护面临风险。\n**结构**：第1段：切萨皮克湾的奇迹在于复杂的自然构造，浅滩为数百种生物提供栖息地，并能蓄洪、过滤污染物、抵御风暴潮；第2段：最高法院在爱达荷州一案中裁定，受保护湿地须与水体有“连续地表连接”，大大缩小了 EPA 的监管范围，是商业利益方的胜利；第3段：马里兰州虽有州法保护湿地，但污染不分州界，流域内其他州未必提供同等保护；第4段：不应把此类裁决仅视为维护土地所有者权利，EPA 参与切萨皮克湾计划一直至关重要，能超越邻州利益集团的影响；第5段：呼吁各州立法者审视本州湿地保护措施。",
+  "partB": "**主题**：读者对“美国博物馆向原属国归还文物”报道的评论。\n**答案**：41 E（Hannah）；42 C（Buck）；43 F（Sara）；44 G（Victor）；45 B（Julia）。\n**思路**：观点匹配题要先抓每段评论的核心观点句（常在转折、让步之后或连续反问之中），再与选项做同义替换。Hannah 强调文物对原属国人民的意义；Buck 主张用复制品解决归还问题；Sara 强调获取文物须合法；Victor 驳斥“安全顾虑”；Julia 用反问揭示反对者推理的漏洞。干扰项 A（原属国从未获得赔偿）在评论中无依据，D（复制品不能取代真品）恰与 Buck 的观点相反。",
+  "partC": "**主题**：非洲象的空间认知与嗅觉觅食。文章指出“大象从不遗忘”的说法有一定根据：非洲草原象能长途跋涉、径直找到最近的水源，清楚自己相对于各种资源的位置；而在觅食方面，大象视力不佳，很可能依靠植物散发的挥发性化学物质来辨别食物，实验表明它们借助气味识别可食的树丛并评估树木质量。"
+ },
+ "questions": {
+  "1": "**句意**：____需要触碰来开启或关闭，自动门对于____残障人士进入建筑……至关重要。\n**解析**：自动门的本质特征就是“自动”——无需用手触碰即可开关，Without the need to be touched 意为“无需触碰”，正是自动门对残障人士友好的原因，D 正确。\n**排除**：A Through 通过（“通过需要触碰”不通）；B Despite 尽管（表让步，暗示自动门需要触碰，与“自动”矛盾）；C Besides 除……之外还（同样默认需要触碰，且后文没有并列内容）。",
+  "2": "**句意**：自动门对于____残障人士进出建筑的通道、为商业建筑提供普遍便利至关重要。\n**解析**：自动门无需推拉，方便行动不便的人，是“改善”无障碍通行；improve access 为常见搭配，且与并列的 helping provide general convenience 同为积极作用，C 正确。\n**排除**：A revealing 揭示；B demanding 要求；D tracing 追踪，均不能与 access 构成表示积极作用的搭配。",
+  "3": "**句意**：……并有助于为商业建筑提供普遍的____。\n**解析**：自动门让所有人进出都更省事，provide convenience 意为“提供便利”，与下文 making access ... easier for people 呼应，B 正确。\n**排除**：A experience 经历、体验；C guidance 指导；D reference 参考，均不是自动门带来的好处。",
+  "4": "**句意**：自滑动门在被美国人 Horton 和 Hewitt 发明六年____之后，于1960年开始作为商业产品出现。\n**解析**：after being invented 说明发明早于1960年，six years previously 意为“六年前（即在此之前六年）”，previously 正确。\n**排除**：B temporarily 暂时地；C successively 相继地；D eventually 最终（表示之后），均不能表达“在此之前”。",
+  "5": "**句意**：它们____是一种新奇的功能，但随着使用增多，其____已在技术发达的世界中扩展开来。\n**解析**：but as their use has grown 与前文形成“起初……后来……”的对比，start out as 意为“起初是、开始时作为”，B 正确。\n**排除**：A held on 坚持、等一下；C settled down 安定下来；D went by（时间）流逝，均不能与 as a novelty feature 构成合理搭配。",
+  "6": "**句意**：随着使用增加，它们的____已在我们这个技术先进的世界中扩展。\n**解析**：后文列举的人流管理、节省空间都是自动门的“好处”，下句 Particularly useful 也与之呼应，benefits 正确。\n**排除**：A relations 关系；B volumes 体积、数量；D sources 来源，均与后文列举的优势不符。",
+  "7": "**句意**：在繁忙场所或紧急时刻尤其____，这些门能起到人流管理的作用。\n**解析**：Particularly ____ 是形容词短语作状语，说明自动门的作用；“减少障碍、疏导人流”说明其“有用”，且与上句 benefits 呼应，useful 正确。\n**排除**：B simple 简单的；C flexible 灵活的；D stable 稳定的，均不能概括自动门在繁忙或紧急情况下发挥的作用。",
+  "8": "**句意**：这些门通过减少人们前进道路上的障碍来____人流管理（手段）。\n**解析**：act as 意为“充当、起……作用”，自动门充当了疏导人流的手段，by reducing the obstacles 说明其起作用的方式，D 正确。\n**排除**：A call for 需要、呼吁；B yield to 屈服于、让位于；C insist on 坚持，均不能表达门“发挥作用”的含义。",
+  "9": "**句意**：____让人们进出建筑更方便，许多自动门的开门方式还有助于减少其____的总面积。\n**解析**：方便进出是前文已提到的优点，本句补充另一优点“节省空间”，前后为并列递进关系，As well as（除……之外还）正确。\n**排除**：B In terms of 就……而言；C Thanks to 由于（方便进出并非节省面积的原因）；D Rather than 而不是（否定前者，不合逻辑）。",
+  "10": "**句意**：……有助于减少被它们____的总面积。\n**解析**：the total area occupied by them 意为“被门占用的总面积”，下文 sliding across one another、maximise the usable space 都在说节省空间，D 正确。\n**排除**：A connected 连接的；B shared 共享的；C represented 代表的，均不能与 area 搭配表示“占用”。",
+  "11": "**句意**：取代平开门后，这些门____小型建筑最大限度地利用内部可用空间。\n**解析**：allow sth. to do 意为“使……能够”，侧滑门不需要开合空间，使小建筑得以充分利用空间，A 正确。\n**排除**：B expect 期望；C require 要求；D direct 指引，均不能表达“使能够”。",
+  "12": "**句意**：而无需为一扇向外伸出的大门____空间。\n**解析**：clear the way for 意为“为……腾出空间、扫清道路”，平开门开合需要预留空间，侧滑门则不必，C 正确。\n**排除**：A adopt 采用；B lead the way 带路、领先；D change the way 改变方式，均不合语境。",
+  "13": "**句意**：自动门有许多类型，每种都____特定信号来判断何时开门。\n**解析**：自动门要“依靠”信号才能开启，下段 as a signal to open 也印证这一点，relying on 正确。\n**排除**：A adapting to 适应；B deriving from 源于；D pointing at 指向，均不能表达“依赖信号工作”。",
+  "14": "**句意**：____这些方法各不相同，主要的____却是一样的。\n**解析**：differ 与 remain the same 构成让步转折关系，Although 正确。\n**排除**：A Once 一旦；B Since 因为、自从；C Unless 除非，均不表让步。",
+  "15": "**句意**：方法虽然不同，但主要____保持不变。\n**解析**：与 methods 相对，表示具体方法各异而底层“原理”相同，下段即解释所有系统都把外界信号作为开门指令，principles 正确。\n**排除**：A records 记录；B positions 位置；D reasons 原因，均不能与 methods 构成“方法不同、原理相同”的对照。",
+  "16": "**句意**：每个自动门系统都会____其附近的光线、声音、重量或移动，将其作为开门信号。\n**解析**：传感器要“分析、检测”周围的信息再决定是否开门，analyses 正确。\n**排除**：A controls 控制（门无法控制周围的光和声音）；C produces 产生（门不制造这些信号）；D mixes 混合，均不合理。",
+  "17": "**句意**：传感器类型的选择要____其所处的不同环境。\n**解析**：complement 意为“与……相配、相得益彰”，传感器要与使用环境相适应，下文“繁忙街道不适合动作感应门”即为例证，D 正确。\n**排除**：A decorate 装饰；B compare 比较；C protect 保护，均不合语境。",
+  "18": "**句意**：____，繁忙的街道可能不____动作感应门，因为它会因过往行人而不停开启。\n**解析**：本句是对上句“传感器类型要与环境相配”的具体说明，For example 正确。\n**排除**：A In conclusion 总之；B By contrast 相比之下；D Above all 最重要的是，均不符合举例关系。",
+  "19": "**句意**：繁忙的街道可能不____动作感应门。\n**解析**：suit 意为“适合”，与上句 complement the different environments 呼应：环境与门的类型是否匹配，B 正确。\n**排除**：A identify 识别；C secure 保护、获得；D include 包括，均不能体现“匹配”。",
+  "20": "**句意**：压力感应垫会更____，可以限制感应区域。\n**解析**：与上句“动作感应门不适合繁忙街道”形成对照，压力垫只有被踩到才会触发，因而更“合适”；appropriate 与上文 suit 呼应，A 正确。\n**排除**：B obvious 明显的；C impressive 令人印象深刻的；D delicate 精致的、脆弱的，均不能说明它为何更适合繁忙街道。",
+  "21": "**定位**：第2段：The likely explanation is that the withdrawal was rushed, and they didn’t want the local Caledonians getting their hands on 10 tons of weapon-grade iron。\n**解析**：罗马人仓促撤离，不想让当地的喀里多尼亚人得到这10吨可制武器的铁，于是把钉子深埋，即“不让当地人得到”，D 正确（hiding them from the locals ≈ didn’t want the local Caledonians getting their hands on）。\n**排除**：A 为日后使用而保存——罗马人是撤离，且钉子近两千年后才被发现，无“日后取用”之意；B 防止生锈，未提及；C 让其升值，无中生有。",
+  "22": "**定位**：第3段：后来的文明更看重钉子中铁匠的手艺；17世纪初弗吉尼亚人搬家时有时会烧掉房子以回收钉子；末句 underlines how scarce, costly and valuable the simple-seeming technology was。\n**解析**：该例证明这项看似简单的技术在当时多么稀缺、昂贵、宝贵，D 正确。\n**排除**：A 突出早期殖民者的节俭——烧房取钉是因为钉子珍贵，并非为了说明节俭；B 说明铁匠地位高——原文说的是钉子中铁匠劳动的价值，不是社会地位，偷换概念；C 对比不同文明对钉子的态度，该例并非用于对比。",
+  "23": "**定位**：第4段：although the falling price of nails was driven partly by cheaper iron and cheaper energy, most of the credit goes to nail manufacturers who simply found more efficient ways to turn steel into nails。\n**解析**：钉子降价的主要功劳在于制造商找到了更高效的生产方法，即生产率提高，A 正确。\n**排除**：B 新能源的广泛使用——原文只说能源更便宜，且只是部分原因；D 原材料成本降低同样只是 partly 的次要原因，非 major role；C 市场竞争加剧，未提及。",
+  "24": "**定位**：第5段：Sichel studied them because they haven’t changed much ... but Roman nails are still clearly nails。\n**解析**：钉子自罗马时代以来基本没变，所以才适合长期追踪其价格，B 正确。\n**排除**：A 经历了许多技术改进，与 haven’t changed much 相反；C 比其他日常用品研究得少，原文没有比较；D 是世界上最重要的发明之一，无中生有。",
+  "25": "**定位**：第6段：it’s the cheap technologies that change the world；第7段：印刷术靠降低书写成本改变文明，并有赖纸张价格下降；太阳能板变便宜后才开始改变全球能源体系。\n**解析**：两段的核心是“廉价技术带来变革”，A 正确。\n**排除**：B 技术创新是经济成功的关键，偏离“廉价”这一核心；C 技术决定人们对世界的理解，未提及；D 复杂技术由小发明发展而来，原文是将精巧技术与廉价技术作对比，并非发展关系。",
+  "26": "**定位**：第1段：communities such as the Kung of Botswana, where each child is cared for by many adults；四岁的孩子就会帮忙照看更小的孩子；第2段：these practices, known as alloparenting。\n**解析**：alloparenting 指由社区中的多名成员（其他成人乃至年长的孩子）共同照看孩子，A 正确。\n**排除**：B 把婴儿分配给特定的成人照料者，与 many adults 相悖；C 向大孩子传授育儿技能，原文是大孩子直接帮忙照看，而非接受培训；D 由父母背着婴儿，baby-wearing 只是做法之一，且未限定为父母，以偏概全。",
+  "27": "**定位**：第3段：Swanepoel believes that there are ways to incorporate them into western life. In Germany, one scheme has paired an old people’s home with a nursery ... an arrangement akin to alloparenting。\n**解析**：德国让养老院与托儿所结对、老人帮忙照看孩子，是把共同养育融入西方生活的一种做法，B 正确。\n**排除**：A 促进代际沟通——虽涉及老人和孩子，但原文强调的是类似 alloparenting 的共同照看，而非沟通；C 西方传统育儿方式，恰恰相反，这是新的尝试；D 西方与非洲生活方式的差异，该例并非用于对比。",
+  "28": "**定位**：第4段：the western nuclear family was a recent invention which broke with evolutionary history. This abrupt shift to an “intensive mothering narrative” ... was likely to have been harmful。\n**解析**：“密集母职叙事”是脱离进化史的一种突然转变，即背离了进化进程，D 正确（departs from ≈ broke with / abrupt shift）。\n**排除**：A 减轻育儿压力，与原文“导致母亲精疲力竭”相反；B 巩固家庭关系、C 导致以孩子为中心的家庭，均无依据。",
+  "29": "**定位**：第6段：增加照料者可减轻压力和母亲抑郁；狩猎采集社会的婴儿可有十多名照料者——this contrasts starkly to nursery settings in the UK where regulations call for a ratio of one carer to four children aged two to three。\n**解析**：作者用“鲜明对比”暗示英国托儿所一人照看四个孩子，照料者太少，应提高照料者与儿童的比例，C 正确。\n**排除**：A 未达到官方要求——原文说的是规定本身，并未说托儿所不达标；B 难以找到足够的照料者，未提及；D 预防父母抑郁是增加照料者的好处，并非对托儿所的推断，偷换对象。",
+  "30": "**定位**：全文：第1–2段指出狩猎采集者的育儿经验 may be the key to bringing up more contented children，可减少孩子和父母的焦虑；第3–7段讨论其益处及如何借鉴到西方。\n**解析**：文章主旨是“向狩猎采集者学习共同养育，让孩子和父母都更幸福”，B 正确。\n**排除**：A 指导式教学只在末段提及，以偏概全；C 混龄游戏小组只是细节之一，且“孤独的孩子”无依据；D 追溯育儿史、从非洲到欧洲，文章并非讲历史演变。",
+  "31": "**定位**：第1段末：he’s become a sudden hit in the new world of text-to-image AI generation；第2段：His distinctive style is now one of the most commonly used prompts in ... Stable Diffusion。\n**解析**：他的风格是 AI 绘画工具中最常用的提示词之一，说明他在 AI 绘画工具的用户中很受欢迎，B 正确。\n**排除**：A 热衷于使用 AI 模型——是别人在用他的名字，后文他还表示担忧；C 受到其他插画师钦佩，未提及；D 专门从事古典绘画数字化——原文说他用古典绘画风格创作奇幻风景，偷换概念。",
+  "32": "**定位**：第3段：these open-source programs are built by scraping images from the internet, often without permission and proper attribution to artists。\n**解析**：开源 AI 绘画工具未经许可、未注明出处就抓取网络图片，即未经授权使用网络图片，C 正确。\n**排除**：A 对提示词反应不灵活、B 生成作品风格难以预测——第2段恰恰说明它能按提示生成相似风格；D 未经同意收集用户信息——原文说的是艺术家的图片，不是用户信息，偷换概念。",
+  "33": "**定位**：第4段末：The online search brought back work that had his name attached to it but wasn’t his。\n**解析**：搜索结果是署着他名字、却并非他创作的作品，即带有他名字的 AI 生成作品，C 正确。\n**排除**：A 接触观众的独特途径是他起初的想法（thought it might be a good way to reach new audiences），并非搜索所得；B 识别 AI 图片的新方法、D 有关其版权的激烈争论，均未提及。",
+  "34": "**定位**：末段：One suggestion is that AI models could be trained on images in the public domain, and AI companies could forge partnerships with museums and artists。\n**解析**：Ortiz 建议 AI 模型改用公共领域的图片进行训练，即采用不同的模型训练策略，D 正确。\n**排除**：A 争取新政策或法规是艺术家联盟可能采取的行动，主体错误；B 为公共机构提供服务——原文是与博物馆建立合作（以合法获取图片），并非提供服务；C 加强与 AI 用户的关系，未提及。",
+  "35": "**定位**：全文：第1–5段以 Rutkowski 为例，讲述其名字被 AI 绘画工具大量使用后的惊讶与担忧；第6–8段讲其他艺术家的反击——Ortiz 唤起公众关注、组建联盟、提出建议。\n**解析**：文章主要讲艺术家对 AI 绘画的反应与应对，A 正确。\n**排除**：B AI 在艺术创作中作用扩大，只是背景；C 隐私问题仅在第7段提及，以偏概全；D 关于 AI 发展的对立观点，文中只呈现艺术家一方的担忧，并无观点交锋。",
+  "36": "**定位**：第1段：切萨皮克湾的奇迹在于复杂的自然构造、淡咸水交汇和水陆交融；浅滩为数百种生物提供家园，同时蓄洪、过滤污染物、保护附近社区免受风暴潮侵袭。\n**解析**：作者列举了海湾的多种生态功能，说明它是宝贵的自然环境，A 正确。\n**排除**：B 有争议的保护区，第1段无“争议”；C 具有商业潜力，未提及；D 附近社区的麻烦，与“保护附近社区”相反。",
+  "37": "**定位**：第2段：the U.S. Supreme Court issued a ruling ... that provides the U.S. Environmental Protection Agency (EPA) far less authority to regulate wetlands and waterways；This narrowing of the regulatory scope ...。\n**解析**：裁决大幅减少了 EPA 监管湿地和水道的权力，即削弱其监管权，B 正确。\n**排除**：A 加强水污染控制，正相反（对水质有重大影响）；C 终结当地居民之间的冲突，未提及；D 可能遭到采矿业者反对——原文说裁决是建筑商、采矿业者等商业利益方的胜利，正反颠倒。",
+  "38": "**定位**：第2段：All this was put at great risk；第3段：Will those jurisdictions extend the same protections ...? Perhaps some, but all? That seems unlikely；第4段：the consequences can be so dire。\n**解析**：作者认为裁决让海湾面临巨大风险，且流域内其他州未必提供同等保护，态度是担忧，A 正确。\n**排除**：B 困惑，作者立场明确；C 宽慰、D 受鼓舞，与作者的忧虑相反（第3段虽提到马里兰州有州法保护是好消息，但作者随即称其为短视的看法）。",
+  "39": "**定位**：第4段：the EPA’s involvement in the Chesapeake Bay Program has long been crucial as the means to transcend the influence of deep-pocketed special interests in neighboring states；结合第3段“水和污染物不分州界”及宾州农民的例子。\n**解析**：海湾流域横跨多个州，上游一州的做法会影响下游，EPA 作为联邦机构能超越各州利益集团的影响，统筹各州共同保护海湾，即确保了保护工作的协调，D 正确。\n**排除**：A 恢复了邻近辖区之间的平衡，原文未提及“恢复平衡”；B 引发商业渔业的彻底改革，无中生有（蓝蟹只是例子）；C 树立尊重州权的榜样，与“超越各州利益影响”相悖。",
+  "40": "**定位**：末段：we would call on state lawmakers from Richmond to Albany to consider reviewing their own wetlands protections and see for themselves the enormous stakes involved。\n**解析**：作者呼吁各州立法者审视本州的湿地保护措施，认识到其中的重大利害，即应给予湿地保护应有的重视，B 正确。\n**排除**：A 警惕土地所有者的影响——第4段虽有涉及，但并非对立法者的呼吁；C 扩大野生动物保护区——邀请参观保护区只是为了让其亲眼看到湿地的价值；D 改善濒危物种的生存状况，未提及。",
+  "41": "**答案 E**。Hannah 指出尼日利亚人无法到史密森学会去看贝宁青铜器，这些文物应作为其文化遗产和民族自豪感的来源回到他们身边；它们在美国或别处的博物馆里，除了作为“稀奇物件”外毫无意义（They serve no purpose in a museum in the United States or elsewhere except as curious objects）。这与 E“文物的真正价值只有在原属国才能得到认可，在别处则不能”对应：rather than anywhere else 对应 in the United States or elsewhere。",
+  "42": "**答案 C**。Buck 认为高度逼真的复制品可以且经常被制作出来，博物馆和政府可借助近乎完美的复制品解决文物归还问题；他看重的是展览的背景和所讲述的故事，而非展品是两千年前的还是两个月前的。也就是说，原件归还后，参观者通过复制品仍能学到同样多的东西，对应 C。D“复制品再完美也不能取代真品”与其观点正好相反。",
+  "43": "**答案 F**。Sara 先讲文物激发人们求知的力量，随后以 Having said that 转折，提出核心观点：进入公共博物馆的文物应被认可为“借展、合法购买或依据条约获得”，并指出盗窃他国文物是可耻的（obscene）。legally purchased / obtained by treaty 对应 lawful，谴责偷窃对应 decent，故选 F。",
+  "44": "**答案 G**。Victor 主张古代艺术品应归还原属国，外国无权扣留；他先让步承认原属国的安保可能不如外国（Yes, there is the risk ...），随即以1990年波士顿加德纳博物馆失窃案、气候活动人士袭击欧洲博物馆展品为例，说明 Nothing is absolutely safe。可见安全顾虑不能成为拒绝归还的理由，对应 G。",
+  "45": "**答案 B**。Julia 针对评论区反对归还文物的人连续发问：为什么美国人比尼日利亚人更有权欣赏贝宁青铜器？什么内在因素让西方适合收藏这些文物？如果你认为西方更善于保存它们，请想想你为何这样假设。她意在揭示反对归还者的推理站不住脚，对应 B“反对将文物归还原属国是一种有缺陷的推理”。",
+  "46": {
+   "ref": "它们有时会跋涉六十多英里去寻找食物或水源，而且非常善于判断其他大象身在何处——即便那些大象不在它们的视线之内。",
+   "analysis": "**结构**：主语 They 后接两个并列谓语 travel ... 和 are very good at ...；to find food or water 为目的状语；working out 后接 where 引导的宾语从句；破折号后 even when 引导让步状语从句。\n**要点**：①travel more than sixty miles 译为“跋涉六十多英里”；②work out 意为“弄清、判断出”，不能译为“锻炼”或“解决”；③out of sight 意为“不在视线内、看不见”，they 指其他大象，译文可补明指代，避免歧义。"
+  },
+  "47": {
+   "ref": "研究人员确信，大象总能准确地知道自己相对于所需的各种资源处在什么位置，因此它们除了沿熟悉的路线行进之外，还能抄近路。",
+   "analysis": "**结构**：主干 The researchers are convinced that ...；that 引导宾语从句，从句中 the elephants 后接并列谓语 always know ... 和 can therefore take shortcuts；where they are 为 know 的宾语从句；in relation to 意为“相对于”；they need 为省略关系词的定语从句，修饰 resources；as well as following familiar routes 为附加成分。\n**要点**：①be convinced that 译为“确信”；②where they are in relation to all the resources they need 译为“自己相对于所需各种资源的位置”；③take shortcuts 意为“抄近路”；④A as well as B 重心在 A，译为“除了……之外，还能……”，注意调整语序。"
+  },
+  "48": {
+   "ref": "一种可能是，它们仅仅靠眼睛观察，并尝试吃下找到的植物，但这样很可能会浪费大量的时间和精力，尤其是因为它们的视力其实并不太好。",
+   "analysis": "**结构**：主干 One possibility was that ...，that 引导表语从句，从句含并列谓语 merely used ... and tried out ...；they found 为省略关系词的定语从句，修饰 the plants；but 连接转折分句，that 指代上述做法；not least because 引导原因状语从句。\n**要点**：①try out the plants 结合语境译为“尝试吃下植物”；②result in a lot of wasted time and energy 宜把名词结构转为动宾结构“浪费大量时间和精力”；③not least because 意为“尤其是因为、在很大程度上因为”，不能译为“至少因为”。"
+  },
+  "49": {
+   "ref": "植物产生的挥发性化学物质能够传播很远，而且极具特征性：每种植物或树木都有其独特的气味标识。",
+   "analysis": "**结构**：两个并列分句由 and 连接；produced by plants 为过去分词短语作后置定语，修饰 The volatile chemicals；冒号后的句子对 characteristic 作具体解释。\n**要点**：①volatile chemicals 译为“挥发性化学物质”；②can be carried a long way 为被动语态，宜译为主动“能够传播很远”；③characteristic 此处作形容词，意为“有特点的、独特的”；④odor signature 意为“气味标识、气味特征”，signature 不能直译为“签名”。"
+  },
+  "50": {
+   "ref": "该实验表明，大象很可能首先借助嗅觉辨别出可供食用的树丛，其次再借助嗅觉评估每片树丛中树木的质量。",
+   "analysis": "**结构**：主干 The experiment showed that ...；宾语从句中 use smell 后接两个不定式 to identify ... 和 (secondly) to assess ...，均表目的；that are good to eat 为定语从句，修饰 patches of trees；within each patch 为后置定语。\n**要点**：①may well 意为“很可能”；②patches of trees 译为“树丛、一片片树林”；③secondly 暗含先后顺序，前半句可补译“首先”，使逻辑更清晰；④good to eat 译为“适合食用、可供食用”。"
+  },
+  "51": {
+   "sample": "Dear Paul,\n\nI am glad to help with your oral report, and here are some suggestions.\n\nFirst, choose a scientist whose story really interests you, such as Zhang Heng, who invented an early seismograph, or Zu Chongzhi, who calculated pi with amazing accuracy. Second, collect reliable information from library books, museum websites and documentaries, focusing on his major achievements and historical background. Third, organize your report around a clear thread like “life, discoveries and influence”, and add a few vivid stories or pictures to keep your audience interested. Finally, rehearse several times and time yourself so that you can speak fluently.\n\nIf you need any Chinese materials translated, just let me know.\n\nYours,\nLi Ming",
+   "analysis": "**审题**：回复国际学生 Paul 的邮件。他要做一个关于中国古代科学家的口头报告，不知道如何准备，需要给出具体、可操作的建议。语气友好，建议条理清楚。\n**结构**：称呼 → 开头：表示乐意帮忙，引出建议 → 主体：四条建议（选择人物、搜集资料、梳理思路并加入故事、反复演练）→ 结尾：主动提供进一步帮助 → 结束语与署名 Li Ming。\n**亮点表达**：First / Second / Third / Finally 列举；such as ..., who invented ...（非限制性定语从句举例）；focusing on ...（伴随状语）；organize ... around a clear thread；keep your audience interested；rehearse；time yourself；so that you can speak fluently。"
+  },
+  "52": {
+   "sample": "As is vividly shown in the picture, people of all ages are jogging and walking in the fitness area of a park, while a smiling boy exclaims, “How nice the new little park near my home is!” The bar chart reveals that the number of parks in a city rose steadily from 406 in 2020 to 532 in 2021 and then to 670 in 2022, up about 65 percent in two years.\n\nThe picture and the chart together suggest that parks, especially small ones close to residential areas, are becoming an important part of urban life. Two factors contribute to this trend. To begin with, as living standards improve, people attach greater importance to health and need convenient places for exercise. Moreover, local governments are committed to building green and livable cities, turning vacant land into pocket parks that residents can reach within minutes. As a result, parks at people’s doorsteps have enriched their leisure time and strengthened neighborly bonds.\n\nIn my view, this is a welcome change that deserves support. While building more parks, the authorities should distribute them evenly and maintain them properly. Only in this way can every citizen enjoy a healthier and happier life.",
+   "analysis": "**审题**：本题为“图画+柱状图”组合作文。漫画中居民在“市民健身区”里散步、跑步，一名男孩称赞“家门口新建的小公园真不错！”；柱状图显示某市公园数量逐年增加：2020年406座、2021年532座、2022年670座。主题是城市公园（尤其是家门口的“口袋公园”）建设与全民健身、宜居生活。\n**结构**：第一段描述图画与数据（写出增长趋势和幅度，约65%）→ 第二段阐释寓意并分析原因：健康意识增强、政府致力于建设宜居城市，结果是丰富休闲生活、增进邻里关系 → 第三段评论：肯定这一变化，并建议合理布局、加强维护。\n**亮点表达**：As is vividly shown in the picture；rise steadily from ... to ...；up about 65 percent；attach greater importance to；be committed to；pocket parks；at people’s doorsteps；strengthen neighborly bonds；Only in this way can ...（倒装句）。"
+  }
+ }
+}
