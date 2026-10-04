@@ -1,0 +1,88 @@
+{
+ "year": 2025,
+ "topics": ["Text 1 莎士比亚“排练室”教学法", "Text 2 科研碳排放是必要代价", "Text 3 流媒体盗版之害", "Text 4 数字信息保存难题"],
+ "summaries": {
+  "cloze": "**主题**：希腊水下古城帕夫洛彼特里的沉没与发掘。\n**结构**：第1段：古城位于伯罗奔尼撒半岛南部，该海域易发地震海啸，城市逐渐下沉，海平面上升最终将其淹没；第2段：遗迹在水下沉睡数千年，因洋流变化和气候变化侵蚀天然屏障而暴露；1967年 Flemming 在收集海平面数据时首次发现水下建筑，次年带学生考察测绘，此后遗址数十年无人问津；第3段：2009年考古学家与希腊文化部合作重启发掘，借助机器人、声呐测绘等新技术使古城重见天日，发现大量纺锤坠，说明这里曾是繁荣的贸易中心。\n**解题提示**：本文为叙事性说明文，按时间顺序展开，第2、13、14题需结合时间线和上下文复现作答。",
+  "text1": "**主题**：用“排练室”方式（把莎剧演出来）教莎士比亚，能提升儿童的读写能力与情绪素养。\n**结构**：第1–2段：研究发现，只有“演”莎士比亚才能让孩子受益；RSC 的 O’Hanlon 说演员的工作方式对孩子的语言使用和自我认知影响很大；第3段：随机对照试验设计——目标组额外参加30分钟戏剧活动；第4–5段：结果——目标组词汇更丰富、写得更长，能代入角色表达情感；对照组依赖“荒岛套话”，目标组描写更开阔；第6段：O’Hanlon 认为情绪理解源于设身处地的戏剧过程；第7段：效果能否在其他剧作家身上复制尚需研究，但莎翁两万词汇带来的语言扩展很关键。",
+  "text2": "**主题**：作者（科学家）反对为减排而缩减科研，认为科研耗能是理解世界、拯救地球的必要代价，应走可持续计算之路。\n**结构**：第1段：一些科学家想缩减研究以减少碳排放，作者对此很震惊；第2段：承认实验室、仪器、数据中心耗能巨大；第3段：转折——这是理解世界必须付出的代价，科研排放“花得值”；第4段：科学家需证明科学的效用，以朋友女儿成为风能工程师为例；第5段：千年技术奖得主 Green 发明的电池技术用于大多数太阳能板，体现科学的回报；第6–7段：芬兰超级计算机 LUMI 实现碳负排放，呼吁建设更多 LUMI。",
+  "text3": "**主题**：非法流媒体盗版给合法流媒体和美国经济造成巨大损失。\n**结构**：第1段：老牌好莱坞在流媒体上难以盈利，而盗版者从中获益，年入约20亿美元；第2段：盗版网站利润率接近90%，美国电影协会（MPA）正在打击；第3段：Netflix 等合法平台最初曾遏制基于文件上传的盗版，但如今盗版每年让美国经济损失约300亿美元和25万个岗位；第4段：MPA 称盗版是有组织犯罪，2012年推动立法因好莱坞与硅谷未达成共识而失败，2017年成立 ACE 执法联盟；第5段：ACE 使北美非法流媒体数量大幅减少；第6段：预计损失仍将增加，盗版何时开始减少尚无共识。",
+  "text4": "**主题**：数字信息的长期保存是一项严峻挑战，图书馆员在其中发挥关键作用。\n**结构**：第1段：古董店里的旧物历经数十年乃至数百年仍在，因为它们是有形的；第2段：数字信息的创作者很少考虑长期保存；有形物本身即是传递信息的媒介；图书馆将实物数字化，造成“资料过剩、大海捞针”的问题；第3段：图书馆员的无私付出反而让用户以为“一切都在手机里”，低估了图书馆的作用；原生数字信息若无人管理就会消失；第4段：载体保存下来不等于信息保存下来，格式过时则无法读取（ZIP 磁盘之例）；第5段：作者坦言尚无全面的解决方案，但图书馆员在识别、保存数字资料方面不可或缺。",
+  "partB": "**主题**：癌症康复者 Andrew Fusek Peters 拍摄蝴蝶“起飞”瞬间的故事。\n**正确顺序**：D → G → C → B → H → E → A → F。\n**思路**：D 交代起因（确诊癌症，花园里的蝴蝶象征希望）；G 接着讲他（儿童作家、业余摄影爱好者）萌生拍摄飞行蝴蝶的念头并走遍英国拍摄58种本土蝴蝶；C 补充英国蝴蝶物种少且多数在衰退的背景；B 介绍其招牌作品“起飞”镜头及高速相机；H 继续讲技术细节（半按快门保存前70帧、叠加10–15帧）；E 以 That makes it sound easy 承接 H，转而强调其难度；A 中 even more challenging 递进，讲广角镜头下拍摄野生蝴蝶更难；F 以 So what’s the appeal 收尾，谈拍摄带来的快乐。",
+  "partC": "**主题**：公民科学（citizen science）。文章指出近几十年科学参与日益局限于机构，而公民科学能借助公众的好奇心克服大数据、小团队、资金不足等挑战；科学家通过游戏化、手机应用等方式吸引公众参与；“自己动手”生物实验室运动正把科学发现带出机构，交给所有有热情的人。"
+ },
+ "questions": {
+  "1": "**句意**：爱琴海这一海域____地震和海啸，这些灾害导致城市逐渐下沉。\n**解析**：be prone to 意为“易遭受（不好的事）”，该海域易发地震海啸，正与后文“导致城市下沉”构成因果，B 正确。\n**排除**：A be relevant to 与……相关；C be available to 可供……使用；D be alien to 与……格格不入/陌生，均不能表达“易受灾害影响”。",
+  "2": "**句意**：地震和海啸导致这座城市____下沉。\n**解析**：下句 The slow sea level rise（缓慢的海平面上升）提示城市沉没是一个缓慢渐进的过程，gradually 正确。\n**排除**：A accidentally 意外地；B frequently 频繁地（下沉是持续过程，而非反复发生）；D temporarily 暂时地（城市最终被淹没，并非暂时）。",
+  "3": "**句意**：三千多年前，地中海缓慢的海平面上升____了这座城市。\n**解析**：城市下沉加上海平面上升，结果是被海水“淹没”；下段 lay unseen below some 13 feet of water 也印证了这一点，submerged 正确。\n**排除**：A disguised 伪装；C relocated 搬迁；D isolated 孤立，均与“海水上升”的结果不符。",
+  "4": "**句意**：数千年来，这座城市的____一直隐没在约13英尺深的水下。\n**解析**：城市被淹没后留在水下的是“遗迹、遗址”，下文提到的建筑、街道、墓葬也都是遗迹，remains 正确。\n**排除**：A legends 传说（无法“躺在水下”）；B programs 项目；D surroundings 周边环境，均不合语境。",
+  "5": "**句意**：它们被拉科尼亚岛____的厚厚沙层覆盖着。\n**解析**：off 作介词可表示“在……附近的海面上/离……不远”，如 off the coast，此处指遗迹位于拉科尼亚岛附近海域的沙层之下，B 正确。\n**排除**：A across 横穿；C under 在……下方（沙层不在岛下）；D via 经由，均不符合方位关系。",
+  "6": "**句意**：近几十年来，不断变化的____和气候变化侵蚀了保护古城的天然屏障。\n**解析**：能“侵蚀”水下沙层屏障的是海水的流动，shifting currents（变化的洋流）正确。\n**排除**：B rivers 河流（古城位于海中）；C seasons 季节；D winds 风（难以直接侵蚀海底沙层），均不如“洋流”贴切。",
+  "7": "**句意**：……侵蚀了一道曾经____帕夫洛彼特里的天然屏障。\n**解析**：沙层“覆盖”遗迹，起到屏障作用，屏障的功能是“保护”，protected 正确。\n**排除**：A elevated 抬高；B separated 分隔；C comprised 组成，均不符合“屏障”的作用。",
+  "8": "**句意**：1967年，一项对伯罗奔尼撒海岸的科学考察正在____数据以分析海平面变化。\n**解析**：科学考察的任务是“收集”数据以供分析，gathering data 是常见搭配，A 正确。\n**排除**：B restoring 恢复；C updating 更新；D supplying 提供，均不符合“考察以分析数据”的逻辑。",
+  "9": "**句意**：考察正在收集数据，____英国海洋学家 Flemming 首次发现了水下建筑。\n**解析**：was gathering（过去进行时）+ when 引导的从句，表示“正在做某事时，突然发生了另一件事”，A 正确。\n**排除**：B until 直到；C after 在……之后；D once 一旦，均不能与过去进行时形成“正在……这时”的结构。",
+  "10": "**句意**：Flemming 首次发现了水下的____。\n**解析**：下文说团队确认了约15座建筑、庭院、街道网络和墓葬，均属“建筑结构”，structures 正确。\n**排除**：A belongings 个人财物；B resources 资源；C products 产品，均不能概括建筑遗迹。",
+  "11": "**句意**：一年后，他带着几名学生回来____该地点并绘制遗址地图。\n**解析**：与 map the site 并列，考察工作是“勘察、考察”，examine 正确。\n**排除**：A preserve 保护；B select 挑选；C display 展示，均不是初步考察时的动作。",
+  "12": "**句意**：____最初令人兴奋的发现，该遗址在此后几十年里一直无人问津。\n**解析**：“发现令人兴奋”与“几十年无人问津”构成让步转折，Despite 正确。\n**排除**：B Unlike 不像；C Besides 除……之外还；D Among 在……之中，均不能表达让步。",
+  "13": "**句意**：遗址此后数十年都处于____状态，直到考古学家重返。\n**解析**：lie undisturbed 表示“未受打扰地存在”，与 before archaeologists would return 呼应，D 正确。\n**排除**：A unchallenged 未受质疑；B unknown 不为人知（遗址已被发现，并非未知）；C unorganized 无组织的。",
+  "14": "**句意**：2009年，考古学家 Gallou 和 Henderson 与希腊文化部合作____了对帕夫洛彼特里的发掘。\n**解析**：上段末句说遗址沉寂数十年后考古学家才“重返”，此处应为“重新开始”发掘，resumed 正确。\n**排除**：A suspended 暂停；B transferred 转移；D canceled 取消，均与后文的发掘成果相矛盾。",
+  "15": "**句意**：自20世纪60年代以来，水下考古____和工具取得了巨大进步。\n**解析**：与 tools 并列且能“取得进步”，下文的机器人、声呐测绘即为“技术”，techniques 正确。\n**排除**：A policies 政策；B theories 理论；C documents 文件，均与下文的技术装备不呼应。",
+  "16": "**句意**：团队____机器人、声呐测绘和先进图形技术来勘测遗址。\n**解析**：employ ... to do 意为“使用……来做”，employed 正确。\n**排除**：A ordered 订购/命令；B provided 提供；D adjusted 调整，均不能与“用来勘测”搭配。",
+  "17": "**句意**：2009至2013年，他们得以让这座水下古城____。\n**解析**：bring sth. to light 为固定搭配，意为“使……重见天日、揭示”，light 正确。\n**排除**：A effect（bring into effect 使生效）；C reality（无 bring to reality 的惯用法）；D mind（bring to mind 使想起），均不合语境。",
+  "18": "**句意**：帕夫洛彼特里的三条主干道____约50座长方形建筑。\n**解析**：道路的作用是“连接”建筑，connected 正确。\n**排除**：A crossed 穿过（道路不会穿过建筑）；C blocked 阻挡；D altered 改变，均不合逻辑。",
+  "19": "**句意**：发掘出大量米诺斯风格的纺锤坠，____帕夫洛彼特里曾是繁荣的贸易中心。\n**解析**：考古发现作为证据“表明、暗示”某种结论，suggesting 正确。\n**排除**：A expecting 期待；C predicting 预测（针对未来）；D recalling 回忆，主语均不能是“发掘出的文物”。",
+  "20": "**句意**：……一个拥有____纺织业的繁荣贸易中心。\n**解析**：与 thriving（繁荣的）呼应，大量纺锤坠说明纺织业“强劲、兴旺”，robust 正确。\n**排除**：B diverse 多样的（文中未体现种类多）；C marginal 边缘的（与“繁荣”矛盾）；D dependent 依赖的。",
+  "21": "**定位**：第1段 But only if you act him out；第6段 part of what you do in drama is put yourself in different shoes；末段 children “using their whole bodies to bring words to life”。\n**解析**：“排练室”教学法就是让学生像演员一样把莎剧演出来，即扮演剧中角色，C 正确。\n**排除**：A 改写台词，原文未提及（写漂流瓶信是两组共同的写作任务）；B 观看 RSC 演员演出、D 跟随 RSC 艺术家学习戏剧，均为无中生有。",
+  "22": "**定位**：第3段：随机对照试验把学生分为目标组和对照组，目标组额外获得30分钟以戏剧为基础的活动。\n**解析**：分组对比的目的是检验“教学方式的改变（加入戏剧活动）能否提升学习效果”，A 正确。\n**排除**：B 扩大词汇量是否有助于阅读流利度，偷换研究对象；C 情绪是否影响对复杂作品的理解，因果颠倒；D 课堂活动是否激发对艺术的兴趣，原文未研究。",
+  "23": "**定位**：第5段：对照组学生依赖“荒岛套话”，如棕榈树；而目标组“更开阔”，描绘了天空、大海和天气状况等更广阔的画面。\n**解析**：通过对比可知，对照组只会用老套的意象描写，描写能力薄弱，A 正确。\n**排除**：B 忽略细节——原文对比的是“套话 vs 开阔丰富”，而非细节多少；C 写作风格随意，未提及；D 偏爱大词，与目标组“用词更高级”相混淆。",
+  "24": "**定位**：第6段：O’Hanlon 说情绪理解很可能与排练室过程有关，在其中你习惯于设想自己的处境；戏剧的一部分就是“把自己放到不同的人的位置上”；第4段：目标组孩子“设身处地成为文学人物并表达其情感”。\n**解析**：促进情绪素养的是代入、认同文学角色，B 正确。\n**排除**：A 富有想象力地写作，未抓住“代入角色”的核心；C 从大自然汲取灵感，与“荒岛描写”细节混淆；D 关注现实情境，恰是对照组的做法（想象自己会如何反应）。",
+  "25": "**定位**：末段：效果能否在任何剧作家身上复制？O’Hanlon 说需要更多研究，但指出莎士比亚使用两万个词，而日常仅两千词，这给孩子的生活带来了语言的“大幅扩展”。\n**解析**：她暗示莎士比亚语言的特殊丰富性是关键，即该方法可能用于莎剧效果最好，A 正确。\n**排除**：B 莎剧语言对学生太难，与“语言扩展”的积极评价相反；C 其他剧作家会被纳入小学教育、D 学生不愿学习其他剧作家，均无依据。",
+  "26": "**定位**：第1段：I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions。\n**解析**：令作者震惊的是部分科学家想缩减研究，B 正确（scale back ≈ reduce）。\n**排除**：A 不愿减排，正好相反；C 怀疑可持续能源，未提及；D 项目中浪费电力，原文是“减少高能耗研究”，并非浪费。",
+  "27": "**定位**：第3段：this is a price we must pay for understanding the world；The carbon emissions from technological research are well spent: ultimately this research will safeguard the future of our planet。\n**解析**：作者认为科研碳排放“花得值”，从长远看能保护地球，是合理的，D 正确。\n**排除**：A 造成严重后果、B 引发毫无根据的担忧（作者承认耗能巨大是事实）、C 目前难以处理，均不符合作者态度。",
+  "28": "**定位**：第5段：“认识到科学与工程能带来的希望”是设立千年技术奖的初衷；Green 发明的技术用于全球大多数太阳能板，使我们真正有机会减少碳排放。\n**解析**：该例说明科学研究能带来实实在在的回报，从而支持“科研耗能值得”的观点，C 正确。\n**排除**：A 伟大科学家的成就，只看到表面而非论证目的；B 应对气候变化的紧迫性，不是例子要说明的；D 培养人类创造力的价值——奖项是“颂扬”创造力，例子重点在科研成果带来的好处。",
+  "29": "**定位**：第6段：LUMI 是碳负排放的超级计算机，建在旧造纸厂，由附近河流供电，其余热为周边居民供暖；末段：要实现净零目标，就要建设更多 LUMI。\n**解析**：LUMI 是可持续计算的典范，A 正确。\n**排除**：B 战胜能源短缺，未提及；C 得益于全球净零倡议，因果颠倒（是 LUMI 助力净零）；D 探索智能的力量，是对 power our intelligence（为智能供能）的误读。",
+  "30": "**定位**：第2段承认科研工具耗能巨大；第3段认为这是理解世界必须付出的代价；末两段主张让高能耗计算变得可持续，而非缩减。\n**解析**：作者认为高能耗的科研工作不可避免，关键是让其可持续，C 正确。\n**排除**：A 零排放建模需要额外资金、B 超级计算机需求难以满足，均未提及；D 研究目标应现实，无关。",
+  "31": "**定位**：第1段：老牌好莱坞流媒体每年亏损数十亿美元；盗版者从合法平台翻录影视内容，放到非法平台上，每年从广告和订阅中赚取约20亿美元。\n**解析**：合法流媒体本就难以盈利，又面临盗版者的掠夺，即面临真实威胁，D 正确。\n**排除**：A 从好莱坞吸取教训，未提及；B 收入超过有线电视，与“担心永远不如有线电视赚钱”相反；C 不受广告商欢迎，无依据。",
+  "32": "**定位**：第3段：Initially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy, which had largely been based on file uploads。\n**解析**：Netflix 等合法平台的兴起曾帮助遏制以文件上传为主的盗版，即在打击非法文件共享中发挥了作用，A 正确。\n**排除**：B 从与盗版的斗争中获益，未提及；C 承诺成为大的就业创造者，与“盗版导致25万岗位流失”混淆；D 曾与文件上传平台合作，无中生有。",
+  "33": "**定位**：第4段：Rivkin joined the MPA in 2017 after the organization failed five years earlier to build consensus between Hollywood and Silicon Valley to win passage of legislation ...\n**解析**：MPA 未能与硅谷达成共识推动立法，可推知其合作请求被硅谷拒绝，A 正确。\n**排除**：B 领导全国抗议，未提及；C 被敦促成立执法组，原文是 MPA 自己成立 ACE；D 未获地方当局支持，原文说 ACE 帮助地方当局抓捕盗版者。",
+  "34": "**定位**：末段 Hawley：尽管有人乐观地认为盗版可能在2027年前趋于平稳，但对于盗版何时开始减少，各方尚无共识。\n**解析**：盗版在近期内不太可能减少，C 正确（plateau 趋于平稳 ≠ decline 下降）。\n**排除**：A 尽管有新立法也无法遏制，过于绝对；B 将压垮合法流媒体，夸大其词；D 被一些分析师低估，未提及。",
+  "35": "**定位**：全文反复给出数据：盗版年入20亿美元、利润率近90%、美国每年损失300亿美元和25万个岗位、全球损失710亿美元、合法流媒体累计损失将达1130亿美元。\n**解析**：文章着重强调非法流媒体造成的经济损害，D 正确。\n**排除**：A 协调反盗版行动的必要性，只是第4段背景；B 侵权的犯罪性质，仅一句引语；C 消除盗版的前景，末段恰恰说前景不明。",
+  "36": "**定位**：第1段：古董店里的旧物历经几十年甚至几百年仍然存在，因为它们是有形的；第2段随即追问：无形的数字信息生命周期如何，其创作者很少为长期保存做打算？\n**解析**：作者以有形旧物的留存作铺垫，引出数字信息的保存问题，C 正确。\n**排除**：A 介绍古董收藏、D 评论其历史价值，都只停留在例子本身；B 与日常用品对比，未提及。",
+  "37": "**定位**：第2段：The thing itself is the medium that delivers the information；第4段：数字物件即使被保存，也可能只保存了载体而非信息本身。\n**解析**：有形物本身就是信息的媒介，无需借助设备或格式，即传递信息更直接，B 正确。\n**排除**：A 原文说这些物件“往往不顾创作者的忽视”而留存下来，并非更少受忽视；C 需要更多有意保存，与“数字信息需要更多照料”相反；D 更不易受损，原文未作比较。",
+  "38": "**定位**：第3段：图书馆员的无私付出可能对自己不利——用户举起手机说“一切都在这里”，以此证明图书馆对今天的研究者不那么重要了。\n**解析**：馆员把资料数字化得如此便利，反而让人低估了图书馆的价值，B 正确。\n**排除**：A 资料过剩，是第2段 embarrassment of riches 的干扰；C 研究者表现不佳，无关；D 用户过度依赖技术，只是现象，并非“导致的结果”。",
+  "39": "**定位**：第4段：随着技术进步、格式过时，物件就毫无用处；你是否曾无助地盯着一张 ZIP 磁盘，心想怎么把文件取出来？\n**解析**：ZIP 磁盘是过时格式的代表，说明信息可能因格式淘汰而丢失，C 正确。\n**排除**：A 通过非常规手段读取文件的困难，偏离重点；B 不断迁移数字资产不可行，原文恰恰认为必须持续迁移；D ZIP 磁盘是数字存储介质，不是模拟设备。",
+  "40": "**定位**：全文：有形物得以留存，而数字信息需要更多照料；载体保存不等于信息保存；作者坦言目前没有全面的保存方案，未来研究者会发现数字领域充满挑战。\n**解析**：全文主旨是保存数字历史记录是一大挑战，D 正确。\n**排除**：A 应努力保存文物，过于宽泛，且未突出“数字”；B 图书馆员的贡献应被认可，只是末段的部分内容；C 访问数据库对研究者至关重要，偏离主旨。",
+  "41": "**答案 D**。文章以人物故事开篇：D 段“五年前的夏末，Peters 被诊断出肠癌”，在花园里看到彩蝶，视之为希望与抗争的象征。这是全文的起因，且后文 G 段中 the butterflies、the cancer 都需要 D 段先行交代。",
+  "42": "**答案 G**。G 段 Peters watched the butterflies 中的定冠词 the 回指 D 段的 painted lady butterflies；as he recovered from a successful operation to remove the cancer 承接 D 段的确诊与等待手术。G 段末讲他走遍英国拍摄全部58种本土蝴蝶，自然引出 C 段关于英国蝴蝶物种的背景。",
+  "43": "**答案 B**。C 段介绍英国蝴蝶的背景后，B 段回到 Peters 的摄影：其招牌镜头是蝴蝶“起飞”，并提出 How does he capture it? Technology helps，介绍高速相机。其后给定的 H 段继续讲技术细节（半按快门保存前70帧、在 Photoshop 中叠加），与 B 段衔接紧密。",
+  "44": "**答案 E**。E 段 That makes it sound easy, and artificial 中的 That 指 H 段所述的相机预存帧和 Photoshop 叠加，作者随即转折：Peters 坚称这仍是巨大挑战，通常要拍一两万张才能得到一组清晰的起飞序列。其后 A 段 These take-off shots are even more challenging 中的 even more 与 E 段的 massive challenge 形成递进。",
+  "45": "**答案 F**。A 段讲在野外近距离拍摄蝴蝶极其困难，F 段以 So what’s the appeal of a long, sweaty day in pursuit of an elusive, fast-moving wild animal? 设问，总结拍摄的辛苦并点出其乐趣（感觉棒极了，成为心灵银行里的财富），适合作全文结尾。",
+  "46": {
+   "ref": "近几十年来，科学逐渐形成了一种惯例，即人们只能通过大学之类的机构来参与科学研究。",
+   "analysis": "**结构**：主干为 Recent decades have seen science move into a convention（see sb./sth. do 结构）；where 引导定语从句修饰 convention；such as a university 举例说明 institutions。\n**要点**：①“时间 + have seen”属于无灵主语句，宜译为“近几十年来，科学……”，不能直译为“近几十年看见了”；②convention 意为“惯例、常规”；③engagement in the subject 中 the subject 指上文的 science，译为“参与科学研究”。"
+  },
+  "47": {
+   "ref": "但是，借助公众与生俱来的好奇心，让非科学家直接参与研究过程，就有可能克服其中许多挑战。",
+   "analysis": "**结构**：句首 by utilising ... 和句末 by engaging ... 都是方式状语；主干为 it is possible to overcome many of these challenges，it 为形式主语。\n**要点**：①utilise 译为“利用、借助”；②natural curiosity 意为“天生的好奇心”；③these challenges 指上文的大数据、小团队、资金限制等挑战；④engage sb. in sth. 意为“让某人参与某事”。"
+  },
+  "48": {
+   "ref": "科学家们采用了多种方式让公众参与他们的研究，例如把数据分析做成网络游戏，或把样本采集做成智能手机应用程序。",
+   "analysis": "**结构**：主干 Scientists have employed a variety of ways；to engage ... 为不定式作定语修饰 ways；such as 引出两个举例，第二个 sample collection into ... 承前省略了 making。\n**要点**：①employ 此处意为“采用”，不是“雇用”；②make A into B 意为“把 A 做成/变成 B”；③翻译省略结构时需补出动词“把……做成”。"
+  },
+  "49": {
+   "ref": "这些群体是一场迅速发展的生物技术社会运动的一部分，参与这场运动的公民科学家和专业科学家都力图让科学发现走出研究机构，交到任何怀有热情的人手中。",
+   "analysis": "**结构**：主干 These groups of people are part of a ... movement；of citizen scientists and professional scientists 为后置定语，说明运动的参与者；seeking to ... 为现在分词短语作后置定语，修饰 scientists；take A out of B and put it into C 为并列结构。\n**要点**：①英文后置定语较长，宜拆译为两个分句；②biotechnological social movement 译为“生物技术社会运动”；③put it into the hands of anyone with the enthusiasm 意为“交到任何有热情的人手中”，体现科学普及化。"
+  },
+  "50": {
+   "ref": "这些中心汇集资源、相互协作、跳出固有思维，寻找解决方案和绕开障碍的途径，为科学本身而探索科学，不受在正规机构中工作的传统束缚。",
+   "analysis": "**结构**：主语 They（指 DIY 生物实验中心）后接四个并列谓语 pool、collaborate、think、find；to explore ... 为目的状语；without the traditional boundaries of ... 为方式状语。\n**要点**：①They 指代上句的 do-it-yourself biology centres，宜明确译出；②pool resources 汇集资源，think outside the box 跳出思维定式；③ways around obstacles 意为“绕开障碍的方法”；④for the sake of science 意为“为了科学本身”；⑤boundaries 此处引申为“限制、束缚”，formal setting 指“正规机构”。"
+  },
+  "51": {
+   "sample": "Dear Paul,\n\nThank you for your interest in the craft show and your kind offer of help.\n\nThe young craftsmen will show how traditional crafts can be given a modern touch. For example, they will make paper-cuts with laser tools, weave bamboo lampshades fitted with smart lights and design embroidery patterns on computers. Visitors can also have a try under their guidance.\n\nAs for the preparation, I would appreciate it if you could help design the English posters and guide international students on the day of the show. Could we meet in the library at 4 p.m. this Friday to discuss the details?\n\nYours,\nLi Ming",
+   "analysis": "**审题**：回复同学 Paul 的邮件，需回答两个问题：①青年手艺人将展示什么（创新手工艺的具体内容）；②Paul 可以帮忙做哪些准备工作。\n**结构**：称呼 → 感谢对方关心与帮助 → 介绍展示内容（传统工艺 + 现代创新，举2–3个例子）→ 安排具体任务并约定商量时间 → 结束语与署名 Li Ming。\n**亮点表达**：give ... a modern touch；have a try under their guidance；I would appreciate it if you could ...；As for the preparation；discuss the details。"
+  },
+  "52": {
+   "sample": "The table above shows the number of major durable consumer goods owned by every 100 households in China at the end of each year from 2014 to 2023. The ownership of air conditioners nearly doubled, soaring from 75.2 to 145.9 units, while that of washing machines and refrigerators rose steadily from 83.7 to 98.2 and from 85.5 to 103.4 respectively.\n\nSeveral factors contribute to this trend. First and foremost, thanks to sustained economic growth, people’s disposable income has increased considerably, enabling them to afford more household appliances. Moreover, as living standards improve, people attach greater importance to comfort and convenience, so many families now install an air conditioner in each room. By contrast, the slower growth of washing machines and refrigerators suggests that they have already become basic necessities in almost every home.\n\nIn my opinion, these figures vividly reflect the remarkable improvement in people’s lives. However, while enjoying modern conveniences, we should choose energy-efficient appliances and recycle old ones properly, so that a better life goes hand in hand with a greener environment.",
+   "analysis": "**审题**：表格作文，展示2014—2023年全国居民平均每百户年末空调、洗衣机、电冰箱拥有量：空调从75.2台增至145.9台（近乎翻倍），洗衣机从83.7台增至98.2台，电冰箱从85.5台增至103.4台。需描述数据、解释趋势背后的原因并发表评论。\n**结构**：第一段描述数据（突出空调增幅最大，其他两项平稳上升，注意 respectively 等比较表达）→ 第二段分析原因：收入增长、生活品质追求、洗衣机冰箱已基本普及 → 第三段评论：生活改善的缩影，同时倡导节能环保消费。\n**亮点表达**：nearly doubled / soar from ... to ...；respectively；contribute to this trend；disposable income；attach greater importance to；basic necessities；go hand in hand with。"
+  }
+ }
+}
