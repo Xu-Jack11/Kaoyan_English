@@ -1,0 +1,88 @@
+{
+ "year": 2026,
+ "topics": ["Text 1 驴的驯化起源", "Text 2 好莱坞影视业外流", "Text 3 广播百年与“偶遇”之乐", "Text 4 林火抑制与计划烧除"],
+ "summaries": {
+  "cloze": "**主题**：人工智能与审美。\n**结构**：①AI 潜力巨大，但也可能“主导”人类体验，审美就是其中一个领域；②AI 可作为协作工具，与人类创造力结合产生艺术成果；③举例：虚拟试妆、面部分析、个性化推荐，帮助人们探索自我；④转折：AI 带来伦理隐忧——加剧审美压力、美颜滤镜导致自我认知扭曲与身体焦虑；⑤结论：AI 可以增进我们对美的欣赏，但不应取代真实的人类体验。\n**解题提示**：本文“利—弊—结论”结构清晰，第1、12、15题均考查逻辑衔接词。",
+  "text1": "**主题**：基因组研究揭示驴的驯化史。\n**结构**：第1段：研究者利用200多头驴的基因组，将驴的驯化追溯到约7000年前东非的一次单一事件，比马早约3000年；第2段：Brooks 称 DNA 让动物“自己讲述历史”，弥补文字记载的不足；第3段：研究方法与发现——驯化于肯尼亚和非洲之角，约2500年后扩散至欧亚；第4段：驯化原因尚不明确，但与撒哈拉沙漠扩张、干旱同时发生，驴善于穿越沙漠；第5–6段：研究意义——为考古指明方向，并有助于在气候变化下改进对驴的管理。",
+  "text2": "**主题**：好莱坞影视制作外流，加州应加大激励。\n**结构**：第1–2段：艺术指导工会暂停培训项目，劝人勿入行，反映好莱坞衰落已到临界点；第3段：其他地区以税收优惠吸引制作，如佐治亚州最高30%可转让税收抵免；第4–5段：流媒体“巅峰剧集”时代曾支撑洛杉矶，但2022年后流媒体由追求用户增长转向追求盈利，新剧数量锐减；第6段：若制作量长期低于临界水平，人才与收入将流失；第7段：呼吁加州及洛杉矶电影委员会立即加大激励，保住产业地位。",
+  "text3": "**主题**：无线电广播百年——从“人人可听”到收听艺术的式微。\n**结构**：第1段：先驱者视广播为送给所有人的礼物（Reith：天才与愚人、富人与穷人同时收听）；第2段：牛津博德利图书馆展览记录1922–1939年广播如何改变日常生活；第3段：趣味见证，如邻里“拄着扫帚聊天”减少；第4段：广播大体受欢迎，线性广播带来“意外收获”（serendipity）；第5段：智能手机与播客让人只听自己想听的，偶遇之乐正在消退；第6段：作者呼吁理性看待技术带来的习惯变化——创新总会发生，值得留意并思考是否适度管控。",
+  "text4": "**主题**：长期灭火导致林火“赤字”，需要恢复计划烧除。\n**结构**：第1段：Swetnam 从树木年轮中惊讶地发现，殖民者到来前北美林火频繁；第2段：频繁的低强度火灾让生态系统更健康；第3段：研究对比历史火灾频率与近几十年记录，发现火灾数量不足预期的四分之一；第4段：这体现了现代灭火的有效性，但灭火与气候变化共同削弱了人类扑灭极端火灾的能力；第5段：Martin 主张把“健康之火”带回森林，计划烧除可降低后续火灾烈度；第6段：气候变化让这项工作更必要也更困难。",
+  "partB": "**主题**：商界人士应该多读书。\n**正确顺序**：F → B → E → H → A → C → G → D。\n**思路**：F 提出观点（别总往外跑，坐下来读本书）；B 用 But 转折指出商界很少读书，结尾“a vast ocean awaits”引出阅读推荐；E（科普写作的黄金时代）、H（读小说……我们也正处于翻译的黄金时代，too 呼应 E）、A（And just read a single poem，继续推荐）构成推荐清单；A 末句“reading is self-help in action”引出 C（神经科学证明阅读有益）；G 用 also 补充更多益处；D 总结并号召：阅读是治愈“只工作不娱乐”的良方。",
+  "partC": "**主题**：“科学素养”概念的历史演变。文章指出科学素养的定义随时间变化导致科学教育目标模糊，主张回归1945年时强调“科学是什么、如何运作”的原始理念，并回顾了美国19世纪末以来普及科学教育的努力，以及二战如何催生了对科学素养的高度关注。"
+ },
+ "questions": {
+  "1": "**句意**：AI 世界充满改善生活的潜力；____，AI 也有可能以我们难以控制的方式主导我们的体验。\n**解析**：前句讲 AI 的积极潜力，后句讲潜在危害（potential hazard），前后语义相反，需要转折词。Still 置于句首表示“然而，尽管如此”，正确。\n**排除**：B Therefore 表因果；C Afterward 表时间先后；D Instead 表“取而代之”，暗示有了危害就没有潜力，与原文“两者并存”不符。",
+  "2": "**句意**：AI 也存在以我们难以控制的方式____我们体验的潜在危险。\n**解析**：空格后 in ways we might find difficult to control（以难以控制的方式）提示该动作具有强势、压倒性的特点，dominating（主导、支配）与“难以控制”语义呼应，正确。\n**排除**：A reviewing 审视；B narrating 叙述；C ignoring 忽视，均无法与“难以控制的危险”构成合理语义。",
+  "3": "**句意**：其中一个这样的____就是我们如何理解和体验美。\n**解析**：One such 指代上文“AI 可能主导的体验”中的一类，后文 how we understand and experience beauty 是一个具体“领域/方面”，area 正确。\n**排除**：A reason 原因；C clue 线索；D belief 信念，均不能概括“理解和体验美”这一方面。",
+  "4": "**句意**：AI 可以成为多种创意活动中的协作工具。将人类创造力与 AI 算法____，可以产生独特的艺术成果。\n**解析**：前句 collaborative tool（协作工具）、后句 These collaborations（这些合作）都提示人与 AI 的“结合”，Combining A and B 正确。\n**排除**：A Balancing 平衡；B Distinguishing 区分（与“合作”相反）；D Introducing 引入，均不符合“合作”语境。",
+  "5": "**句意**：人机结合可以产生在人类看来很美的独特艺术____。\n**解析**：lead to（导致、带来）后接“结果”，且由 that are beautiful to the human eye 修饰，应为具体的艺术“成果”，outcomes 正确。\n**排除**：A prospects 前景；C ambitions 抱负；D sentiments 情感，均不能被“看上去很美”修饰，也不是“结合”带来的直接产物。",
+  "6": "**句意**：____，AI 既方便又引人入胜，它能提供虚拟试妆体验……\n**解析**：上段说 AI 可作为协作工具产生美的成果，本段具体介绍虚拟试妆、面部分析等应用，是对上文的举例说明，For instance 正确。\n**排除**：A At first 起初（表时间顺序）；B By comparison 相比之下（表对比）；D In general 总体而言（表概括），均不符合“举例”逻辑。",
+  "7": "**句意**：在虚拟试妆中，你可以虚拟地____妆容、发型、服装甚至整容效果。\n**解析**：try-on experiences（试穿/试用体验）的本质就是“试”，test 与 try-on 同义复现，正确。\n**排除**：B copy 复制；C link 连接；D save 保存，都不是“试妆”的核心动作。",
+  "8": "**句意**：……在做出任何实际改变____先虚拟试一试。\n**解析**：虚拟试妆的意义在于“真正改变之前”先预览效果，before 正确。\n**排除**：A upon（一……就）；B beyond（超出）；C through（通过），均不合逻辑。",
+  "9": "**句意**：人们现在可以尝试不同的造型并____自己的偏好，可能扩大审美理想的范围。\n**解析**：与 experiment with different looks 并列，表示“探索、发现”自己的喜好，explore 正确；末段 a fun vehicle for self-discovery（自我发现）也与之呼应。\n**排除**：B recall 回忆；C simplify 简化；D cherish 珍惜，均与“尝试不同造型”不搭配。",
+  "10": "**句意**：AI 算法能够____面部特征和皮肤状况，以提供个性化的美容建议。\n**解析**：要“提供个性化建议”，前提是对面部和皮肤进行“分析”，analyze 正确。\n**排除**：A recover 恢复；B arrange 安排；C reserve 预留，均无法构成提供建议的前提。",
+  "11": "**句意**：这种____方法旨在迎合个人偏好，提升为每个人的独特特征量身定制的美的理念。\n**解析**：上句 personalized、本句 cater to individual preferences、tailored to each person 都指向“定制化”，customized 正确。\n**排除**：A localized 本地化的；B normalized 标准化的（与“个性化”相反）；C randomized 随机的。",
+  "12": "**句意**：____，AI 可以成为自我发现的有趣工具。\n**解析**：本句是对前文虚拟试妆、个性化推荐等内容的总结，“通过这种方式”AI 帮助人们发现自我，In this way 正确。\n**排除**：A At best 充其量（含贬义）；B To the contrary 恰恰相反（表转折）；C By definition 根据定义，均不符合总结语气。",
+  "13": "**句意**：虽然 AI 带来令人兴奋的可能性，但它也引发了伦理____。\n**解析**：While 引出让步转折，后文列举了审美压力、身体焦虑等问题，raise concerns（引发担忧）是固定搭配，concerns 正确。\n**排除**：A divisions 分歧；B expectations 期望；D values 价值观，raise ethical values 不合语境，也无法引出后文的“风险”。",
+  "14": "**句意**：存在加剧社会审美____、延续难以企及的审美标准的风险。\n**解析**：与 perpetuating unattainable beauty standards 并列，都是负面影响；beauty pressures（容貌压力）与 deepening（加深）搭配自然，pressures 正确。\n**排除**：B mysteries 奥秘；C understandings 理解；D suspicions 怀疑，均不能体现负面社会影响。",
+  "15": "**句意**：____，AI 驱动的美颜滤镜和修图工具会导致自我认知扭曲……\n**解析**：上句说 AI 可能加剧审美压力，本句补充另一种风险，二者为递进/并列关系，Additionally（此外）正确。\n**排除**：A Approximately 大约；C Alternatively 或者（表选择）；D Accidentally 偶然地，均不符合逻辑。",
+  "16": "**句意**：美颜工具会导致自我认知扭曲，并____对身体的不满。\n**解析**：与 lead to distorted self-perception 并列，同样表示“导致”，contribute to（促成、导致）正确。\n**排除**：A deal with 处理；B result from 由……引起（因果颠倒）；D focus on 关注。",
+  "17": "**句意**：____这项技术进行社交展示可能会造成伤害。\n**解析**：rely on 是固定搭配，“依赖美颜技术来进行社交形象展示”会带来危害，relying 正确。\n**排除**：A starting on 开始；B checking on 检查；D working on 致力于，均不能说明危害的来源。",
+  "18": "**句意**：……可能造成伤害——____身体形象问题、自尊心降低和社交焦虑。\n**解析**：破折号后列举的是“伤害”的具体例子，such as 正确。\n**排除**：A apart from 除……之外；C regardless of 不管；D prior to 在……之前，均不能引出举例。",
+  "19": "**句意**：虽然 AI 能提升我们对美的____，但它不应取代真实的人类体验。\n**解析**：enhance our appreciation of beauty（增进对美的欣赏）是自然搭配，与前文“理解和体验美”呼应，appreciation 正确。\n**排除**：A imitation 模仿；C preservation 保存；D consumption 消费，均与“美”的审美体验不符。",
+  "20": "**句意**：AI 不应____真实的人类体验以及我们从彼此身上发现美时产生的情感联系。\n**解析**：while 引导让步，前半句肯定 AI 的作用，后半句强调其局限，“不应取代”人类真实体验，replace 正确，也与第2题“主导”呼应。\n**排除**：B seize 抓住；C share 分享；D reflect 反映，均无法体现作者的担忧。",
+  "21": "**定位**：第1段末两句：researchers ... trace their domestication back to a single event around 7,000 years ago in East Africa — about 3,000 years before humans tamed horses。\n**解析**：驴的驯化比人类驯服马早约3000年，即驴被驯化的时间早于马，C 正确。\n**排除**：A 原文说“驴何时何地与人类结缘一直是个谜”，是对研究者而言神秘，并非对人类祖先而言；B 原文明确是 a single event（单一事件），与“多次驯化”相反；D 古代旅行者生动描绘驴，原文未提及。",
+  "22": "**定位**：第2段 Brooks 的话：DNA 让动物讲述自己的历史；文字记载并不总能准确记录；DNA 序列提供了关于动物生存环境与经历的“生物学证词”。\n**解析**：其核心是基因分析能揭示驴的历史，D 正确。\n**排除**：A 最早栖息地难以追踪，原文恰恰说研究可以追踪；B 读取 DNA 越来越容易，未提及；C 原文认为文字记载有局限，与“包含重要线索”相反。",
+  "23": "**定位**：第3段末句：They then traced how the animals spread across the rest of the continent into Europe and Asia about 2,500 years later。\n**解析**：研究追踪了驴如何从东非扩散到非洲其他地区乃至欧亚大陆，即在世界范围内的传播，A 正确（spread ≈ dispersed widely）。\n**排除**：B 原文说牧民驯服了野驴，不是驴“在牧民帮助下存活”；C 行为特征、D 适应环境，研究均未涉及。",
+  "24": "**定位**：第4段：驯化原因尚不清楚，但 Kreier 报道驯化与撒哈拉变大变干同时发生；Orlando 说驴善于驮运、善于穿越沙漠；史前人类可能借助驴穿越扩张中的撒哈拉。\n**解析**：Orlando 的话为“为何驯化驴”提供了一种可能的解释，B 正确。\n**排除**：A 他并未挑战传统观念；C 未呼吁从撒哈拉寻找证据；D 他的话与 Kreier 的报道相互印证，并非观点不同。",
+  "25": "**定位**：末段：understanding the equines' genetic makeup ... might improve their management in the future, as climate change alters the planet's environment, write the authors。\n**解析**：作者认为研究有助于未来更好地管理驴，B 正确。\n**排除**：A 驴是家养动物，原文不涉及“野生动物保护”；C 恢复早期驴种，未提及；D 气候变化只是背景，研究并非为了提高气候意识。",
+  "26": "**定位**：第2段：工会暂停培训项目，声明“在众多会员仍失业时，我们无法心安理得地鼓励你从事这一行”，这种悲观是对好莱坞衰落的反应，该衰落已到临界点。\n**解析**：声明反映了好莱坞的低迷处境，D 正确（gloomy ≈ decline / pessimism）。\n**排除**：A 公众对电影兴趣下降，原文未提及；B 怀旧情绪，无依据；C 原文讲的是南加州产业衰退，而非其吸引力。",
+  "27": "**定位**：第3段：其他地区不断加大激励措施吸引影视制作；佐治亚州提供最高30%的可转让税收抵免，另加10%。\n**解析**：佐治亚州是“以税收优惠吸引影视制作”的例子，A 正确。\n**排除**：B 改善影视设施，未提及；C 刺激州际竞争——原文是各地争相吸引制作，例子本身说明的是“激励措施”，并非为了刺激竞争；D 为影视制作募集资金，与“税收抵免”不同。",
+  "28": "**定位**：第5段：As the streamers' emphasis changed from subscriber growth to profitability, prices for the services went up and the number of new shows went down。\n**解析**：流媒体的重心从用户增长转向盈利，即战略重点改变，导致新剧减少、“巅峰剧集”时代过去，B 正确。\n**排除**：A 失去技术优势、C 订户对大平台心存戒备、D 订户不满新剧，原文均未提及。",
+  "29": "**定位**：第6段：If productions ... dip below a critical level for too long, the industry's essential talent will drift away along with enormous sums of revenue。\n**解析**：核心人才将流失到其他地方，即“人才外流”，C 正确。\n**排除**：A 产品质量下降、B 对外国人才的需求、D 劳动力成本上升，原文均未提及。",
+  "30": "**定位**：末段：加州电影委员会等应立即行动，大幅改善激励措施以留住现有剧集、吸引新制作；Let's go on with the show ... and make sure the show doesn't go on without us。\n**解析**：作者强调加州要保住在影视产业中的地位，不能让产业“抛下我们继续”，A 正确。\n**排除**：B 吸引比以往更多的投资，原文意在“留住并吸引”，并无“超过以往”之意；C 追求更高制作标准、D 加强与其他州的协作，均未提及。",
+  "31": "**定位**：第1段：先驱者视广播为送给所有人的礼物；Reith 说无论多少人在听，总有足够的份额留给别人……天才与愚人、富人与穷人同时收听。\n**解析**：广播不分贵贱人人可听，即对所有人开放，A 正确。\n**排除**：B “消除精神上的孤独”不等于改善人际关系；C 人类智慧的奇迹，未提及；D 孤立文化是作者在末段对智能手机的担忧，与 Reith 无关。",
+  "32": "**定位**：第2段：展览 records how radio changed everyday life from 1922 to 1939，并利用信件、日记、小说和1939年的听众调查笔记。\n**解析**：展览主题是广播对早期听众日常生活的影响，A 正确。\n**排除**：B 公共音乐教育，第3段提到工人吹口哨学新曲只是细节；C 技术创新过程、D 广播先驱，均非展览主题。",
+  "33": "**定位**：第4段：受访者发现广播带来了“许多我从未想过会感兴趣的东西”；linear speech broadcasting brought the gift of serendipity；作者开车时意外学到了17世纪历史和听诊器史。\n**解析**：serendipity 即“意外发现的好运”，说明听众能获得意外收获，C 正确。\n**排除**：A 研究不足，未提及；B 第5段说这种“偶遇之乐”正在消退，与“魅力犹存”相反；D 节目变化不大，未提及。",
+  "34": "**定位**：第3段：自从有了广播，街头斗殴少了，但驻足“拄着扫帚把聊天”也少了；第6段：街坊都有了收音机后，失去了“拄着扫帚把聊天”这一邻里习惯；末句建议放下手机，拿着扫帚到门前去。\n**解析**：该短语指邻居们拿着扫帚在门前闲聊的习惯，即随意聊天，B 正确。\n**排除**：A 制造噪音、C 小争吵（原文说争吵减少，与聊天是两回事）、D 哼流行歌曲，均不符。",
+  "35": "**定位**：末段：发明塑造着我们所有人，值得留意技术-社会习惯的变化，并思考是否要稍加控制或保护孩子；无论如何，创新总会发生；我们今天担忧智能手机的孤立文化，而1939年就有人惋惜广播让邻里闲聊消失。\n**解析**：作者以历史类比说明：对创新既不必恐慌，也不应漠视，应理性看待，D 正确。\n**排除**：A 技术应以造福人类为目标，过于空泛；B 作者只是提出“收听艺术是否濒危”的疑问，并未主张采取行动复兴；C 只针对青少年，范围过窄。",
+  "36": "**定位**：第1段：he was surprised to find a record of repeated blazes dating back hundreds of years before European colonists arrived；有的树留下20多处火痕。\n**解析**：令他惊讶的是殖民者到来之前林火的频繁程度，即火灾数量，D 正确（precolonial ≈ before European colonists arrived）。\n**排除**：A 美国树木年轮研究稀缺，未提及；B 古代欧洲的灭火措施，无关；C 20世纪70年代“扑灭一切”是他入职时的任务，并非令他惊讶之处。",
+  "37": "**定位**：第2段：火灾频繁说明不可能严重；频繁的低强度火灾让生态系统更健康——清除枯病树木、减少竞争、遏制疾病蔓延，且火势会在以往的火烧迹地熄灭。\n**解析**：全段围绕低强度火灾的益处展开，C 正确。\n**排除**：A 以往火灾的成因，未讨论；B 处理病树只是益处之一，以偏概全；D 森林生态系统的重要性，偏离段落重心。",
+  "38": "**定位**：第3段：研究对比历史火灾频率与过去几十年记录的林火，uncovered a striking shortfall；火灾数量不到无灭火情况下预期数量的四分之一。\n**解析**：近几十年火灾频率明显降低，B 正确（shortfall / less than a quarter ≈ markedly decreased）。\n**排除**：A 强度大幅波动、C 威胁被低估、D 记录被误读，均无依据。",
+  "39": "**定位**：第4段：火灾“赤字”证明了现代灭火的有效性；但灭火与气候变化的共同后果削弱了人类扑灭火灾的能力，尤其是在最危险天气条件下燃起的火灾。\n**解析**：长期灭火导致可燃物堆积，反而使极端火灾更难扑灭，D 正确。\n**排除**：A 人员需要更多培训、B 公众质疑其有效性（原文反而说其有效），均未提及；C 使传统手段失效，无依据。",
+  "40": "**定位**：第5段 Martin：人们必须把健康的火带回需要它的地方，她在优胜美地主持计划烧除；第6段 Prichard：林火因气候变化更严重，we need this work even more，只是工作更难开展。\n**解析**：两人都认为有必要引入计划烧除（prescribed burns / more fires in our forests），C 正确。\n**排除**：A 预测大型林火很困难，未提及；B 急需评估计划烧除的使用——两人是支持而非“评估”；D 加倍火情监测，是对 double-edged sword 的字面误读。",
+  "41": "**答案 B**。F 段建议商务人士“待在家里坐下来读本书”。B 段以 But for the most part, this isn't what the business community does 转折，this 指代 F 中的“坐下来读书”，指出商界很少读书，结尾用“a vast ocean awaits（一片广阔的海洋在等待）”引出下文具体的阅读推荐。",
+  "42": "**答案 E**。B 段末尾指出商业书籍之外还有广阔的阅读天地，E 段开始具体推荐：科普写作正处于黄金时代。其后 H 段说“We are living through a golden age of translation too”，too 与 E 段的 golden age of science writing 呼应，确认 E 位于 H 之前。",
+  "43": "**答案 A**。H 段推荐阅读小说，A 段以 And just read a single poem 继续推荐（读一首诗），And 表承接，构成“科普—小说—诗歌”的推荐清单。A 段末句“reading is self-help in action（阅读就是行动中的自助）”引出 C 段关于阅读益处的论述。",
+  "44": "**答案 G**。C 段说明神经科学证明阅读有益：提升专注力、增进社会理解、激发想象力。G 段 Reading has also been found to make us more helpful ... 中 also 表明是在 C 段基础上补充更多益处（更乐于助人、减少偏见、延长寿命）。",
+  "45": "**答案 D**。D 段“只工作不玩耍，聪明孩子也变傻。良方就在手边：阅读便宜、简单，最重要的是有趣。今年就解放你的想象力吧”是对全文的总结和号召，适合作结尾。",
+  "46": {
+   "ref": "追溯这一术语的历史，我们可以看到，“科学素养”的定义是如何随着时间的推移而不断变化的，这使得人们在确定科学教育目标时陷入了混乱。",
+   "analysis": "**结构**：Tracing the history of the term 为现在分词短语作状语，逻辑主语是 we；主干 we can see how...；how 引导宾语从句；muddying the waters 为现在分词短语作结果状语；when it comes to 意为“在涉及……时”。\n**要点**：①shift over time 译为“随时间推移而变化”；②muddy the waters 是习语，字面“把水搅浑”，意为“把事情弄得更复杂/混乱”，应意译；③结果状语可译为“这使得……”，单独成句更通顺。"
+  },
+  "47": {
+   "ref": "回归最初那种科学素养理念——更注重讲授科学是什么以及科学如何运作，而不是死记硬背科学事实——似乎正是当今社会迫切需要的。",
+   "analysis": "**结构**：主干为 A return ... seems like something...；which 引导非限制性定语从句修饰 that version of scientific literacy，从句内 focused more on ... and less on ... 形成对比；something 后省略了关系代词 that，society today desperately needs 作定语。\n**要点**：①名词 A return to 宜转译为动词“回归”；②插入的定语从句可用破折号处理，避免句子过长；③more on ... less on ... 译作“更注重……而不是……”。"
+  },
+  "48": {
+   "ref": "教育工作者提出，应让学生在高中完成详细的实验练习，他们认为这类练习之所以有益，主要是因为它能够提高学生的逻辑推理能力和观察能力。",
+   "analysis": "**结构**：主干 Educators advanced the idea；of having students complete ... 为介词短语作 idea 的定语（have sb. do 让某人做）；in the belief that ... 为介词短语作伴随状语，that 引导同位语从句解释 belief；as a way to ... 表方式。\n**要点**：①advance the idea 意为“提出主张/想法”，不能译为“推进”；②in the belief that 可拆译为“他们认为……”；③beneficial primarily as a way to enhance ... 可译为“主要是作为提高……的一种方式而有益”，再调整为通顺的汉语。"
+  },
+  "49": {
+   "ref": "直到20世纪40年代“科学素养”这一说法出现，科学才有了它所需要的强有力的口号，从而能够引起公众的关注，并使改进科学教育成为一项重要的国家目标。",
+   "analysis": "**结构**：It wasn't until ... that ... 为强调句型，译为“直到……才……”；the formidable slogan it needed 中 it needed 是省略关系词的定语从句；to command ... and make ... 为两个并列的不定式，修饰/说明 slogan 的作用；make + 宾语（improving science education）+ 宾补（an important national goal）。\n**要点**：①come along 意为“出现”；②formidable 此处为褒义“强有力的、令人敬畏的”，不能译作“可怕的”；③command public attention 意为“博得/吸引公众关注”。"
+  },
+  "50": {
+   "ref": "美国对科学素养的高度关注最初源于第二次世界大战期间科学技术所发挥的关键作用，以及人们所认为的美国士兵存在的种种不足。",
+   "analysis": "**结构**：主干 The intense focus ... grew out of A, as well as B；on scientific literacy 与 in the United States 均为后置定语，修饰 focus；as well as 连接两个并列宾语。\n**要点**：①intense focus 译为“高度关注”；②grow out of 意为“源于、由……产生”；③perceived deficiencies 中 perceived 表示“被察觉到的、被认为的”，译为“人们所认为（察觉到）的不足”，体现主观判断。"
+  },
+  "51": {
+   "sample": "Dear Paul,\n\nI am so glad that the family letters I posted moved you. Most of them were written decades ago by ordinary Chinese people, such as soldiers far from home, students studying abroad and parents in the countryside. In plain words, they record everyday life, express deep love for family and country, and pass on values like honesty and diligence. That is why we treasure them as part of our cultural heritage.\n\nLuckily, many of these letters are now on display in an exhibition at our city museum, which will run until the end of next month. Admission is free. If you like, we can visit it together this weekend, and I will gladly explain the stories behind them.\n\nBest wishes,\nLi Ming",
+   "analysis": "**审题**：回复好友 Paul 的邮件，需回应两个问题：①多介绍一些中国家书的情况（写信人、内容、意义）；②这些家书是否在某处公开展出（何时何地、能否去看），可顺势发出同去的邀请。\n**结构**：称呼 → 第一段：表达高兴，介绍家书的作者、内容与价值 → 第二段：告知展出地点与时间，提出陪同参观 → 结束语与署名 Li Ming。\n**亮点表达**：be moved by；such as soldiers far from home；pass on values like ...；treasure them as part of our cultural heritage；be on display；Admission is free；I will gladly explain the stories behind them。"
+  },
+  "52": {
+   "sample": "The charts above present the findings of a survey on consumers' attitudes toward elderly-care robots. As the pie chart shows, 39.3% of the respondents fully accept such robots and 32.8% partly accept them, while 27.9% reject them. The bar chart further reveals that safety is the top concern for 46.3% of consumers, followed by price (24.9%) and convenience (10.7%).\n\nSeveral factors may account for these figures. On the one hand, as our population ages rapidly and young adults are occupied with work, robots that can monitor health, remind seniors to take medicine and keep them company offer a promising solution. This explains why over 70 percent of people are open to them. On the other hand, elderly people are physically fragile, so a single malfunction or data leak could cause serious harm. Naturally, safety outweighs price and convenience in consumers' minds.\n\nIn my view, elderly-care robots will play an increasingly important role in an aging society. To win wider trust, manufacturers should give top priority to reliability and privacy protection, and the government should establish strict standards. Meanwhile, robots should complement rather than replace the warmth of family care.",
+   "analysis": "**审题**：本题首次考查“双图表”作文：饼图展示消费者对养老机器人的接受度（完全接受39.3%、部分接受32.8%、不接受27.9%），柱状图展示首要关注点（安全46.3%、价格24.9%、便利10.7%）。需要同时描述两图，并解释“多数人愿意接受但最关心安全”的原因。\n**结构**：第一段描述两图核心数据（注意数据准确、比较关系清楚）→ 第二段分析原因：老龄化与照护需求推动接受度；老人身体脆弱、故障与隐私风险使安全成为首要关注 → 第三段评论与建议：企业重视可靠性与隐私保护、政府制定标准，同时机器人应补充而非取代亲情陪伴。\n**亮点表达**：account for these figures；be occupied with；keep them company；offer a promising solution；outweigh；give top priority to；complement rather than replace。"
+  }
+ }
+}

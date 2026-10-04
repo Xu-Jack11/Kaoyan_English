@@ -710,7 +710,7 @@ class ExamView {
         if (a !== q.answer) fix = `<span class="sfix">正确：${q.answer}</span>`;
       }
       const text = a ? (sub === 'ordering' ? '' : g.options[a] || '') : '';
-      return `<span class="${cls}" data-hl-skip data-q="${n}" role="button" tabindex="0" aria-label="第 ${n} 题，${a ? '已选 ' + a : '未作答'}"><span class="bn">${n}</span>${a ? `<b class="sl">${a}</b><span class="st">${esc(text)}</span>` : '<span class="sph">拖放/点击选择</span>'}${fix}${a && !locked ? '<span class="sx" title="清除" data-clear="1">×</span>' : ''}</span>`;
+      return `<span class="${cls}" data-hl-skip data-q="${n}" role="button" tabindex="0" aria-label="第 ${n} 题，${a ? '已选 ' + a : '未作答'}"><span class="bn">${n}</span>${a ? `<b class="sl">${a}</b><span class="st">${esc(text)}</span>` : (locked ? '<span class="sph">未作答</span>' : '<span class="sph">拖放/点击选择</span>')}${fix}${a && !locked ? '<span class="sx" title="清除" data-clear="1">×</span>' : ''}</span>`;
     };
 
     const left = h('div', { class: `passage partb partb-${sub}`, dataset: { hl: `p:${g.id}` } });
