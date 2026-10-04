@@ -37,15 +37,15 @@ export async function renderResult(app, attemptId) {
       'tr',
       {},
       h('td', {}, r.section.cn),
-      h('td', {}, a.submitted?.[r.sectionId] ? (r.objective ? `${r.correct} / ${r.total}` : `${r.answered} / ${r.total} 已作答`) : '未提交'),
-      h('td', {}, a.submitted?.[r.sectionId] ? (r.objective || !r.pending ? `${fmtScore(r.score)} / ${fmtScore(r.max)}` : `待自评（${fmtScore(r.score)} / ${fmtScore(r.max)}）`) : '—'),
+      h('td', {}, r.partsDone ? `${r.objective ? `${r.correct} / ${r.doneTotal}` : `${r.answered} / ${r.doneTotal} 已作答`}${r.partsDone < r.partsTotal ? `（已提交 ${r.partsDone}/${r.partsTotal} 篇）` : ''}` : '未提交'),
+      h('td', {}, r.partsDone ? (r.objective || !r.pending ? `${fmtScore(r.score)} / ${fmtScore(r.max)}` : `待自评（${fmtScore(r.score)} / ${fmtScore(r.max)}）`) : '—'),
       h('td', {}, h('div', { class: 'bar' }, h('i', { style: `width:${r.max ? (r.score / r.max) * 100 : 0}%` })))
     )
   );
 
   const grids = parts.map((p) => {
     const objective = OBJECTIVE.has(p.section.type);
-    const submitted = !!a.submitted?.[p.section.id];
+    const submitted = !!a.submitted?.[p.id];
     return h(
       'div',
       { class: 'rg-part' },

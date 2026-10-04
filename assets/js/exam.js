@@ -1,12 +1,13 @@
 // The computer-based test screen, modelled on the IELTS on-computer interface:
 // top bar (candidate / timer / tools), part banner, split passage|questions panes with a
 // draggable divider, and a bottom navigator with per-question buttons, Review flag and
-// previous/next arrows. Sections (大题) are submitted independently; submitted sections
+// previous/next arrows. Each part (cloze, each reading text, Part B, translation, each writing
+// task) is submitted independently; submitted parts
 // switch to review mode with answers and explanations.
 
 import { h, esc, $, $$, richText, promptText, countWords, fmtClock, fmtScore, toast, modal } from './util.js';
 import { attempts, settings } from './store.js';
-import { loadPaper, loadExplanations, partsFor, sectionsFor, gradeSection, summarize, isAnswered, OBJECTIVE, SUBTYPE_CN } from './data.js';
+import { loadPaper, loadExplanations, partsFor, sectionsFor, gradePart, summarize, migrateSubmitted, isAnswered, OBJECTIVE, SUBTYPE_CN } from './data.js';
 import { Highlighter } from './highlight.js';
 import { openSettings, openHelp } from './dialogs.js';
 
@@ -49,7 +50,7 @@ class ExamView {
     this.warned = new Set();
     this.a.answers ||= {};
     this.a.flags ||= {};
-    this.a.submitted ||= {};
+    migrateSubmitted(this.a);
     this.a.selfScores ||= {};
     this.a.highlights ||= {};
   }
@@ -58,8 +59,17 @@ class ExamView {
     return this.a.status === 'finished';
   }
 
-  reviewVisible(sectionId) {
-    return !!this.a.submitted[sectionId] && (this.finished || settings.get().instantFeedback);
+  isLocked(partId) {
+    return !!this.a.submitted[partId];
+  }
+
+  reviewVisible(partId) {
+    return this.isLocked(partId) && (this.finished || settings.get().instantFeedback);
+  }
+
+  /** What one submit button covers: a single reading text, otherwise the whole section. */
+  unitName(p) {
+    return p.group.id.startsWith('text') ? p.en : p.section.cn;
   }
 
   // ---------------------------------------------------------------- lifecycle
@@ -116,7 +126,7 @@ class ExamView {
             'ul',
             {},
             h('li', {}, '答题区分左右两栏：左侧为原文，右侧为题目；拖动中间分隔条可调整宽度。'),
-            h('li', {}, '可随时修改答案。每个大题可单独点击「提交本大题」，提交后该大题答案锁定并自动批改。'),
+            h('li', {}, '可随时修改答案。完形、每篇阅读、新题型、翻译、写作都可单独提交（「提交本篇 / 提交本大题」），只锁定并批改这一部分；「交卷」才会提交全部。'),
             h('li', {}, '选中文字后在弹出菜单中选择「高亮」或「笔记」；也可右键操作，点击已有高亮可清除。'),
             h('li', {}, '勾选底部「Review」可标记题目以便回看；底部题号按钮显示作答状态。'),
             h('li', {}, a.timeLimit ? '计时结束时系统将自动提交所有未提交的大题。' : '本次为正计时练习，不会自动交卷。'),
@@ -337,7 +347,7 @@ class ExamView {
   async timeUp() {
     this.stopTimer(false);
     this.a.elapsed = this.a.timeLimit;
-    for (const s of this.sections) if (!this.a.submitted[s.id]) this.doSubmit(s.id, true);
+    for (const p of this.parts) if (!this.isLocked(p.id)) this.doSubmit(p.id, true);
     this.finish();
     await modal({ title: '考试时间到', body: '<p>时间已用完，系统已自动提交全部大题。</p>', buttons: [{ label: '查看成绩报告', value: true, primary: true }], dismissible: false });
     location.hash = `#/result/${this.a.id}`;
@@ -396,7 +406,7 @@ class ExamView {
       const info = this.qIndex.get(this.curQ);
       if (!info) return;
       const t2 = info.part.section.type;
-      if ((t2 === 'cloze' || t2 === 'reading') && !this.a.submitted[info.part.section.id]) {
+      if ((t2 === 'cloze' || t2 === 'reading') && !this.isLocked(info.part.id)) {
         this.setAnswer(this.curQ, e.key.toUpperCase());
         const r = $(`.q[data-q="${this.curQ}"] input[value="${e.key.toUpperCase()}"]`, this.right);
         if (r) r.checked = true;
@@ -407,7 +417,7 @@ class ExamView {
   // ---------------------------------------------------------------- answers
   setAnswer(n, val) {
     const info = this.qIndex.get(n);
-    if (!info || this.a.submitted[info.part.section.id]) return;
+    if (!info || this.isLocked(info.part.id)) return;
     if (val == null || val === '') delete this.a.answers[n];
     else this.a.answers[n] = val;
     this.save();
@@ -418,7 +428,7 @@ class ExamView {
   /** Part B letters are used at most once per group: placing a letter clears it elsewhere. */
   placeLetter(n, letter) {
     const info = this.qIndex.get(n);
-    if (!info || this.a.submitted[info.part.section.id]) return;
+    if (!info || this.isLocked(info.part.id)) return;
     if (letter) {
       for (const q of info.part.group.questions) {
         if (q.n !== n && this.a.answers[q.n] === letter) this.setAnswer(q.n, null);
@@ -437,13 +447,13 @@ class ExamView {
     const nums = p.qNums;
     const range = nums.length > 1 ? `${nums[0]}–${nums[nums.length - 1]}` : `${nums[0]}`;
     const verb = { cloze: '阅读短文，为每个空选择最佳答案', reading: '阅读短文，回答', partB: `完成${SUBTYPE_CN[sec.subtype] || '新题型'}`, translation: '将划线部分译成中文', writing: '按要求完成写作' }[sec.type];
-    const submitted = this.a.submitted[sec.id];
-    const g = gradeSection(this.paper, this.a, sec.id);
+    const unit = this.unitName(p);
+    const g = gradePart(this.paper, this.a, p.id);
     let action;
-    if (submitted) {
-      action = h('span', { class: 'badge-done' }, this.reviewVisible(sec.id) ? `${sec.cn} 已提交 · ${g.objective ? `得分 ${fmtScore(g.score)}/${fmtScore(g.max)}` : g.pending ? '待自评' : `自评 ${fmtScore(g.score)}/${fmtScore(g.max)}`}` : `${sec.cn} 已提交`);
+    if (this.isLocked(p.id)) {
+      action = h('span', { class: 'badge-done' }, this.reviewVisible(p.id) ? `${unit} 已提交 · ${g.objective ? `得分 ${fmtScore(g.score)}/${fmtScore(g.max)}` : g.pending ? '待自评' : `自评 ${fmtScore(g.score)}/${fmtScore(g.max)}`}` : `${unit} 已提交`);
     } else if (!this.finished) {
-      action = h('button', { class: 'btn btn-submit-sec', type: 'button', onclick: () => this.submitSection(sec.id) }, `提交本大题 · ${sec.cn}`);
+      action = h('button', { class: 'btn btn-submit-sec', type: 'button', onclick: () => this.submitPart(p.id) }, `${p.group.id.startsWith('text') ? '提交本篇' : '提交本大题'} · ${unit}`);
     }
     this.partBar.innerHTML = '';
     this.partBar.append(
@@ -482,7 +492,7 @@ class ExamView {
     this.parts.forEach((p) => {
       const active = p.id === this.curPartId;
       const answered = p.qNums.filter((n) => isAnswered(this.a.answers[n])).length;
-      const wrap = h('div', { class: `nav-part ${active ? 'active' : ''} ${this.a.submitted[p.section.id] ? 'submitted' : ''}`, dataset: { part: p.id } });
+      const wrap = h('div', { class: `nav-part ${active ? 'active' : ''} ${this.isLocked(p.id) ? 'submitted' : ''}`, dataset: { part: p.id } });
       wrap.append(
         h('button', { class: 'nav-part-label', type: 'button', onclick: () => this.goto(p.qNums.includes(this.curQ) ? this.curQ : p.qNums[0]) }, h('span', { class: 'np-name' }, p.nav), h('span', { class: 'np-count', dataset: { count: p.id } }, `${answered}/${p.qNums.length}`))
       );
@@ -519,7 +529,7 @@ class ExamView {
     b.classList.toggle('flagged', !!this.a.flags[n]);
     b.classList.toggle('current', n === this.curQ);
     b.classList.remove('right', 'wrong');
-    if (this.reviewVisible(sec.id) && OBJECTIVE.has(sec.type)) b.classList.add(this.a.answers[n] === info.q.answer ? 'right' : 'wrong');
+    if (this.reviewVisible(info.part.id) && OBJECTIVE.has(sec.type)) b.classList.add(this.a.answers[n] === info.q.answer ? 'right' : 'wrong');
     b.setAttribute('aria-label', `第 ${n} 题${isAnswered(this.a.answers[n]) ? '，已作答' : '，未作答'}${this.a.flags[n] ? '，已标记' : ''}`);
   }
 
@@ -554,7 +564,7 @@ class ExamView {
     this.left.scrollTop = 0;
     this.right.scrollTop = 0;
     const type = p.section.type;
-    const review = this.reviewVisible(p.section.id);
+    const review = this.reviewVisible(p.id);
     this.root.dataset.type = type;
     this.root.classList.toggle('review', review);
     if (type === 'cloze') this.renderCloze(p, review);
@@ -598,7 +608,7 @@ class ExamView {
 
   optionList(q, review, { inline = false } = {}) {
     const chosen = this.a.answers[q.n];
-    const locked = !!this.a.submitted[this.qIndex.get(q.n).part.section.id];
+    const locked = this.isLocked(this.qIndex.get(q.n).part.id);
     const wrap = h('div', { class: `opts ${inline ? 'opts-inline' : ''}`, role: 'radiogroup' });
     for (const [k, text] of Object.entries(q.options)) {
       let cls = 'opt';
@@ -699,7 +709,7 @@ class ExamView {
     const g = p.group;
     const sub = sec.subtype;
     const qmap = new Map(g.questions.map((q) => [q.n, q]));
-    const locked = !!this.a.submitted[sec.id];
+    const locked = this.isLocked(p.id);
     const slotHtml = (n, block = false) => {
       const q = qmap.get(n);
       const a = this.a.answers[n];
@@ -794,7 +804,7 @@ class ExamView {
       const n = Number(slot.dataset.q);
       const info = this.qIndex.get(n);
       if (!info) continue;
-      const locked = !!this.a.submitted[info.part.section.id];
+      const locked = this.isLocked(info.part.id);
       slot.addEventListener('click', (e) => {
         if (e.target.dataset.clear && !locked) {
           e.stopPropagation();
@@ -861,7 +871,7 @@ class ExamView {
     const p = this.currentPart();
     this.left.innerHTML = '';
     this.right.innerHTML = '';
-    this.renderPartB(p, this.reviewVisible(p.section.id));
+    this.renderPartB(p, this.reviewVisible(p.id));
     this.hl.applyAll(this.root);
     this.left.scrollTop = ls;
     this.right.scrollTop = rs;
@@ -885,7 +895,7 @@ class ExamView {
       if (u && window.getSelection()?.isCollapsed) this.goto(Number(u.dataset.q));
     });
     this.left.append(review ? this.summaryBox(p) || '' : '', h('h2', { class: 'passage-title' }, 'Part C · Translation'), passage);
-    const locked = !!this.a.submitted[p.section.id];
+    const locked = this.isLocked(p.id);
     const list = h('div', { class: 'qlist' });
     for (const q of g.questions) {
       const ta = h('textarea', { class: 'answer-text', rows: 4, placeholder: '在此输入中文译文…', readonly: locked || null, 'aria-label': `第 ${q.n} 题译文` });
@@ -944,7 +954,7 @@ class ExamView {
       h('figure', { class: 'prompt-fig' }, h('img', { src, alt: `第 ${q.n} 题图片`, loading: 'lazy', onclick: () => modal({ title: '图片', body: h('img', { src, class: 'lightbox', alt: '' }), wide: true, buttons: [] }) }))
     );
     this.left.append(h('h2', { class: 'passage-title' }, p.section.title.replace('Section III  ', '')), prompt, ...imgs);
-    const locked = !!this.a.submitted[p.section.id];
+    const locked = this.isLocked(p.id);
     const ta = h('textarea', { class: 'answer-text essay', placeholder: 'Type your answer here… 在此输入作文', readonly: locked || null, spellcheck: 'false', 'aria-label': `第 ${q.n} 题作文` });
     ta.value = this.a.answers[q.n] || '';
     const target = q.score === 10 ? '约 100 词' : '160–200 词';
@@ -989,30 +999,29 @@ class ExamView {
   }
 
   // ---------------------------------------------------------------- submit
-  async submitSection(sectionId) {
-    const sec = this.paper.sections.find((s) => s.id === sectionId);
-    const parts = this.parts.filter((p) => p.section.id === sectionId);
-    const nums = parts.flatMap((p) => p.qNums);
+  async submitPart(partId) {
+    const p = this.parts.find((x) => x.id === partId);
+    const unit = this.unitName(p);
+    const nums = p.qNums;
     const unanswered = nums.filter((n) => !isAnswered(this.a.answers[n]));
     const flagged = nums.filter((n) => this.a.flags[n]);
     const body = h(
       'div',
       {},
-      h('p', {}, `确定提交「${sec.cn}」吗？提交后本大题答案将被锁定${settings.get().instantFeedback ? '，并立即显示批改结果与解析' : ''}。`),
-      unanswered.length ? h('p', { class: 'warn-text' }, `还有 ${unanswered.length} 题未作答：${unanswered.join('、')}`) : h('p', { class: 'ok-text' }, '本大题已全部作答。'),
+      h('p', {}, `确定提交「${unit}」吗？只提交第 ${nums[0]}${nums.length > 1 ? '–' + nums[nums.length - 1] : ''} 题，其他部分不受影响；提交后这部分答案将被锁定${settings.get().instantFeedback ? '，并立即显示批改结果与解析' : ''}。`),
+      unanswered.length ? h('p', { class: 'warn-text' }, `还有 ${unanswered.length} 题未作答：${unanswered.join('、')}`) : h('p', { class: 'ok-text' }, '这部分已全部作答。'),
       flagged.length ? h('p', { class: 'muted' }, `已标记 Review 的题目：${flagged.join('、')}`) : null
     );
-    const ok = await modal({ title: '提交本大题', body, buttons: [{ label: '继续作答', value: false }, { label: '确认提交', value: true, primary: true }] });
+    const ok = await modal({ title: `提交 · ${unit}`, body, buttons: [{ label: '继续作答', value: false }, { label: '确认提交', value: true, primary: true }] });
     if (!ok) return;
-    this.doSubmit(sectionId);
-    const g = gradeSection(this.paper, this.a, sectionId);
+    this.doSubmit(partId);
+    const g = gradePart(this.paper, this.a, partId);
     if (settings.get().instantFeedback) {
-      toast(g.objective ? `${sec.cn}：${g.correct}/${g.total} 正确，得分 ${fmtScore(g.score)} / ${fmtScore(g.max)}` : `${sec.cn} 已提交，请对照参考答案自评`, 'ok', 4500);
-    } else toast(`${sec.cn} 已提交`, 'ok');
-    const allDone = this.sections.every((s) => this.a.submitted[s.id]);
-    if (allDone) {
+      toast(g.objective ? `${unit}：${g.correct}/${g.total} 正确，得分 ${fmtScore(g.score)} / ${fmtScore(g.max)}` : `${unit} 已提交，请对照参考答案自评`, 'ok', 4500);
+    } else toast(`${unit} 已提交`, 'ok');
+    if (this.parts.every((x) => this.isLocked(x.id))) {
       this.finish();
-      const go = await modal({ title: '全部大题已提交', body: '<p>本次练习的所有大题均已提交。</p>', buttons: [{ label: '留在此页回顾', value: false }, { label: '查看成绩报告', value: true, primary: true }] });
+      const go = await modal({ title: '全部题目已提交', body: '<p>本次练习的所有部分均已提交。</p>', buttons: [{ label: '留在此页回顾', value: false }, { label: '查看成绩报告', value: true, primary: true }] });
       if (go) {
         location.hash = `#/result/${this.a.id}`;
         return;
@@ -1021,9 +1030,9 @@ class ExamView {
     this.refreshPart();
   }
 
-  doSubmit(sectionId, auto = false) {
-    const g = gradeSection(this.paper, this.a, sectionId);
-    this.a.submitted[sectionId] = { at: Date.now(), elapsed: Math.round(this.elapsedNow()), auto, score: g.score, max: g.max };
+  doSubmit(partId, auto = false) {
+    const g = gradePart(this.paper, this.a, partId);
+    this.a.submitted[partId] = { at: Date.now(), elapsed: Math.round(this.elapsedNow()), auto, score: g.score, max: g.max };
     this.save(true);
   }
 
@@ -1039,18 +1048,18 @@ class ExamView {
   }
 
   async finishAll() {
-    const pending = this.sections.filter((s) => !this.a.submitted[s.id]);
-    const unanswered = this.order.filter((n) => !isAnswered(this.a.answers[n]) && pending.some((s) => s.id === this.qIndex.get(n).part.section.id));
+    const pending = this.parts.filter((p) => !this.isLocked(p.id));
+    const unanswered = pending.flatMap((p) => p.qNums).filter((n) => !isAnswered(this.a.answers[n]));
     const body = h(
       'div',
       {},
-      h('p', {}, pending.length ? `将一并提交以下未提交的大题：${pending.map((s) => s.cn).join('、')}。` : '所有大题均已提交。'),
+      h('p', {}, pending.length ? `将一并提交以下未提交的部分：${pending.map((p) => this.unitName(p)).join('、')}。` : '所有部分均已提交。'),
       unanswered.length ? h('p', { class: 'warn-text' }, `仍有 ${unanswered.length} 题未作答：${unanswered.slice(0, 30).join('、')}${unanswered.length > 30 ? '…' : ''}`) : null,
       h('p', { class: 'muted' }, '交卷后将结束计时并生成成绩报告。')
     );
     const ok = await modal({ title: '交卷', body, buttons: [{ label: '继续作答', value: false }, { label: '确认交卷', value: true, primary: true }] });
     if (!ok) return;
-    for (const s of pending) this.doSubmit(s.id);
+    for (const p of pending) this.doSubmit(p.id);
     this.finish();
     location.hash = `#/result/${this.a.id}`;
   }

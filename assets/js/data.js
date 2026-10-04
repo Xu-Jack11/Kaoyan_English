@@ -89,12 +89,21 @@ export function isAnswered(val) {
   return val != null && String(val).trim() !== '';
 }
 
-/** Grades one section for the parts included in the attempt. */
-export function gradeSection(paper, attempt, sectionId) {
-  const sec = paper.sections.find((s) => s.id === sectionId);
-  const parts = partsFor(paper, attempt).filter((p) => p.section.id === sectionId);
-  const qs = parts.flatMap((p) => p.group.questions);
-  const objective = OBJECTIVE.has(sec.type);
+// Submissions are tracked per part (cloze, each reading text, Part B, translation, each writing task).
+// Saves made before that keyed them by section; expand those keys to the section's parts.
+const SECTION_PARTS = { readingA: ['text1', 'text2', 'text3', 'text4'], readingB: ['partB'], translation: ['partC'] };
+
+export function migrateSubmitted(attempt) {
+  const sub = attempt.submitted || (attempt.submitted = {});
+  for (const [sec, parts] of Object.entries(SECTION_PARTS)) {
+    if (!sub[sec]) continue;
+    for (const p of parts) sub[p] ||= { ...sub[sec] };
+    delete sub[sec];
+  }
+  return attempt;
+}
+
+function gradeQuestions(qs, objective, attempt) {
   let score = 0;
   let max = 0;
   let correct = 0;
@@ -115,16 +124,47 @@ export function gradeSection(paper, attempt, sectionId) {
       else score += Number(s);
     }
   }
-  return { sectionId, objective, score, max, correct, total: qs.length, answered, pending };
+  return { objective, score, max, correct, total: qs.length, answered, pending };
 }
 
+/** Grades one part (a group: cloze, Text 1, Part B, ...). */
+export function gradePart(paper, attempt, partId) {
+  const part = allParts(paper).find((p) => p.id === partId);
+  return { partId, ...gradeQuestions(part.group.questions, OBJECTIVE.has(part.section.type), attempt) };
+}
+
+/**
+ * Per-section rows for reports. Scores count submitted parts only; `max` and `total` cover every
+ * part of the section included in the attempt.
+ */
 export function summarize(paper, attempt) {
-  const rows = sectionsFor(paper, attempt).map((s) => ({ section: s, ...gradeSection(paper, attempt, s.id) }));
-  const submitted = rows.filter((r) => attempt.submitted?.[r.sectionId]);
-  const total = submitted.reduce((a, r) => a + r.score, 0);
+  migrateSubmitted(attempt);
+  const parts = partsFor(paper, attempt);
+  const rows = sectionsFor(paper, attempt).map((s) => {
+    const ps = parts.filter((p) => p.section.id === s.id);
+    const done = ps.filter((p) => attempt.submitted[p.id]);
+    const objective = OBJECTIVE.has(s.type);
+    const all = gradeQuestions(ps.flatMap((p) => p.group.questions), objective, attempt);
+    const sub = gradeQuestions(done.flatMap((p) => p.group.questions), objective, attempt);
+    return {
+      section: s,
+      sectionId: s.id,
+      objective,
+      score: sub.score,
+      max: all.max,
+      correct: sub.correct,
+      doneTotal: sub.total,
+      answered: sub.answered,
+      pending: sub.pending,
+      total: all.total,
+      partsDone: done.length,
+      partsTotal: ps.length,
+    };
+  });
+  const total = rows.reduce((a, r) => a + r.score, 0);
   const max = rows.reduce((a, r) => a + r.max, 0);
-  const objScore = submitted.filter((r) => r.objective).reduce((a, r) => a + r.score, 0);
+  const objScore = rows.filter((r) => r.objective).reduce((a, r) => a + r.score, 0);
   const objMax = rows.filter((r) => r.objective).reduce((a, r) => a + r.max, 0);
-  const pending = submitted.reduce((a, r) => a + r.pending, 0);
+  const pending = rows.reduce((a, r) => a + r.pending, 0);
   return { rows, total, max, objScore, objMax, pending };
 }

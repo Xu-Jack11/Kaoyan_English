@@ -2,7 +2,7 @@
 
 import { h, esc, fmtDate, fmtDuration, fmtScore, uid, modal, toast } from './util.js';
 import { attempts, settings, exportAll, importAll } from './store.js';
-import { loadIndex, loadPaper, allParts, summarize, questionMap, OBJECTIVE, SUBTYPE_CN } from './data.js';
+import { loadIndex, loadPaper, allParts, summarize, migrateSubmitted, OBJECTIVE, SUBTYPE_CN } from './data.js';
 import { openSettings, openHelp } from './dialogs.js';
 
 function topbar(active) {
@@ -118,7 +118,7 @@ function createAttempt(paperId, { mode, parts, timeLimit, partLabel }) {
 async function startMock(paperId) {
   const ok = await modal({
     title: `${paperId} 年 · 全真模考`,
-    body: '<p>完整试卷：完形填空、阅读理解 A/B/C 节、小作文、大作文，共 52 题，满分 100 分。</p><p>考试时间 <b>180 分钟</b>，时间到自动交卷；各大题可单独提交。</p>',
+    body: '<p>完整试卷：完形填空、阅读理解 A/B/C 节、小作文、大作文，共 52 题，满分 100 分。</p><p>考试时间 <b>180 分钟</b>，时间到自动交卷；完形、每篇阅读、新题型、翻译、写作均可单独提交。</p>',
     buttons: [{ label: '取消', value: false }, { label: '进入考试', value: true, primary: true }],
   });
   if (!ok) return;
@@ -196,7 +196,7 @@ export async function renderPaper(app, paperId) {
   form.querySelector('input[value="cloze"]').checked = true;
   update();
   app.innerHTML = '';
-  app.append(page('home', h('div', { class: 'narrow' }, h('h1', {}, `${paper.year} 年考研英语（一）· 专项练习`), h('p', { class: 'muted' }, '自由组合要练习的部分。每个大题可单独提交，提交后立即批改并显示解析。'), form)));
+  app.append(page('home', h('div', { class: 'narrow' }, h('h1', {}, `${paper.year} 年考研英语（一）· 专项练习`), h('p', { class: 'muted' }, '自由组合要练习的部分。每一部分（如单篇阅读）可单独提交，提交后立即批改并显示解析。'), form)));
 }
 
 // ------------------------------------------------------------------ history
@@ -287,14 +287,14 @@ export async function renderWrong(app) {
   const list = attempts.list().sort((a, b) => (a.updatedAt || 0) - (b.updatedAt || 0));
   const papers = new Map();
   for (const a of list) {
-    const subs = Object.keys(a.submitted || {});
+    const subs = Object.keys(migrateSubmitted(a).submitted);
     if (!subs.length) continue;
     if (!papers.has(a.paperId)) papers.set(a.paperId, await loadPaper(a.paperId).catch(() => null));
     const paper = papers.get(a.paperId);
     if (!paper) continue;
     for (const p of allParts(paper)) {
       if (a.parts && !a.parts.includes(p.id)) continue;
-      if (!subs.includes(p.section.id) || !OBJECTIVE.has(p.section.type)) continue;
+      if (!subs.includes(p.id) || !OBJECTIVE.has(p.section.type)) continue;
       for (const q of p.group.questions) latest.set(`${a.paperId}:${q.n}`, { a, paper, part: p, q });
     }
   }

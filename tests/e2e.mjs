@@ -117,6 +117,23 @@ await test('Part B: drag, click-to-place, dropdown, and unique letters', async (
   await page.locator('.q[data-q="41"] select').selectOption('D');
 });
 
+await test('submitting one reading text leaves the other texts open', async () => {
+  await navTo('Text 1');
+  await page.locator('.q[data-q="21"] .opt[data-k="C"]').click();
+  await navTo('Text 2');
+  await page.locator('.q[data-q="26"] .opt[data-k="B"]').click();
+  await navTo('Text 1');
+  await page.locator('.btn-submit-sec', { hasText: 'Text 1' }).click();
+  await page.locator('.modal .btn-primary').click();
+  await page.waitForSelector('.badge-done');
+  assert.match(await page.locator('.badge-done').innerText(), /Text 1 已提交 · 得分 2\/10/);
+  await navTo('Text 2');
+  assert.equal(await page.locator('.badge-done').count(), 0, 'Text 2 not submitted');
+  assert.ok(await page.locator('.q[data-q="27"] input:not([disabled])').count(), 'Text 2 still editable');
+  assert.equal(await page.locator('.nq.wrong, .nq.right').count(), 0, 'Text 2 not graded');
+  assert.ok(await page.locator('.q[data-q="26"] .opt.chosen[data-k="B"]').count(), 'Text 2 answer kept');
+});
+
 await test('writing area counts words', async () => {
   await navTo('大作文');
   await page.locator('textarea.essay').fill('The table above shows a steady rise.');
@@ -140,7 +157,7 @@ await test('finishing produces a score report and fills the wrong-answer book', 
   await page.locator('.btn-finish').click();
   await page.locator('.modal .btn-primary').click();
   await page.waitForSelector('.result-head');
-  assert.match(await page.locator('.result-info').innerText(), /客观题 6\.5 \/ 60/); // cloze Q1 (0.5) + Part B 41–43 (3×2)
+  assert.match(await page.locator('.result-info').innerText(), /客观题 10\.5 \/ 60/); // cloze Q1 (0.5) + Q21, Q26 (2×2) + Part B 41–43 (3×2)
   await page.goto(BASE + '#/wrong');
   await page.waitForSelector('.wrong-item');
   assert.ok(await page.locator('.wrong-item', { hasText: '你的答案 A · 正确 C' }).count());
@@ -156,7 +173,7 @@ await test('self-assessment for translation counts toward the total', async () =
   await page.locator('.q[data-q="46"] .ss', { hasText: '1.5' }).click();
   await page.goto(BASE + `#/result/${id}`);
   await page.waitForSelector('.result-head');
-  assert.match(await page.locator('.score-ring').innerText(), /^8\s*\/ 100/); // 6.5 objective + 1.5 self-assessed
+  assert.match(await page.locator('.score-ring').innerText(), /^12\s*\/ 100/); // 10.5 objective + 1.5 self-assessed
 });
 
 await test('practice config + countdown expiry auto-submits', async () => {
