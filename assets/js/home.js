@@ -1,7 +1,7 @@
 // Home (paper list), start-configuration page, history and wrong-answer book.
 
 import { h, esc, fmtDate, fmtDuration, fmtScore, uid, modal, toast } from './util.js';
-import { attempts, settings, exportAll, importAll } from './store.js';
+import { attempts, settings, exportAll, importAll, practiceTime } from './store.js';
 import { loadIndex, loadPaper, allParts, summarize, migrateSubmitted, OBJECTIVE, SUBTYPE_CN } from './data.js';
 import { openSettings, openHelp } from './dialogs.js';
 
@@ -201,7 +201,7 @@ export async function renderPaper(app, paperId) {
 
 // ------------------------------------------------------------------ history
 export async function renderHistory(app) {
-  const list = attempts.list().sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  const list = attempts.list().sort((a, b) => practiceTime(b) - practiceTime(a));
   const rows = [];
   for (const a of list) {
     let score = '—';
@@ -215,7 +215,7 @@ export async function renderHistory(app) {
       h(
         'tr',
         {},
-        h('td', {}, fmtDate(a.updatedAt || a.createdAt)),
+        h('td', {}, fmtDate(practiceTime(a))),
         h('td', {}, `${a.paperId}`),
         h('td', {}, a.mode === 'mock' ? '全真模考' : a.partLabel || '专项'),
         h('td', {}, fmtDuration(a.elapsed || 0)),
@@ -274,7 +274,7 @@ export async function renderHistory(app) {
       'history',
       h('div', { class: 'row-between' }, h('h1', {}, '练习记录'), h('div', { class: 'row' }, exportBtn, h('button', { class: 'btn', type: 'button', onclick: () => fileInput.click() }, '导入备份'), fileInput)),
       list.length
-        ? h('div', { class: 'tbl-wrap' }, h('table', { class: 'tbl' }, h('thead', {}, h('tr', {}, ['时间', '试卷', '模式', '用时', '得分', ''].map((t) => h('th', {}, t)))), h('tbody', {}, rows)))
+        ? h('div', { class: 'tbl-wrap' }, h('table', { class: 'tbl' }, h('thead', {}, h('tr', {}, ['练习时间', '试卷', '模式', '用时', '得分', ''].map((t) => h('th', {}, t)))), h('tbody', {}, rows)))
         : h('p', { class: 'muted' }, '还没有练习记录。')
     )
   );
@@ -282,9 +282,10 @@ export async function renderHistory(app) {
 
 // ------------------------------------------------------------------ wrong book
 export async function renderWrong(app) {
-  // For every objective question, keep the most recent submitted attempt that included it.
+  // For every objective question, keep the attempt that submitted it most recently (by the time
+  // the part was submitted, so merely reviewing an old attempt does not make it the latest).
   const latest = new Map();
-  const list = attempts.list().sort((a, b) => (a.updatedAt || 0) - (b.updatedAt || 0));
+  const list = attempts.list();
   const papers = new Map();
   for (const a of list) {
     const subs = Object.keys(migrateSubmitted(a).submitted);
@@ -295,7 +296,11 @@ export async function renderWrong(app) {
     for (const p of allParts(paper)) {
       if (a.parts && !a.parts.includes(p.id)) continue;
       if (!subs.includes(p.id) || !OBJECTIVE.has(p.section.type)) continue;
-      for (const q of p.group.questions) latest.set(`${a.paperId}:${q.n}`, { a, paper, part: p, q });
+      const at = a.submitted[p.id]?.at || practiceTime(a);
+      for (const q of p.group.questions) {
+        const key = `${a.paperId}:${q.n}`;
+        if (!latest.has(key) || at >= latest.get(key).at) latest.set(key, { a, paper, part: p, q, at });
+      }
     }
   }
   const wrong = [...latest.values()].filter((x) => x.a.answers[x.q.n] !== x.q.answer);

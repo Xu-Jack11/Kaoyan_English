@@ -363,8 +363,12 @@ class ExamView {
     if (!info) return;
     const partChanged = info.part.id !== this.curPartId;
     this.curQ = n;
-    this.a.current = { part: info.part.id, q: n };
-    this.save();
+    if (!this.finished) {
+      // Remember where to resume. Reviewing a finished attempt is read-only navigation, so it
+      // must not rewrite the saved record.
+      this.a.current = { part: info.part.id, q: n };
+      this.save();
+    }
     if (partChanged) {
       this.curPartId = info.part.id;
       this.renderPart();

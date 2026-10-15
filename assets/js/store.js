@@ -56,6 +56,15 @@ export function applySettings(s = settings.get()) {
   root.dataset.contrast = s.contrast;
 }
 
+/**
+ * When the practice happened: hand-in time for finished attempts, otherwise when it was started.
+ * Unlike `updatedAt` (bumped by every save, including just reviewing explanations), this never
+ * changes after the fact, so it is what lists display and sort by.
+ */
+export function practiceTime(a) {
+  return a.finishedAt || a.startedAt || a.createdAt || 0;
+}
+
 export const attempts = {
   list() {
     const ids = read('attempt-ids', []);

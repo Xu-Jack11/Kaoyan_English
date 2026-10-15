@@ -176,6 +176,30 @@ await test('self-assessment for translation counts toward the total', async () =
   assert.match(await page.locator('.score-ring').innerText(), /^12\s*\/ 100/); // 10.5 objective + 1.5 self-assessed
 });
 
+await test('reviewing explanations does not change the record time', async () => {
+  await page.goto(BASE + '#/history');
+  await page.locator('a', { hasText: '报告' }).first().click();
+  await page.waitForSelector('.result-head');
+  const id = await attemptId();
+  const past = new Date(2026, 0, 2, 9, 30).getTime(); // 2026-01-02 09:30
+  await page.evaluate(([aid, t]) => {
+    const k = 'kyen1:attempt:' + aid;
+    const a = JSON.parse(localStorage.getItem(k));
+    a.finishedAt = t;
+    a.startedAt = t - 3600e3;
+    localStorage.setItem(k, JSON.stringify(a));
+  }, [id, past]);
+  await page.goto(BASE + `#/result/${id}`);
+  await page.locator('a', { hasText: '查看解析' }).click();
+  await page.waitForSelector('.cbt');
+  await page.locator('.nq[data-q="2"]').click();
+  await page.locator('.nav-part-label', { hasText: 'Text 1' }).click();
+  await page.goto(BASE + '#/history');
+  await page.waitForSelector('.tbl');
+  const row = page.locator('tr', { has: page.locator(`a[href="#/result/${id}"]`) });
+  assert.match(await row.innerText(), /2026-01-02 09:30/);
+});
+
 await test('practice config + countdown expiry auto-submits', async () => {
   await page.goto(BASE + '#/paper/2026');
   await page.waitForSelector('.cfg');
